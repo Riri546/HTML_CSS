@@ -20,3 +20,16 @@ a{
     line-height: 23px;
     color: #FFFFFF;
 }
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #6c63ff;
+    mix-blend-mode: normal;
+}
+
+.img__top{
+    height: 300px;
+}
