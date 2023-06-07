@@ -16,14 +16,13 @@ body{
     padding-right: calc(50% - 580px);
 }
 
-.photo{
-    height: 500px;
-}
 
 .header{
     padding-top: 30px;
     padding-bottom: 30px;
     background: #2F2E41;
+    display: flex;
+    gap: 32px;
 }
 
 .header__link{
@@ -35,17 +34,28 @@ body{
 }
 
 .top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
     padding-top: 84px;
     padding-bottom: 84px;
 }
 
 .title{
+    width: 578px;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
     line-height: 113px;
     color: #6c63ff;
     mix-blend-mode: normal;
+}
+
+.photo{
+    height: 300px;
 }
 
 .about{
@@ -63,8 +73,18 @@ body{
     mix-blend-mode: normal;
 }
 
+
 .about__content{
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__texst{
+    width: 462px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
