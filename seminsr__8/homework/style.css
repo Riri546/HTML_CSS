@@ -8,11 +8,11 @@ a{
 }
 
 .header{
-    margin: 40px 0px 0px 375px;
+    margin-top: 40px;
 }
 
 .head{
-    margin: -40px 375px 0px 500px;
+    margin-top: 51px;
     padding-top: 11px; 
     padding-bottom: 12px;
 }
@@ -25,19 +25,19 @@ a{
 }
 
 .header__link{
-    margin: 0px 26px 0px 26px;
     font-family: 'Gilroy-SemiBold';
     font-size: 14px;
     line-height: 16px;
     color: #000000;
 }
 
-.top__info{
+/* .top__info{
     margin: 0px 439px 0px 373px;
-}
+} */
 
 .title{
-    margin: 164px 40px 0px 0px;
+    width: 522px;
+    margin-top: 164px;
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
@@ -45,6 +45,7 @@ a{
 }
 
 .text{
+    width: 466px;
     margin-top: 17px;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
@@ -58,7 +59,7 @@ a{
 }
 
 .button__1{  
-    margin: 37px 0px 0px 2px;
+    margin-top: 37px;
     padding: 15px 36px 16px 35px;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
@@ -70,7 +71,8 @@ a{
 }
 
 .button__2{
-    margin: 52px 257px 178px 72px;
+    margin-top: 52px;
+    margin-bottom: 178px;
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
@@ -81,6 +83,6 @@ a{
     padding: 162px 0px 96px 345px;
 }
 
-.top__logas{
+/* .top__logas{
     padding: 0px 48px 0px 0px;
-}
+} */
