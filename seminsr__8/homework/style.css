@@ -9,10 +9,17 @@ a{
 
 .header{
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .head{
-    margin-top: 51px;
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
     padding-top: 11px; 
     padding-bottom: 12px;
 }
@@ -31,9 +38,23 @@ a{
     color: #000000;
 }
 
-/* .top__info{
-    margin: 0px 439px 0px 373px;
-} */
+.top__info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+}
+
+
+.top__content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 17px;
+}
 
 .title{
     width: 522px;
@@ -58,6 +79,12 @@ a{
     float: right;
 }
 
+.top__buttons{
+    display: flex;
+    gap: 72px;
+    align-items: flex-start;
+}
+
 .button__1{  
     margin-top: 37px;
     padding: 15px 36px 16px 35px;
@@ -80,7 +107,8 @@ a{
 }
 
 .logos{
-    padding: 162px 0px 96px 345px;
+    padding-top: 162px;
+    padding-bottom: 96px;
 }
 
 /* .top__logas{
