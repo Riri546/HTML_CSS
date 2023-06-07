@@ -6,3 +6,31 @@
 a{
     text-decoration: none;
 }
+
+.link__home{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #F25822;
+}
+
+.header__link{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.title{
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.text{
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
