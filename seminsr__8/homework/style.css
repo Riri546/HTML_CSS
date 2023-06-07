@@ -45,6 +45,7 @@ a{
     align-items: center;
     justify-content: center;
     align-content: stretch;
+    gap: 39px;
 }
 
 
@@ -72,11 +73,6 @@ a{
     font-size: 20px;
     line-height: 23px;
     color: #888888;
-}
-
-.img__info{
-    object-fit: cover;
-    float: right;
 }
 
 .top__buttons{
@@ -107,7 +103,13 @@ a{
 }
 
 .logos{
-    padding-top: 162px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding-top: 97px;
     padding-bottom: 96px;
 }
 
