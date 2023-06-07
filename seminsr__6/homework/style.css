@@ -7,6 +7,16 @@ a{
     text-decoration: none;
 }
 
+.header{
+    margin: 40px 0px 0px 375px;
+}
+
+.head{
+    margin: -40px 375px 0px 500px;
+    padding-top: 11px; 
+    padding-bottom: 12px;
+}
+
 .link__home{
     font-family: 'Gilroy-SemiBold';
     font-size: 14px;
@@ -15,13 +25,19 @@ a{
 }
 
 .header__link{
+    margin: 0px 26px 0px 26px;
     font-family: 'Gilroy-SemiBold';
     font-size: 14px;
     line-height: 16px;
     color: #000000;
 }
 
+.top__info{
+    margin: 0px 439px 0px 373px;
+}
+
 .title{
+    margin: 164px 40px 0px 0px;
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
@@ -29,13 +45,22 @@ a{
 }
 
 .text{
+    margin-top: 17px;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
     line-height: 23px;
     color: #888888;
 }
 
-.button_1{  
+.img__info{
+    /* margin: -94px 0px 162px 40px; */
+    object-fit: cover;
+    float: right;
+}
+
+.button__1{  
+    margin: 37px 0px 0px 2px;
+    padding: 15px 36px 16px 35px;
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
@@ -45,9 +70,18 @@ a{
     color: #FFFFFF;
 }
 
-.button_2{
+.button__2{
+    margin: 52px 257px 178px 72px;
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
+}
+
+.logos{
+    padding: 162px 0px 96px 345px;
+}
+
+.top__logas{
+    padding: 0px 48px 0px 0px;
 }
