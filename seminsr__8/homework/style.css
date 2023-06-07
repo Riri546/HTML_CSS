@@ -12,8 +12,9 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 500px;
 }
 
 .head{
@@ -42,9 +43,8 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    align-content: stretch;
     gap: 39px;
 }
 
@@ -95,7 +95,6 @@ a{
 
 .button__2{
     margin-top: 52px;
-    margin-bottom: 178px;
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
@@ -113,6 +112,3 @@ a{
     padding-bottom: 96px;
 }
 
-/* .top__logas{
-    padding: 0px 48px 0px 0px;
-} */
