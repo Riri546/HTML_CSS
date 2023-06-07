@@ -8,7 +8,7 @@ a{
 }
 
 body{
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -30,7 +30,7 @@ body{
 }
 
 .link__home{
-    font-family: 'Gilroy-SemiBold';
+    font-family: 'Roboto-Light';
     font-size: 14px;
     line-height: 16px;
     color: #F25822;
