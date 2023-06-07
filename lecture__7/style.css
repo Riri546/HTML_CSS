@@ -7,6 +7,15 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
 .photo{
     height: 500px;
 }
