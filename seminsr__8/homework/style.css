@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: 'Gilroy', sans-serif;
+}
+
 .header{
     margin-top: 40px;
     display: flex;
@@ -14,7 +18,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 500px;
+    gap: 602px;
 }
 
 .head{
@@ -40,12 +44,13 @@ a{
 }
 
 .top__info{
+    margin-bottom: 259px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
     justify-content: center;
-    gap: 39px;
+    align-items: flex-end;
+    gap: 41px;
 }
 
 
@@ -59,7 +64,7 @@ a{
 
 .title{
     width: 522px;
-    margin-top: 164px;
+    margin-top: 84px;
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
@@ -91,6 +96,7 @@ a{
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
+    
 }
 
 .button__2{
