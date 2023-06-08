@@ -126,7 +126,6 @@ body{
 }
 
 .subtitle{
-    width: 215px;
     padding-top: 25px;
     font-size: 24px;
     line-height: 28px;
@@ -155,6 +154,10 @@ body{
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
+.services{
+    background: #FAFAFA;
+}
+
 .info{
     display: flex;
     flex-direction: column;
@@ -162,7 +165,6 @@ body{
     align-content: center;
     justify-content: center;
     align-items: center;
-    background: #FAFAFA;
 }
 
 .secation__itle{
