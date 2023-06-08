@@ -7,7 +7,7 @@ a{
     text-decoration: none;
 }
 
-.top{
+body{
     font-family: 'gilroy-extrabold',sans-serif;
 }
 
@@ -112,11 +112,12 @@ a{
 .features{
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 370px 370px 370px;
-    grid-template-rows: 291px 291px 291px;
+    grid-template-columns: 370px;
+    grid-template-rows: 291px;
     justify-content: center;
     justify-items: center;
-    gap: 61px
+    gap: 61px;
+    display: flex;
 
 }
 
@@ -152,4 +153,31 @@ a{
     padding-left: 30px;
     background: #FFFFFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+.secation__itle{
+    padding-top: 92px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.text3{
+    width: 682px;
+    padding-top: 19px;
+    padding-bottom: 55px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
 }
