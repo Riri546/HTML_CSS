@@ -184,6 +184,19 @@ body{
     color: #666666;
 }
 
+.service{
+    display: grid;
+    grid-template-columns: 549px;
+    grid-template-rows: 370px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
 .illustration{
     padding-top: 15px;
     padding-bottom: 25px;
@@ -200,6 +213,7 @@ body{
 }
 
 .button{
+    margin-bottom: 50px;
     padding: 15px 36px 15px 46px;
     font-size: 13px;
     line-height: 150%;
@@ -208,4 +222,33 @@ body{
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
+}
+
+.icon__button{
+    padding-right: 6px;
+}
+
+.item4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.item5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.item6{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #FFFFFF;
 }
