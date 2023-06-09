@@ -183,3 +183,29 @@ body{
     text-align: center;
     color: #666666;
 }
+
+.illustration{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.text4{
+    padding-top: 22px;
+    padding-bottom: 39px;
+    width: 310px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.button{
+    padding: 15px 36px 15px 46px;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
