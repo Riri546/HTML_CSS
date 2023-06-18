@@ -4,13 +4,20 @@
 }
 
 .head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
     padding-top: 18px;
     padding-bottom: 19px;
     background: #222222;
 }
 
 .header__logo{
-
+    display: flex;
+    gap: 41px;
 }
 
 .header{
