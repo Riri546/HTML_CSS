@@ -57,12 +57,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
-    align-items: flex-start;
-}
-
-.rectangle {
-    display: flex;
-
+    align-items: center;
 }
 
 .content__text {
@@ -81,10 +76,5 @@ body {
 }
 
 .subtitle__pink {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
     color: #F16D7F;
 }
