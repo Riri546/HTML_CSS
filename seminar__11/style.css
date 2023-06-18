@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
@@ -44,7 +44,7 @@ body{
     color: #222222;
 }
 
-.top__info{
+.top__info {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -52,7 +52,7 @@ body{
     gap: 64px;
 }
 
-.top__content{
+.top__content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -60,7 +60,18 @@ body{
     align-items: flex-start;
 }
 
-.subtitle{
+.rectangle {
+    display: flex;
+
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtitle {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -69,7 +80,7 @@ body{
     color: #222222;
 }
 
-.subtitle__pink{
+.subtitle__pink {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
