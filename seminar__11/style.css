@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    padding-top: 18px;
+    padding-bottom: 19px;
+    background: #222222;
+}
