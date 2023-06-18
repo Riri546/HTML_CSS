@@ -4,6 +4,11 @@
 }
 
 .head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     padding-top: 18px;
     padding-bottom: 19px;
     background: #222222;
@@ -13,9 +18,10 @@
     display: flex;
     gap: 41px;
     align-items: center;
-    justify-content: center;
 }
 
 .header{
-    
+    display: flex;
+    align-items: center;
+    gap: 33px;
 }
