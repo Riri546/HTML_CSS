@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.head{
+.head {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,14 +15,27 @@
     background: #222222;
 }
 
-.header__logo{
+.header__logo {
     display: flex;
     gap: 41px;
     align-items: center;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     gap: 33px;
+}
+
+.top__info {
+    background: #F1E4E6;
+}
+
+.title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
 }
