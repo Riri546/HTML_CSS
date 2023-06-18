@@ -52,6 +52,14 @@ body{
     gap: 64px;
 }
 
+.top__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+}
+
 .subtitle{
     font-family: 'Lato';
     font-style: normal;
