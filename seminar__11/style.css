@@ -133,3 +133,31 @@ body {
     text-align: center;
     color: #F16D7F;
 }
+
+.products{
+    background: #E5E5E5;
+}
+
+.featured{
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.featured__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.featured__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
