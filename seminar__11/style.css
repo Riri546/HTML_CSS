@@ -83,10 +83,12 @@ body {
     padding-top: 65px;
     padding-bottom: 105px;
     display: grid;
-    grid-template-columns: 360px 360px 360px 1140px ;
-    grid-template-rows: 260px 260px 260px 180px;
-    gap: 37px;
-    /* justify-content: center; */
+    grid-template-columns: 360px 360px 1140px ;
+    grid-template-rows: 260px 260px 180px;
+    column-gap: 37px;
 }
 
-.item4
+.item4{
+    padding-top: 21px;
+    grid-column: 1/3;
+}
