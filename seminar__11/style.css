@@ -78,3 +78,15 @@ body {
 .subtitle__pink {
     color: #F16D7F;
 }
+
+.stocks{
+    padding-top: 65px;
+    padding-bottom: 105px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px 1140px ;
+    grid-template-rows: 260px 260px 260px 180px;
+    gap: 37px;
+    /* justify-content: center; */
+}
+
+.item4
