@@ -79,7 +79,7 @@ body {
     color: #F16D7F;
 }
 
-.stocks{
+.stocks {
     padding-top: 65px;
     padding-bottom: 105px;
     display: grid;
@@ -89,32 +89,32 @@ body {
     background: #E5E5E5;
 }
 
-.item{
+.item {
     position: relative;
 }
 
-.item4{
+.item4 {
     padding-top: 21px;
     grid-column: 1/-1;
 }
 
-.img__sale{
+.img__sale {
     width: 100%;
 }
 
-.sale__text{
+.sale__text {
     position: absolute;
     top: 105px;
     left: 103px;
 }
 
-.sale__botom__text{
+.sale__botom__text {
     position: absolute;
     top: 74px;
     left: 498px;
 }
 
-.text{
+.text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -124,7 +124,7 @@ body {
     color: #FFFFFF;
 }
 
-.big__text{
+.big__text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -134,18 +134,18 @@ body {
     color: #F16D7F;
 }
 
-.products{
+.products {
     background: #E5E5E5;
 }
 
-.featured{
+.featured {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.featured__title{
+.featured__title {
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -153,7 +153,7 @@ body {
     color: #222222;
 }
 
-.featured__text{
+.featured__text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -161,7 +161,7 @@ body {
     color: #9F9F9F;
 }
 
-.catalog{
+.catalog {
     padding-top: 48px;
     padding-bottom: 48px;
     display: grid;
@@ -171,7 +171,7 @@ body {
     justify-content: center;
 }
 
-.about__product{
+.about__product {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +181,7 @@ body {
     background: #F8F8F8;
 }
 
-.name{
+.name {
     width: 148.11px;
     height: 16px;
     font-family: 'Lato';
@@ -192,7 +192,7 @@ body {
     color: #000000;
 }
 
-.description{
+.description {
     width: 314.74px;
     height: 51px;
     font-family: 'Lato';
@@ -203,7 +203,7 @@ body {
     color: #5D5D5D;
 }
 
-.price{
+.price {
     width: 52.46px;
     height: 19px;
     font-family: 'Lato';
@@ -214,7 +214,7 @@ body {
     color: #F16D7F;
 }
 
-.rowse__all_product{
+.rowse__all_product {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -222,7 +222,7 @@ body {
     align-items: center;
 }
 
-.button{
+.button {
     margin-bottom: 103px;
     padding: 15px 39px 14px 39px;
     font-style: normal;
