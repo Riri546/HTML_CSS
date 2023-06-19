@@ -166,6 +166,7 @@ body {
     padding-bottom: 48px;
     display: grid;
     grid-template-columns: repeat(3, 360px);
-    column-gap: 37px;
+    column-gap: 29px;
+    row-gap: 25px;
     justify-content: center;
 }
