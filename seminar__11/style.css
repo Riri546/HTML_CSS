@@ -139,7 +139,6 @@ body {
 }
 
 .featured{
-    padding-bottom: 48px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -165,6 +164,7 @@ body {
 .catalog{
     padding-top: 48px;
     padding-bottom: 48px;
+    display: grid;
     grid-template-columns: repeat(3, 360px);
     column-gap: 37px;
     justify-content: center;
