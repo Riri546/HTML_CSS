@@ -161,3 +161,11 @@ body {
     line-height: 17px;
     color: #9F9F9F;
 }
+
+.catalog{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    grid-template-columns: repeat(3, 360px);
+    column-gap: 37px;
+    justify-content: center;
+}
