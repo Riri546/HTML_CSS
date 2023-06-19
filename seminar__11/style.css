@@ -94,3 +94,8 @@ body {
     padding-top: 21px;
     grid-column: 1/3;
 }
+
+.img{
+    background: #211616;
+    filter: brightness(50%)
+}
