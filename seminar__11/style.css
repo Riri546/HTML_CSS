@@ -178,9 +178,38 @@ body {
     align-items: flex-start;
     padding: 24px 16px;
     gap: 16px;
+    background: #F8F8F8;
+}
 
-    /* width: 360px;
-    left: calc(50% - 360px/2 - 408px);
-    top: 66.8%;
-    bottom: 27.52%; */
+.name{
+    width: 148.11px;
+    height: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.description{
+    width: 314.74px;
+    height: 51px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.price{
+    width: 52.46px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
 }
