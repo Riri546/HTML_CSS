@@ -83,8 +83,9 @@ body {
     padding-top: 65px;
     padding-bottom: 105px;
     display: grid;
-    grid-template-columns: 360px 360px 1140px ;
-    grid-template-rows: 260px 260px 180px;
+    grid-template-columns: repeat(3, 360px);
+    /* grid-template-columns: 360px 360px 1140px ; */
+    /* grid-template-rows: 260px 260px 180px; */
     column-gap: 37px;
     justify-content: center;
 }
