@@ -213,3 +213,15 @@ body {
     line-height: 19px;
     color: #F16D7F;
 }
+
+.button{
+    margin-bottom: 103px;
+    padding: 15px 39px 14px 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    background: #E5E5E5;
+    border-color: #FF6A6A;
+}
