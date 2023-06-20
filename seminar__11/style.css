@@ -231,7 +231,12 @@ body {
      /* Стили для планшета */
 
      .head {
-        gap: 29%;
+        justify-content: space-around;
+        gap: 14%;
+    }
+
+    .top__info{
+        justify-content: center;
     }
 
     .top__info__img{
