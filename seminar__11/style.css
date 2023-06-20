@@ -227,15 +227,9 @@ body {
     border-color: #FF6A6A;
 }
 
-/* @media (min-width: 767px) {
-    /* Стили для планшета */
-    /* .head {
-        gap: 26%;
-    } */
-/* } */
-
 @media (max-width: 1025px){
      /* Стили для планшета */
+
      .head {
         gap: 29%;
     }
@@ -291,3 +285,4 @@ body {
         margin-bottom: 85px;
     }
 }
+
