@@ -234,17 +234,10 @@ body {
     border-color: #FF6A6A;
 }
 
-@media (max-width: 1024px) and (min-width: 786px){
+@media (max-width: 1024px) {
     /* Стили для планшета */
     .head {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 30%;
-        padding-top: 18px;
-        padding-bottom: 19px;
-        background: #222222;
+        gap: 9%;
     }
 }
