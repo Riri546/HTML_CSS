@@ -81,7 +81,7 @@ body {
     padding-bottom: 105px;
     display: grid;
     grid-template-columns: repeat(3, 360px);
-    column-gap: 37px;
+    column-gap: 30px;
     justify-content: center;
     background: #E5E5E5;
 }
@@ -115,10 +115,6 @@ body {
     position: absolute;
     top: 105px;
     left: 123px;
-}
-
-.img__sale__accesories{
-    
 }
 
 .sale__botom__text {
