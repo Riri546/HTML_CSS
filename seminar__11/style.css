@@ -12,8 +12,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 30%;
+    justify-content: space-around;
     padding-top: 18px;
     padding-bottom: 19px;
     background: #222222;
@@ -229,11 +228,6 @@ body {
 
 @media (max-width: 1025px){
      /* Стили для планшета */
-
-     .head {
-        justify-content: space-around;
-        gap: 14%;
-    }
 
     .top__info{
         justify-content: center;
