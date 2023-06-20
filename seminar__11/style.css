@@ -99,16 +99,32 @@ body {
     width: 100%;
 }
 
-.sale__text {
+.sale__text__women {
     position: absolute;
     top: 105px;
     left: 103px;
 }
 
+.sale__text__men {
+    position: absolute;
+    top: 105px;
+    left: 125px;
+}
+
+.sale__text__kids {
+    position: absolute;
+    top: 105px;
+    left: 123px;
+}
+
+.img__sale__accesories{
+    
+}
+
 .sale__botom__text {
     position: absolute;
-    top: 74px;
-    left: 498px;
+    top: 65px;
+    left: 492px;
 }
 
 .text {
@@ -226,14 +242,14 @@ body {
     border-color: #FF6A6A;
 }
 
-@media (max-width: 1025px) and (min-width: 768px){
-     /* Стили для планшета */
+@media (max-width: 1025px) and (min-width: 767px) {
+    /* Стили для планшета */
 
-    .top__info{
+    .top__info {
         justify-content: center;
     }
 
-    .top__info__img{
+    .top__info__img {
         max-width: 386px;
         max-height: 368px;
     }
@@ -262,15 +278,29 @@ body {
         column-gap: 20px;
     }
 
-    .sale__text {
+    .sale__text__women {
         top: 59px;
-        left: 50px;
+        left: 39px;
+    }
+
+    .sale__text__men {
+        top: 57px;
+        left: 60px;
+    }
+
+    .sale__text__kids {
+        top: 58px;
+        left: 59px;
+    }
+
+    .img__sale__accesories{
+        max-width: 740px;
     }
 
     .sale__botom__text {
-        top: 52px;
+        top: 33px;
         left: 288px;
-    }
+    } 
 
     .catalog {
         padding-top: 73px;
@@ -286,20 +316,20 @@ body {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 767px) and (min-width: 375px) {
     /* Стили для телефона */
 
-    .head{
+    .head {
         padding-left: 16px;
         padding-right: 16px;
         justify-content: space-between;
     }
 
-    .account{
+    .account {
         display: none;
     }
 
-    .basket{
+    .basket {
         display: none;
     }
 
@@ -313,11 +343,11 @@ body {
         gap: 15px;
     }
 
-    .top__info__img{
+    .top__info__img {
         display: none;
     }
 
-    .rectangle{
+    .rectangle {
         max-width: 12px;
         max-height: 61px;
     }
@@ -335,15 +365,39 @@ body {
     .stocks {
         padding-top: 64px;
         padding-bottom: 64px;
-        grid-template-columns: 247px;
+        grid-template-columns: 343px;
         row-gap: 32px;
     }
 
-    .sale__text {
-        position: absolute;
-        top: 68px;
-        left: 64px;
+    .sale__text__women {
+        top: 98px;
+        left: 94px;
     }
 
+    .sale__text__men {
+        top: 102px;
+        left: 113px;
+    }
+
+
+    .sale__text__kids {
+        top: 108px;
+        left: 114px;
+    }
+
+    .sale__text__accesories {
+        top: 30px;
+        left: 92px;
+    }
+
+    .item4 {
+        display: none;
+    }
+
+    .catalog {
+        padding-top: 65px;
+        padding-bottom: 41px;
+        grid-template-columns: 359px;
+    }
 
 }
