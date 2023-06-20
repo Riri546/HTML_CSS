@@ -226,7 +226,7 @@ body {
     border-color: #FF6A6A;
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1025px) and (min-width: 768px){
      /* Стили для планшета */
 
     .top__info{
@@ -285,3 +285,65 @@ body {
     }
 }
 
+
+@media (max-width: 768px){
+    /* Стили для телефона */
+
+    .head{
+        padding-left: 16px;
+        padding-right: 16px;
+        justify-content: space-between;
+    }
+
+    .account{
+        display: none;
+    }
+
+    .basket{
+        display: none;
+    }
+
+    .top__info {
+        justify-content: center;
+    }
+
+    .top__content {
+        padding-top: 148px;
+        padding-bottom: 149px;
+        gap: 15px;
+    }
+
+    .top__info__img{
+        display: none;
+    }
+
+    .rectangle{
+        max-width: 12px;
+        max-height: 61px;
+    }
+
+    .title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .stocks {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        grid-template-columns: 247px;
+        row-gap: 32px;
+    }
+
+    .sale__text {
+        position: absolute;
+        top: 68px;
+        left: 64px;
+    }
+
+
+}
