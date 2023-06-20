@@ -227,18 +227,17 @@ body {
     border-color: #FF6A6A;
 }
 
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
     /* Стили для планшета */
-    .head {
+    /* .head {
         gap: 26%;
-    }
-}
-
+    } */
+/* } */
 
 @media (max-width: 1025px){
      /* Стили для планшета */
      .head {
-        gap: 23%;
+        gap: 29%;
     }
 
     .top__info__img{
@@ -278,5 +277,17 @@ body {
     .sale__botom__text {
         top: 52px;
         left: 288px;
+    }
+
+    .catalog {
+        padding-top: 73px;
+        padding-bottom: 33px;
+        grid-template-columns: repeat(2, 360px);
+        column-gap: 16px;
+        row-gap: 16px;
+    }
+
+    .button {
+        margin-bottom: 85px;
     }
 }
