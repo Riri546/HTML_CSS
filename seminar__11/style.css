@@ -36,7 +36,6 @@ body {
 }
 
 .title {
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -67,7 +66,6 @@ body {
 }
 
 .subtitle {
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -115,7 +113,6 @@ body {
 }
 
 .text {
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -125,7 +122,6 @@ body {
 }
 
 .big__text {
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -184,7 +180,6 @@ body {
 .name {
     width: 148.11px;
     height: 16px;
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -195,7 +190,6 @@ body {
 .description {
     width: 314.74px;
     height: 51px;
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -206,7 +200,6 @@ body {
 .price {
     width: 52.46px;
     height: 19px;
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -234,7 +227,7 @@ body {
     border-color: #FF6A6A;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 767px) {
     /* Стили для планшета */
     .head {
         gap: 26%;
@@ -245,6 +238,45 @@ body {
 @media (max-width: 1025px){
      /* Стили для планшета */
      .head {
-        gap: 21%;
+        gap: 23%;
+    }
+
+    .top__info__img{
+        max-width: 386px;
+        max-height: 368px;
+    }
+
+    .header {
+        gap: 25px;
+    }
+
+    .title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .top__info {
+        gap: 39px;
+    }
+
+    .stocks {
+        padding-bottom: 109px;
+        grid-template-columns: repeat(3, 233px);
+        column-gap: 20px;
+    }
+
+    .sale__text {
+        top: 59px;
+        left: 50px;
+    }
+
+    .sale__botom__text {
+        top: 52px;
+        left: 288px;
     }
 }
