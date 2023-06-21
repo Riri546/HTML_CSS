@@ -564,4 +564,11 @@ body {
         padding-bottom: 41px;
         grid-template-columns: 359px;
     }
+
+    .foot {
+        padding-top: 48px;
+        padding-bottom: 47px;
+        grid-template-columns: 348px;
+        gap: 47px;
+    }
 }
