@@ -465,6 +465,27 @@ body {
     .button {
         margin-bottom: 85px;
     }
+
+    .foot {
+        padding-top: 49px;
+        padding-bottom: 64px;
+        grid-template-columns: 360px;
+        gap: 49px;
+    }
+
+    .form__market {
+        padding-top: 64px;
+        padding-bottom: 140px;
+        flex-direction: column;
+        gap: 48px;
+        background-image: url(img/img__background__notepad.svg);
+
+    }
+
+    .contacts {
+        justify-content: space-between;
+        padding: 24px 33px 23px 32px;
+    }
 }
 
 
