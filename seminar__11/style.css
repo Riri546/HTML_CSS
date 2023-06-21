@@ -280,7 +280,15 @@ body {
     color: #FBFBFB;
 }
 
+.item__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .text__about{
+    padding-top: 30px;
     max-width: 353px;
     font-style: italic;
     font-weight: 400;
@@ -290,7 +298,14 @@ body {
     color: #222224;
 }
 
+.form__content{
+    padding-bottom: 32px;
+}
+
 .form__market{
+    display: flex;
+    justify-content: center;
+    gap: 230px;
     padding-top: 97px;
     padding-bottom: 146px;
 }
@@ -301,7 +316,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 167.2%;
-    /* text-align: center; */
+    text-align: center;
     color: #222224;
 
 }
@@ -311,9 +326,40 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 167.2%;
-    /* text-align: center; */
+    text-align: center;
     color: #222224;
 }
+
+.form__input{
+    box-sizing: border-box;
+    background: #E1E1E1;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 0 0 30px;
+    padding: 13px 128px 13px 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+}
+
+.button__form{
+    border-radius: 0 30px 30px 0;
+    padding: 13px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F16D7F;
+}
+
 
 
 
