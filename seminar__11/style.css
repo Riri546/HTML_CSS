@@ -280,6 +280,23 @@ body {
     color: #FBFBFB;
 }
 
+.text__about{
+    max-width: 353px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.form__market{
+    padding-top: 97px;
+    padding-bottom: 146px;
+}
+
+
+
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
 
