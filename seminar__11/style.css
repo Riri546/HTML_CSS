@@ -238,7 +238,44 @@ body {
 }
 
 .foot{
-    
+    padding-top: 104px;
+    padding-bottom: 104px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #222224;
+}
+
+.item__foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__footer{
+
+}
+
+.title__footer{
+    padding-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.text__footer{
+    padding-top: 16px;
+    max-width: 308px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
 }
 
 @media (max-width: 1025px) and (min-width: 767px) {
