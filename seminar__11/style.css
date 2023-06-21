@@ -12,9 +12,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 18px;
-    padding-bottom: 19px;
+    padding: 18px 240px 19px 231px;
+    justify-content: space-between;
     background: #222222;
 }
 
@@ -241,6 +240,10 @@ body {
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
 
+    .head{
+        padding: 18px 32px;
+    }
+
     .top__info {
         justify-content: center;
     }
@@ -316,9 +319,7 @@ body {
     /* Стили для телефона */
 
     .head {
-        padding-left: 16px;
-        padding-right: 16px;
-        justify-content: space-between;
+        padding: 18px 16px;
     }
 
     .account {
