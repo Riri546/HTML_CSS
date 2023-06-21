@@ -237,6 +237,10 @@ body {
     border-color: #FF6A6A;
 }
 
+.foot{
+    
+}
+
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
 
@@ -391,3 +395,4 @@ body {
         grid-template-columns: 359px;
     }
 }
+
