@@ -308,7 +308,7 @@ body {
     gap: 230px;
     padding-top: 97px;
     padding-bottom: 146px;
-    background-image: url(images/background.jpg);
+    background-image: url(img/img__background.svg);
 
 }
 
@@ -367,6 +367,24 @@ body {
     text-align: center;
     color: #FFFFFF;
     background: #F16D7F;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #222224;
+}
+
+.contacts__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
 }
 
 
