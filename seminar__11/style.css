@@ -240,7 +240,7 @@ body {
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
 
-    .head{
+    .head {
         padding: 18px 32px;
     }
 
@@ -292,14 +292,14 @@ body {
         left: 59px;
     }
 
-    .img__sale__accesories{
+    .img__sale__accesories {
         max-width: 740px;
     }
 
     .sale__botom__text {
         top: 33px;
         left: 288px;
-    } 
+    }
 
     .catalog {
         padding-top: 73px;
@@ -376,15 +376,9 @@ body {
         left: 113px;
     }
 
-
     .sale__text__kids {
         top: 108px;
         left: 114px;
-    }
-
-    .sale__text__accesories {
-        top: 30px;
-        left: 92px;
     }
 
     .item4 {
@@ -396,5 +390,4 @@ body {
         padding-bottom: 41px;
         grid-template-columns: 359px;
     }
-
 }
