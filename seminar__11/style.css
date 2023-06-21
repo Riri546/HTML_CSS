@@ -295,6 +295,26 @@ body {
     padding-bottom: 146px;
 }
 
+.tetle__form{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    /* text-align: center; */
+    color: #222224;
+
+}
+
+.text__form{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+    /* text-align: center; */
+    color: #222224;
+}
+
 
 
 @media (max-width: 1025px) and (min-width: 767px) {
