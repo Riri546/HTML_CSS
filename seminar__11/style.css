@@ -189,32 +189,59 @@ body {
     justify-content: center;
 }
 
-/* .catalog__img {
-    -webkit-filter: brightness(100%);
-    /* cursor: pointer; */
-/* } */
-/* 
-.catalog__img:before {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    /* position: absolute; */
-    /* left: 0px;
-    top: 0px; */
-    /* width: 100%;
-    height: 100%; */
-    /* background: rgba(0, 0, 0, .7);
-    opacity: 0;
-    transition: all 0.4s ease;
-    content: ''; */
-/* } */
+/* Настройки маркированного списка */
+.hover-effect-cover {
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
 
-/* .catalog:hover::before {
+.hover-effect-cover li {
+    position: relative;
+    width: 49%;
+    /* Задаем ширину элемента списка с картинкой*/
+    display: inline-block;
+    background-color: #fff;
+    margin: 0;
+    border: 5px solid #fff;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+
+/* Выезжающий блок с текстом для панели снизу вверх */
+.hover-effect-cover li>div.effect-to-top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hover-effect-cover li:hover>div.effect-to-top {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.hover-effect-cover li div.effect-to-top {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Фон блока при наведении */
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+    transform: translate(0px, 250px) rotate(0deg);
+    /* Направление выезжающей панели */
+}
+
+.hover-effect-cover li:hover div.effect-to-top {
     opacity: 1;
-} */ 
+    transform: translate(0px, 0px) rotate(0deg);
+}
 
 .about__product {
     display: flex;
