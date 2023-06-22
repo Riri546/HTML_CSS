@@ -201,16 +201,11 @@ body {
 
 .hover-effect-scale li {
     position: relative;
-    display: inline-block;
-    background-color: #fff;
-    margin: 0;
-    border: 5px solid #fff;
     box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
     overflow: hidden;
 }
 
 /* Заголовок, текст и ссылка */
-
 .hover-effect-scale li a {
     display: block;
     text-decoration: none;
@@ -249,10 +244,6 @@ body {
 .hover-effect-scale li:hover div {
     opacity: 1;
 }
-
-
-
-
 
 .about__product {
     display: flex;
