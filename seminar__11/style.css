@@ -207,17 +207,28 @@ body {
 
 /* Заголовок, текст и ссылка */
 .hover-effect-scale li a {
+
     display: block;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px 13px 8px 14px;
     color: #fff;
     border: 1px solid #FFFFFF;
-    border-radius: 5px;
     margin: 0 auto;
     transition: all 0.4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 11px;
 }
 
-/* Выезжающий блок с текстом */
+.catalog__button {
+    font-weight: 400;
+    size: 14px;
+    line-height: 16.8px;
+}
+
+/* Выезжающий блок со ссылкой (кнопкой) */
 .hover-effect-scale li>div {
     width: 100%;
     height: 100%;
