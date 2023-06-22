@@ -237,6 +237,12 @@ body {
     border-color: #FF6A6A;
 }
 
+.button:hover{
+    color: #E5E5E5;
+    background:#FF6A6A;
+    border-color: #E5E5E5;
+}
+
 .foot {
     padding-top: 104px;
     padding-bottom: 104px;
