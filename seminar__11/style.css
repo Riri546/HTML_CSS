@@ -189,58 +189,76 @@ body {
     justify-content: center;
 }
 
-/* Настройки маркированного списка */
-.hover-effect-cover {
-    list-style: none;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    padding: 0;
-}
-
-.hover-effect-cover li {
+.hover-effect-btn {
     position: relative;
-    width: 49%;
-    /* Задаем ширину элемента списка с картинкой*/
-    display: inline-block;
-    background-color: #fff;
-    margin: 0;
-    border: 5px solid #fff;
-    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
-    overflow: hidden;
-}
-
-
-/* Выезжающий блок с текстом для панели снизу вверх */
-.hover-effect-cover li>div.effect-to-top {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
-.hover-effect-cover li:hover>div.effect-to-top {
+.overlay {
     position: absolute;
-    overflow: hidden;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Настройка цвета и прозрачности для блока с заголовком */
+    transition: background 0.5s ease;
 }
 
-.hover-effect-cover li div.effect-to-top {
+.hover-effect-btn:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 25%;
+    /* Отступ сверху */
+    font-size: 1.900em;
+    /* Размер текста заголовка */
+    text-align: center;
+    text-transform: uppercase;
+    /* Заглавные буквы */
+    color: white;
+    /* Цвет заголовка */
+    z-index: 1;
+    transition: top .5s ease;
+}
+
+.hover-effect-btn:hover .title {
+    top: 10%;
+    /* Отступ сверху при наведении */
+}
+
+.button {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 65%;
+    /* Отступ сверху */
+    text-align: center;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    /* Фон блока при наведении */
-    transition: all 0.4s ease-in-out;
-    color: #fff;
-    transform: translate(0px, 250px) rotate(0deg);
-    /* Направление выезжающей панели */
+    transition: opacity .35s ease;
 }
 
-.hover-effect-cover li:hover div.effect-to-top {
+.button a {
+    padding: 15px 40px;
+    /* Отступ */
+    text-align: center;
+    background: #ff921e;
+    /* Цвет кнопки */
+    color: white;
+    /* Цвет текста */
+    border: 1px solid white;
+    /* Ширина, стиль и цвет границы */
+    z-index: 1;
+}
+
+.hover-effect-btn:hover .button {
     opacity: 1;
-    transform: translate(0px, 0px) rotate(0deg);
 }
 
 .about__product {
