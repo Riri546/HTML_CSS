@@ -37,10 +37,6 @@ body {
     gap: 33px;
 }
 
-.top__info {
-    background: #F1E4E6;
-}
-
 .title {
     font-style: normal;
     font-weight: 900;
@@ -54,7 +50,9 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 64px;
+    background: #F1E4E6;
 }
 
 .top__content {
@@ -191,22 +189,22 @@ body {
     justify-content: center;
 }
 
-.catalog__img{
+.catalog{
     cursor: pointer;
 }
 
-.catalog__img:before{
+.catalog:before{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,.7);  opacity: 0; 
-    transition: all .4 ease ;
+    transition: all 0.4s ease;
     content: ''; 
 }
 
-.catalog__img:hover::before{
+.catalog:hover::before{
     opacity: 1;
 }
 
