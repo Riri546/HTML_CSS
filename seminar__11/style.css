@@ -85,13 +85,19 @@ body {
     background: #E5E5E5;
 }
 
+
 .item {
     position: relative;
+    transition: 1.2s;
 }
 
 .item4 {
     padding-top: 21px;
     grid-column: 1/-1;
+}
+
+.item:hover{
+    transform: scale(1.1);
 }
 
 .img__sale {
@@ -235,12 +241,12 @@ body {
     color: #F26376;
     background: #E5E5E5;
     border-color: #FF6A6A;
+    transition: all 0.3s;
 }
 
 .button:hover{
     color: #E5E5E5;
     background:#FF6A6A;
-    border-color: #E5E5E5;
 }
 
 .foot {
