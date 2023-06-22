@@ -7,6 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .head {
     display: flex;
     flex-direction: row;
@@ -36,6 +40,41 @@ body {
     align-items: center;
     gap: 33px;
 }
+
+.menubox{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+    }
+    
+    .sud__menu {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+    }
+    .menu-item:hover {
+    background-color: #CFD8DC;
+    }
+
+
+
+
+
 
 .title {
     font-style: normal;
@@ -90,7 +129,6 @@ body {
     justify-content: center;
     background: #E5E5E5;
 }
-
 
 .item {
     position: relative;
