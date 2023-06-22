@@ -382,6 +382,12 @@ body {
     text-align: center;
     color: #FFFFFF;
     background: #F16D7F;
+    transition: 0.3s;
+}
+
+.button__form:active{
+    color: #F16D7F;
+    background: #FFFFFF;
 }
 
 .contacts {
@@ -401,6 +407,8 @@ body {
     line-height: 19px;
     color: #FBFBFB;
 }
+
+
 
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
