@@ -408,6 +408,13 @@ body {
     color: #FBFBFB;
 }
 
+.icon__messenger{
+    transition: 0.3s;
+}
+
+.icon__messenger:hover{
+    fill:#F16D7F;
+}
 
 
 @media (max-width: 1025px) and (min-width: 767px) {
