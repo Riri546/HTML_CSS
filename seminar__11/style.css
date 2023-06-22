@@ -50,11 +50,11 @@ label {
     border: 2px solid black;
 }
 
-#chk {
+#check__menu {
     display: none;
 }
 
-#chk+div {
+#check__menu+.main__menu {
     display: none;
     width: 200px;
     height: 100px;
@@ -69,7 +69,7 @@ label {
 }
 
 /* magic here*/
-#chk:checked+div {
+#check__menu:checked+.main__menu {
     display: block;
 }
 
