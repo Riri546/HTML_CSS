@@ -183,10 +183,10 @@ body {
     justify-content: center;
 }
 
-.catalog:hover:after{
+/* .catalog:hover:after{
      content: ''; 
      background: rgba(0,0,0,.5);  opacity: 0; 
-}
+} */
 
 .about__product {
     display: flex;
