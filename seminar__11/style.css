@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -44,11 +44,84 @@ a{
 
 
 
+label {
+    display: inline-block;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+#chk {
+    display: none;
+}
+
+#chk+div {
+    display: none;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -120px;
+    margin-left: -120px;
+    border: 1px solid black;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* magic here*/
+#chk:checked+div {
+    display: block;
+}
 
 
 
 
-.title {
+
+
+
+
+/* .wrapper{
+    position: relative;
+}
+
+#check__menu{
+    display: none;
+}
+
+
+
+.main__menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    display: none;
+    max-height: 0;
+    font-size: 0; */
+overflow: hidden;
+}
+
+.main__menu:active {
+    display: block;
+}
+
+.chapter {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #000000;
+}
+
+#check__menu:checked~.main__menu {
+    max-height: 500px;
+    font-size: 16px;
+}
+
+*/ .title {
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
