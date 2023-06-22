@@ -23,12 +23,12 @@ body {
     align-items: center;
 }
 
-.head__menu{
+.head__menu {
     transition: 0.3s;
 }
 
-.head__menu:hover{
-    fill:#F16D7F;
+.head__menu:hover {
+    fill: #F16D7F;
 }
 
 .header {
@@ -102,7 +102,7 @@ body {
     grid-column: 1/-1;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(1.1);
 }
 
@@ -189,22 +189,23 @@ body {
     justify-content: center;
 }
 
-.catalog{
+.catalog {
     cursor: pointer;
 }
 
-.catalog:before{
+.catalog:before {
     position: absolute;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.7);  opacity: 0; 
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
     transition: all 0.4s ease;
-    content: ''; 
+    content: '';
 }
 
-.catalog:hover::before{
+.catalog:hover::before {
     opacity: 1;
 }
 
@@ -269,9 +270,9 @@ body {
     transition: all 0.3s;
 }
 
-.button:hover{
+.button:hover {
     color: #E5E5E5;
-    background:#FF6A6A;
+    background: #FF6A6A;
 }
 
 .foot {
@@ -405,7 +406,7 @@ body {
     transition: 0.3s;
 }
 
-.button__form:active{
+.button__form:active {
     color: #F16D7F;
     background: #FFFFFF;
 }
@@ -428,12 +429,12 @@ body {
     color: #FBFBFB;
 }
 
-.icon__messenger{
+.icon__messenger {
     transition: all 0.3s;
 }
 
-.icon__messenger:hover{
-    fill:#F16D7F;
+.icon__messenger:hover {
+    fill: #F16D7F;
 }
 
 
