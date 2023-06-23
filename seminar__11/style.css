@@ -648,7 +648,6 @@ nav{
     }
 
     .sale__botom__text {
-        top: 33px;
         left: 288px;
     }
 
@@ -686,7 +685,7 @@ nav{
     }
 }
 
-@media (max-width: 767px) and (min-width: 375px) {
+@media (max-width: 767px){
     /* Стили для телефона */
 
     .head {
