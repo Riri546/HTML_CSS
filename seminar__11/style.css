@@ -795,3 +795,29 @@ nav {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 321px){
+    .stocks {
+        grid-template-columns: 320px;
+    }
+
+    .catalog {
+        grid-template-columns: 320px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .text__about {
+        max-width: 320px;
+    }
+
+    .form__content{
+        max-width: 320px;
+    }
+
+    .form__input {
+        max-width: 190px;
+    }
+}
