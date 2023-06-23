@@ -69,10 +69,6 @@ figure {
     margin: 0;
 }
 
-/* nav {
-    display: block;
-} */
-
 .head {
     display: flex;
     flex-direction: row;
@@ -133,8 +129,11 @@ figure {
     min-width: 232px;
     padding-top: 22px;
     padding-bottom: 22px;
-    margin-top: 17px;
+    margin-top: 19px;
+}
 
+.navbar-nav .dropdown-menu {
+    position: absolute;
 }
 
 .dropdown-item {
@@ -621,6 +620,10 @@ figure {
 
     .head {
         padding: 18px 32px;
+    }
+
+    .collapse:not(.show) {
+        display: block;
     }
 
     .top__info {
