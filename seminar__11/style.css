@@ -69,9 +69,9 @@ figure {
     margin: 0;
 }
 
-nav {
+/* nav {
     display: block;
-}
+} */
 
 .head {
     display: flex;
@@ -102,6 +102,36 @@ nav {
     align-items: center;
     gap: 33px;
 }
+
+.search__img{
+    display: block;
+    cursor: pointer;
+}
+
+.search__menu{
+    /* transition-duration: 0.5s;
+    transition-property: opacity;
+    appearance: none; */
+    opacity: 0;
+    display: flex;
+    transition: all 0.4s ease-in-out;
+}
+
+.search__menu:active .search__input{
+    opacity: 1;
+}
+
+.search__input{
+    transition-duration: 0.5s;
+    transition-property: opacity;
+    appearance: none;
+}
+
+/* .search__menu:hover{
+    opacity: 1;
+} */
+
+
 
 .navbar {
     padding: 0;
