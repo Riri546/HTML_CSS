@@ -103,25 +103,22 @@ figure {
     gap: 33px;
 }
 
-.search__img{
+.search__img {
     cursor: pointer;
     display: block;
     cursor: pointer;
 }
 
-
-.search__menu{
+.search__menu {
     opacity: 0;
     display: flex;
 }
 
-
-.search__img:active~.search__menu{
+.search__img:active~.search__menu {
     opacity: 1;
-    
 }
 
-.search__input{
+.search__input {
     display: none;
     transition-duration: 0.5s;
     transition-property: opacity;
@@ -827,7 +824,7 @@ figure {
     }
 }
 
-@media (max-width: 321px){
+@media (max-width: 321px) {
     .stocks {
         grid-template-columns: 320px;
     }
@@ -844,7 +841,7 @@ figure {
         max-width: 320px;
     }
 
-    .form__content{
+    .form__content {
         max-width: 320px;
     }
 
