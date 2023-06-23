@@ -104,24 +104,25 @@ figure {
 }
 
 .search__img{
+    cursor: pointer;
     display: block;
     cursor: pointer;
 }
 
+
 .search__menu{
-    /* transition-duration: 0.5s;
-    transition-property: opacity;
-    appearance: none; */
     opacity: 0;
     display: flex;
-    transition: all 0.4s ease-in-out;
 }
 
-.search__menu:active .search__input{
+
+.search__img:active~.search__menu{
     opacity: 1;
+    
 }
 
 .search__input{
+    display: none;
     transition-duration: 0.5s;
     transition-property: opacity;
     appearance: none;
