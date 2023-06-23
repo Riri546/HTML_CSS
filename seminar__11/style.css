@@ -626,6 +626,14 @@ figure {
         display: block;
     }
 
+    .dropdown-menu {
+        min-width: 175px;
+    }
+
+    .search__menu{
+        display: none;
+    }
+
     .top__info {
         justify-content: center;
     }
