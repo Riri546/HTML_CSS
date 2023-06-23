@@ -313,7 +313,6 @@ a {
     justify-content: center;
 }
 
-
 /* Настройки маркированного списка */
 .hover-effect-scale {
     list-style: none;
@@ -354,8 +353,6 @@ a {
     size: 14px;
     line-height: 16.8px;
 }
-
-
 
 /* Выезжающий блок со ссылкой (кнопкой) */
 .hover-effect-scale li>div {
@@ -612,7 +609,6 @@ a {
 .icon__messenger:hover {
     fill: #F16D7F;
 }
-
 
 @media (max-width: 1025px) and (min-width: 767px) {
     /* Стили для планшета */
