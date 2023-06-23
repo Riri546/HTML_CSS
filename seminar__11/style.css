@@ -55,7 +55,13 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -63,7 +69,7 @@ figure {
     margin: 0;
 }
 
-nav{
+nav {
     display: block;
 }
 
@@ -97,7 +103,7 @@ nav{
     gap: 33px;
 }
 
-.navbar{
+.navbar {
     padding: 0;
 }
 
@@ -106,14 +112,14 @@ nav{
     padding-top: 22px;
     padding-bottom: 22px;
     margin-top: 17px;
-    
+
 }
 
-.dropdown-item{
+.dropdown-item {
     padding: 11px 0px 11px 0px;
 }
 
-.title__menu{
+.title__menu {
     padding-left: 32px;
     font-style: normal;
     font-weight: 700;
@@ -122,7 +128,7 @@ nav{
     color: #000000;
 }
 
-.section{
+.section {
     padding-left: 32px;
     font-style: normal;
     font-weight: 400;
@@ -131,7 +137,7 @@ nav{
     color: #F16D7F;
 }
 
-.submenu{
+.submenu {
     padding-left: 53.5px;
     font-style: normal;
     font-weight: 400;
@@ -322,7 +328,7 @@ nav{
     gap: 11px;
 }
 
-.catalog__button:hover{
+.catalog__button:hover {
     background: #222222;
 }
 
@@ -685,7 +691,7 @@ nav{
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     /* Стили для телефона */
 
     .head {
