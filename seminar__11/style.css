@@ -594,7 +594,7 @@ nav {
     fill: #F16D7F;
 }
 
-@media (max-width: 1025px) and (min-width: 767px) {
+@media (max-width: 1024px) {
     /* Стили для планшета */
 
     .head {
