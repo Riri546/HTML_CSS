@@ -1,2 +1,39 @@
 @import 'vars';
-@import 'position'
+@import 'position';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 240px 19px 231px;
+    background: $colorContent;
+}

@@ -23,4 +23,14 @@ p {
 
 figure {
   margin: 0;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 240px 19px 231px;
+  background: #222222;
 }/*# sourceMappingURL=style.css.map */
