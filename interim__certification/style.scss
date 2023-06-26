@@ -1,1 +1,19 @@
 $colorSilectStyle: #F16D7F;
+$widthSite: 1140px;
+$colorContent: #222222;
+$gapGrid: 30px;
+$colorTextContent: #FBFBFB;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
