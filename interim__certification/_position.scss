@@ -32,10 +32,23 @@
     justify-content: center;
 }
 
-%grid-catalog{
+%grid-catalog {
     display: grid;
-        grid-template-columns: repeat(3, 360px);
-        column-gap: 29px;
-        row-gap: 25px;
-        justify-content: center;
+    grid-template-columns: repeat(3, 360px);
+    column-gap: 29px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+%flex-catalog-hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+%flex-about-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
