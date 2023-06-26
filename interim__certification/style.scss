@@ -93,3 +93,56 @@ figure {
 .dropdown-item {
     padding: 11px 0px 11px 0px;
 }
+
+.title__menu {
+    padding-left: 32px;
+    font-style: normal;
+    font-weight: $weightBold;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #000000;
+}
+
+.section {
+    padding-left: 32px;
+    font-style: normal;
+    font-weight: $weightRegular;
+    font-size: $sizeSmall;
+    line-height: $line-height;
+    color: $colorSelectStyle;
+}
+
+.submenu {
+    padding-left: 53.5px;
+    font-style: normal;
+    font-weight: $weightRegular;
+    font-size: $sizeSmall;
+    line-height: $line-height;
+    color: $colorSubtextContent;
+}
+
+.title {
+    font-style: normal;
+    font-weight: $weightBlack;
+    font-size: 48px;
+    line-height: 58px;
+    color: $colorContent;
+}
+
+.top__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    background: #F1E4E6;
+}
+
+.top__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
