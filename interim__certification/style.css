@@ -131,30 +131,27 @@ figure {
   fill: #F16D7F;
 }
 
-.title {
+.top__info {
+  gap: 64px;
+  background: #FBFBFB;
+}
+
+.top__content {
+  gap: 16px;
+}
+.top__content .content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.top__content .content__text .title {
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
   color: #222222;
 }
-
-.top__info {
-  gap: 64px;
-  background: #F1E4E6;
-}
-
-.top__content {
-  gap: 16px;
-}
-
-.content__text {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.subtitle {
+.top__content .content__text .subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
