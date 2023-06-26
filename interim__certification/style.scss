@@ -32,67 +32,82 @@ figure {
     @extend %flex-centr-head;
     padding: 18px 240px 19px 231px;
     background: $colorContent;
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+
+        .search__img {
+            display: block;
+            cursor: pointer;
+            cursor: pointer;
+        }
+
+        .search__menu {
+            opacity: 0;
+            display: flex;
+
+            .search__img:active~.search__menu {
+                opacity: 1;
+            }
+            
+            .search__input {
+                display: none;
+                transition-duration: 0.5s;
+                transition-property: opacity;
+                appearance: none;
+            }
+        }
+
+    }
+
+    .header {
+        @extend %flex-align-items;
+        gap: 33px;
+
+        .navbar {
+            padding: $paddingNone;
+        }
+        
+        .dropdown-menu {
+            min-width: 232px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            margin-top: 19px;
+        }
+        
+        .navbar-nav .dropdown-menu {
+            position: absolute;
+        }
+        
+        .dropdown-item {
+            padding: 11px 0px 11px 0px;
+        }
+        
+    
+        .head__menu {
+            transition: $transitionSelectSite;
+        }
+        
+        .head__menu:hover {
+            fill: $colorSelectStyle;
+        }
+        
+    }
 }
 
-.header__logo {
-    display: flex;
-    align-items: center;
-    gap: 41px;
-}
 
-.head__menu {
-    transition: $transitionSelectSite;
-}
 
-.head__menu:hover {
-    fill: $colorSelectStyle;
-}
 
-.header {
-    @extend %flex-align-items;
-    gap: 33px;
-}
 
-.search__img {
-    display: block;
-    cursor: pointer;
-    cursor: pointer;
-}
 
-.search__menu {
-    opacity: 0;
-    display: flex;
-}
 
-.search__img:active~.search__menu {
-    opacity: 1;
-}
 
-.search__input {
-    display: none;
-    transition-duration: 0.5s;
-    transition-property: opacity;
-    appearance: none;
-}
 
-.navbar {
-    padding: $paddingNone;
-}
 
-.dropdown-menu {
-    min-width: 232px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    margin-top: 19px;
-}
 
-.navbar-nav .dropdown-menu {
-    position: absolute;
-}
 
-.dropdown-item {
-    padding: 11px 0px 11px 0px;
-}
 
 .title__menu {
     padding-left: 32px;
