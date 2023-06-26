@@ -29,7 +29,7 @@ figure {
 }
 
 .head {
-    @extend %flex-centr;
+    @extend %flex-centr-head;
     padding: 18px 240px 19px 231px;
     background: $colorContent;
 }
@@ -130,19 +130,12 @@ figure {
 }
 
 .top__info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-centr;
     gap: 64px;
     background: #F1E4E6;
 }
 
 .top__content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @extend %flex-centr;
     gap: 16px;
-    align-items: center;
 }

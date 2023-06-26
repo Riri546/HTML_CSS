@@ -1,4 +1,4 @@
-% flex-centr{
+%flex-centr-head{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,5 +8,12 @@
 
 %flex-align-items{
     display: flex;
+    align-items: center;
+}
+
+%flex-centr{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
 }
