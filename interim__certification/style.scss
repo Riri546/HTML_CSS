@@ -65,7 +65,7 @@ figure {
         }
 
         .dropdown-item {
-            padding: 11px 0px 11px 0px; 
+            padding: 11px 0px 11px 0px;
         }
 
         .title__menu {
@@ -161,8 +161,9 @@ figure {
 .stocks {
     padding-top: 65px;
     padding-bottom: 105px;
-    @extend %grid-stocks;
+    @extend %grid;
     background: $colorTextContent;
+    column-gap: 30px;
 
     .item {
         position: relative;
@@ -231,7 +232,7 @@ figure {
     .featured {
         @extend %flex-center-column;
     }
-    
+
     .featured__title {
         font-style: normal;
         font-weight: $weightRegular;
@@ -239,7 +240,7 @@ figure {
         line-height: 36px;
         color: $colorContent;
     }
-    
+
     .featured__text {
         font-style: normal;
         font-weight: $weightRegular;
@@ -247,13 +248,15 @@ figure {
         line-height: $lineHeight;
         color: #9F9F9F;
     }
-    
+
     .catalog {
         padding-top: 48px;
         padding-bottom: 48px;
-        @extend %grid-catalog;
+        @extend %grid;
+        column-gap: 29px;
+        row-gap: 25px;
     }
-    
+
     /* Настройки маркированного списка */
     .hover-effect-scale {
         list-style: none;
@@ -262,20 +265,20 @@ figure {
         text-align: center;
         padding: 0;
     }
-    
+
     .hover-effect-scale li {
         position: relative;
         box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
         overflow: hidden;
     }
-    
+
     /* Заголовок, текст и ссылка */
     .hover-effect-scale li a {
         display: block;
         text-decoration: none;
         padding: 12px 13px 8px 14px;
         color: $colorTextContent;
-        border: 1px solid  $colorTextContent;
+        border: 1px solid $colorTextContent;
         margin: 0 auto;
         transition: all $transitionSelectSite ease-in-out;
         display: flex;
@@ -284,17 +287,17 @@ figure {
         flex-direction: row;
         gap: 11px;
     }
-    
+
     .catalog__button {
         font-weight: $weightRegular;
         font-size: $sizeSmall;
         line-height: $lineHeight;
     }
-    
+
     .catalog__button:hover {
         background: $colorContent;
     }
-    
+
     /* Выезжающий блок со ссылкой (кнопкой) */
     .hover-effect-scale li>div {
         width: 100%;
@@ -302,32 +305,32 @@ figure {
         position: absolute;
         @extend %flex-catalog-hover;
     }
-    
+
     .hover-effect-scale li:hover>div {
         position: absolute;
         overflow: hidden;
         top: 0;
         left: 0;
     }
-    
+
     .hover-effect-scale li div {
         opacity: 0;
         background-color: rgba(58, 56, 56, 0.8);
         /* Фон блока при наведении */
         transition: all $transitionSelectSite ease-in-out;
     }
-    
+
     .hover-effect-scale li:hover div {
         opacity: 1;
     }
-    
+
     .about__product {
         @extend %flex-about-product;
         padding: 24px 16px;
         gap: 16px;
         background: $colorTextContent;
     }
-    
+
     .name {
         width: 148.11px;
         height: 16px;
@@ -337,7 +340,7 @@ figure {
         line-height: $lineHeight;
         color: $colorContent;
     }
-    
+
     .description {
         width: 314.74px;
         height: 51px;
@@ -347,7 +350,7 @@ figure {
         line-height: $lineHeight;
         color: $colorSubtextContent;
     }
-    
+
     .price {
         width: 52.46px;
         height: 19px;
@@ -357,12 +360,12 @@ figure {
         line-height: $lineHeightAverage;
         color: $colorSelectStyle;
     }
-    
+
     .rowse__all_product {
         @extend %flex-centr;
         justify-content: center;
     }
-    
+
     .button {
         margin-bottom: 103px;
         padding: 15px 39px 14px 39px;
@@ -375,10 +378,50 @@ figure {
         border-color: $colorSelectStyle;
         transition: all 0.3s;
     }
-    
+
     .button:hover {
         color: $colorCatalog;
         background: $colorSelectStyle;
     }
 }
 
+.foot {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    @extend %grid;
+    align-items: center;
+    gap: 30px;
+    background: $colorContent;
+}
+
+.item__foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title__footer {
+    padding-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.text__footer {
+    padding-top: 16px;
+    max-width: 308px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
