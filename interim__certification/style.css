@@ -33,4 +33,10 @@ figure {
   justify-content: space-between;
   padding: 18px 240px 19px 231px;
   background: #222222;
+}
+
+.header__logo {
+  display: flex;
+  gap: 41px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

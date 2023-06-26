@@ -2,8 +2,8 @@
 @import 'position';
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: $marginNone;
+    padding: $paddingNone;
 }
 
 body {
@@ -21,11 +21,11 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+    margin: $marginNone;
 }
 
 figure {
-    margin: 0;
+    margin: $marginNone;
 }
 
 .head {
@@ -36,4 +36,10 @@ figure {
     justify-content: space-between;
     padding: 18px 240px 19px 231px;
     background: $colorContent;
+}
+
+.header__logo {
+    display: flex;
+    gap: 41px;
+    align-items: center;
 }
