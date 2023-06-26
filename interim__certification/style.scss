@@ -251,11 +251,7 @@ figure {
     .catalog {
         padding-top: 48px;
         padding-bottom: 48px;
-        display: grid;
-        grid-template-columns: repeat(3, 360px);
-        column-gap: 29px;
-        row-gap: 25px;
-        justify-content: center;
+        @extend %grid-catalog;
     }
     
     /* Настройки маркированного списка */

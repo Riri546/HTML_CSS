@@ -34,6 +34,15 @@
   justify-content: center;
 }
 
+.products .catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+  row-gap: 25px;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -248,12 +257,6 @@ figure {
 .products .catalog {
   padding-top: 48px;
   padding-bottom: 48px;
-  display: grid;
-  grid-template-columns: repeat(3, 360px);
-  -moz-column-gap: 29px;
-       column-gap: 29px;
-  row-gap: 25px;
-  justify-content: center;
 }
 .products .hover-effect-scale {
   list-style: none;
