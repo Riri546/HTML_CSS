@@ -332,10 +332,10 @@ figure {
         width: 148.11px;
         height: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $weightRegular;
         font-size: 13px;
-        line-height: 16px;
-        color: #000000;
+        line-height: $lineHeight;
+        color: $colorContent;
     }
     
     .description {
@@ -343,27 +343,24 @@ figure {
         height: 51px;
         font-style: normal;
         font-weight: 300;
-        font-size: 14px;
-        line-height: 17px;
-        color: #5D5D5D;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSubtextContent;
     }
     
     .price {
         width: 52.46px;
         height: 19px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $weightRegular;
         font-size: 16px;
         line-height: 19px;
-        color: #F16D7F;
+        color: $colorSelectStyle;
     }
     
     .rowse__all_product {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @extend %flex-centr;
         justify-content: center;
-        align-items: center;
     }
     
     .button {

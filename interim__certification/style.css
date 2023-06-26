@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.top__info .top__content, .top__info {
+.products .rowse__all_product, .top__info .top__content, .top__info {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -336,8 +336,8 @@ figure {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 16px;
-  color: #000000;
+  line-height: 16.8px;
+  color: #222222;
 }
 .products .description {
   width: 314.74px;
@@ -345,7 +345,7 @@ figure {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 16.8px;
   color: #5D5D5D;
 }
 .products .price {
@@ -358,11 +358,7 @@ figure {
   color: #F16D7F;
 }
 .products .rowse__all_product {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 .products .button {
   margin-bottom: 103px;
