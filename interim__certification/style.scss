@@ -43,22 +43,6 @@ figure {
             cursor: pointer;
             cursor: pointer;
         }
-
-        .search__menu {
-            opacity: 0;
-            display: flex;
-        }
-
-        .search__input {
-            display: none;
-            transition-duration: 0.5s;
-            transition-property: opacity;
-            appearance: none;
-        }
-
-        .search__img:active~.search__menu {
-            opacity: 1;
-        }
     }
 
     .header {
@@ -67,57 +51,73 @@ figure {
 
         .navbar {
             padding: $paddingNone;
+        }
 
-            .navbar-nav .dropdown-menu {
-                position: absolute;
-            }
+        .navbar-nav .dropdown-menu {
+            position: absolute;
+        }
 
-            .dropdown-menu {
-                min-width: 232px;
-                padding-top: 22px;
-                padding-bottom: 22px;
-                margin-top: 19px;
-            }
+        .dropdown-menu {
+            min-width: 232px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            margin-top: 19px;
+        }
 
-            .dropdown-item {
-                padding: 11px 0px 11px 0px;
+        .dropdown-item {
+            padding: 11px 0px 11px 0px; 
+        }
 
-                .title__menu {
-                    padding-left: 32px;
-                    font-style: normal;
-                    font-weight: $weightBold;
-                    font-size: $sizeSmall;
-                    line-height: $lineHeight;
-                    color: $colorContent;
-                }
+        .title__menu {
+            padding-left: 32px;
+            font-style: normal;
+            font-weight: $weightBold;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorContent;
+        }
 
-                .section {
-                    padding-left: 32px;
-                    font-style: normal;
-                    font-weight: $weightRegular;
-                    font-size: $sizeSmall;
-                    line-height: $lineHeight;
-                    color: $colorSelectStyle;
-                }
-            }
+        .section {
+            padding-left: 32px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorSelectStyle;
+        }
 
-            .submenu {
-                padding-left: 53.5px;
-                font-style: normal;
-                font-weight: $weightRegular;
-                font-size: $sizeSmall;
-                line-height: $lineHeight;
-                color: $colorSubtextContent;
-            }
+        .submenu {
+            padding-left: 53.5px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorSubtextContent;
         }
 
         .head__menu {
             transition: $transitionSelectSite;
-
-            .head__menu:hover {
-                fill: $colorSelectStyle;
-            }
         }
+
+        .head__menu:hover {
+            fill: $colorSelectStyle;
+        }
+    }
+
+    .search__menu {
+        opacity: 0;
+        display: flex;
+
+        .search__input {
+            display: none;
+            transition-duration: 0.5s;
+            transition-property: opacity;
+            appearance: none;
+        }
+    }
+
+    .search__img:active~.search__menu {
+        opacity: 1;
     }
 }
 
@@ -129,12 +129,12 @@ figure {
     .top__content {
         @extend %flex-centr;
         gap: 16px;
-    
+
         .content__text {
             display: flex;
             flex-direction: column;
             gap: 10px;
-    
+
             .title {
                 font-style: normal;
                 font-weight: $weightBlack;
@@ -142,7 +142,7 @@ figure {
                 line-height: 58px;
                 color: $colorContent;
             }
-    
+
             .subtitle {
                 font-style: normal;
                 font-weight: $weightBold;
@@ -150,7 +150,7 @@ figure {
                 line-height: 38px;
                 color: $colorContent;
             }
-    
+
             .subtitle__pink {
                 color: $colorSelectStyle;
             }
@@ -180,7 +180,7 @@ figure {
             line-height: 19px;
             color: $colorTextContent;
         }
-        
+
         .big__text {
             font-style: normal;
             text-align: center;
@@ -189,25 +189,25 @@ figure {
             line-height: 29px;
             color: $colorSelectStyle;
         }
-        
+
         .sale__text__women {
             position: absolute;
             top: 105px;
             left: 103px;
         }
-        
+
         .sale__text__men {
             position: absolute;
             top: 105px;
             left: 125px;
         }
-        
+
         .sale__text__kids {
             position: absolute;
             top: 105px;
             left: 123px;
         }
-        
+
         .sale__botom__text {
             position: absolute;
             top: 65px;
@@ -224,6 +224,3 @@ figure {
         grid-column: 1/-1;
     }
 }
-
-
-
