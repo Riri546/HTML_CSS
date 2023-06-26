@@ -454,18 +454,18 @@ figure {
     
     .tetle__form {
         font-style: normal;
-        font-weight: 700;
+        font-weight: $weightBold;
         font-size: 24px;
-        line-height: 167.2%;
+        line-height: $lineHeightPercent;
         text-align: center;
-        color: #222224;
+        color: $colorContent;
     }
     
     .text__form {
         font-style: normal;
-        font-weight: 400;
+        font-weight: $weightRegular;
         font-size: 18px;
-        line-height: 167.2%;
+        line-height: $lineHeightPercent;
         text-align: center;
         color: #222224;
     }
