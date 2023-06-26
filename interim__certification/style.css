@@ -498,8 +498,8 @@ figure {
   fill: #F16D7F;
 }
 
+/* Стили для планшета */
 @media (max-width: 1024px) {
-  /* Стили для планшета */
   .head {
     padding: 18px 32px;
   }
@@ -586,8 +586,8 @@ figure {
     padding: 24px 33px 23px 32px;
   }
 }
+/* Стили для среднего телефона */
 @media (max-width: 767px) {
-  /* Стили для телефона */
   .head {
     padding: 18px 16px;
   }
