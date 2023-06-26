@@ -308,8 +308,6 @@ figure {
 .catalog__button {
     font-weight: 400;
     font-size: 14px;
-    /* resize: 14px; */
-    /* size: 14px; */
     line-height: 16.8px;
 }
 
@@ -588,7 +586,7 @@ figure {
         min-width: 175px;
     }
 
-    .search__menu{
+    .search__menu {
         display: none;
     }
 
