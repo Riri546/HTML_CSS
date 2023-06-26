@@ -226,7 +226,7 @@ figure {
 }
 
 .products {
-    background: #E5E5E5;
+    background: $colorCatalog;
 
     .featured {
         @extend %flex-center-column;
@@ -353,8 +353,8 @@ figure {
         height: 19px;
         font-style: normal;
         font-weight: $weightRegular;
-        font-size: 16px;
-        line-height: 19px;
+        font-size: $sizeAverage;
+        line-height: $lineHeightAverage;
         color: $colorSelectStyle;
     }
     
@@ -367,18 +367,18 @@ figure {
         margin-bottom: 103px;
         padding: 15px 39px 14px 39px;
         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: #F26376;
-        background: #E5E5E5;
-        border-color: #FF6A6A;
+        font-weight: $weightRegular;
+        font-size: $sizeAverage;
+        line-height: $lineHeightAverage;
+        color: $colorSelectStyle;
+        background: $colorCatalog;
+        border-color: $colorSelectStyle;
         transition: all 0.3s;
     }
     
     .button:hover {
-        color: #E5E5E5;
-        background: #FF6A6A;
+        color: $colorCatalog;
+        background: $colorSelectStyle;
     }
 }
 

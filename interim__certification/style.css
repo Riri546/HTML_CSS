@@ -367,12 +367,12 @@ figure {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #F26376;
+  color: #F16D7F;
   background: #E5E5E5;
-  border-color: #FF6A6A;
+  border-color: #F16D7F;
   transition: all 0.3s;
 }
 .products .button:hover {
   color: #E5E5E5;
-  background: #FF6A6A;
+  background: #F16D7F;
 }/*# sourceMappingURL=style.css.map */
