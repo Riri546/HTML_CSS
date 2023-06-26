@@ -176,6 +176,22 @@ figure {
 .stocks .item .img__sale {
   width: 100%;
 }
+.stocks .item .text {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+.stocks .item .big__text {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
 .stocks .item .sale__text__women {
   position: absolute;
   top: 105px;

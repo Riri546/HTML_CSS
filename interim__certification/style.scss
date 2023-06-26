@@ -176,6 +176,24 @@ figure {
         .img__sale {
             width: 100%;
         }
+
+        .text {
+            font-style: normal;
+            text-align: center;
+            font-weight: $weightRegular;
+            font-size: 16px;
+            line-height: 19px;
+            color: $colorTextContent;
+        }
+        
+        .big__text {
+            font-style: normal;
+            text-align: center;
+            font-weight: $weightBold;
+            font-size: 24px;
+            line-height: 29px;
+            color: $colorSelectStyle;
+        }
         
         .sale__text__women {
             position: absolute;
@@ -200,8 +218,6 @@ figure {
             top: 65px;
             left: 492px;
         }
-
-
     }
 
     .item4 {
@@ -209,4 +225,6 @@ figure {
         grid-column: 1/-1;
     }
 }
+
+
 
