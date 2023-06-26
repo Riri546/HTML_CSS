@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.top__content, .top__info {
+.top__info .top__content, .top__info {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -135,31 +135,29 @@ figure {
   gap: 64px;
   background: #FBFBFB;
 }
-
-.top__content {
+.top__info .top__content {
   gap: 16px;
 }
-.top__content .content__text {
+.top__info .top__content .content__text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.top__content .content__text .title {
+.top__info .top__content .content__text .title {
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
   color: #222222;
 }
-.top__content .content__text .subtitle {
+.top__info .top__content .content__text .subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
   color: #222222;
 }
-
-.subtitle__pink {
+.top__info .top__content .content__text .subtitle__pink {
   color: #F16D7F;
 }
 

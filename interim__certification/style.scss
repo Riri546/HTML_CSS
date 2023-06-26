@@ -126,63 +126,37 @@ figure {
     @extend %flex-centr;
     gap: 64px;
     background: $colorTextContent;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.top__content {
-    @extend %flex-centr;
-    gap: 16px;
-
-    .content__text {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-        .title {
-            font-style: normal;
-            font-weight: $weightBlack;
-            font-size: 48px;
-            line-height: 58px;
-            color: $colorContent;
-        }
-
-        .subtitle {
-            font-style: normal;
-            font-weight: $weightBold;
-            font-size: 32px;
-            line-height: 38px;
-            color: $colorContent;
+    .top__content {
+        @extend %flex-centr;
+        gap: 16px;
+    
+        .content__text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+    
+            .title {
+                font-style: normal;
+                font-weight: $weightBlack;
+                font-size: 48px;
+                line-height: 58px;
+                color: $colorContent;
+            }
+    
+            .subtitle {
+                font-style: normal;
+                font-weight: $weightBold;
+                font-size: 32px;
+                line-height: 38px;
+                color: $colorContent;
+            }
+    
+            .subtitle__pink {
+                color: $colorSelectStyle;
+            }
         }
     }
-}
-
-
-
-
-
-.subtitle__pink {
-    color: $colorSelectStyle;
 }
 
 .stocks {
