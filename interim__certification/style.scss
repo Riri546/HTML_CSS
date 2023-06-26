@@ -49,14 +49,13 @@ figure {
 }
 
 .header {
-    display: flex;
-    align-items: center;
+    @extend %flex-align-items;
     gap: 33px;
 }
 
 .search__img {
-    cursor: pointer;
     display: block;
+    cursor: pointer;
     cursor: pointer;
 }
 
