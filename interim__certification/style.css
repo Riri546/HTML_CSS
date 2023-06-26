@@ -119,7 +119,7 @@ figure {
   opacity: 0;
   display: flex;
 }
-.head .search__menu .search__input {
+.head .search__input {
   display: none;
   transition-duration: 0.5s;
   transition-property: opacity;

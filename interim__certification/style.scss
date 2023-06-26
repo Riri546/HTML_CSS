@@ -107,13 +107,13 @@ figure {
     .search__menu {
         opacity: 0;
         display: flex;
+    }
 
-        .search__input {
-            display: none;
-            transition-duration: 0.5s;
-            transition-property: opacity;
-            appearance: none;
-        }
+    .search__input {
+        display: none;
+        transition-duration: 0.5s;
+        transition-property: opacity;
+        appearance: none;
     }
 
     .search__img:active~.search__menu {
