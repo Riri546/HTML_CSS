@@ -1,4 +1,4 @@
-%flex-centr-head{
+%flex-centr-head {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,19 +6,26 @@
     justify-content: space-between;
 }
 
-%flex-align-items{
+%flex-align-items {
     display: flex;
     align-items: center;
 }
 
-%flex-centr{ 
+%flex-centr {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
 
-%grid-stocks{
+%flex-center-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+%grid-stocks {
     display: grid;
     grid-template-columns: repeat(3, 360px);
     column-gap: 30px;

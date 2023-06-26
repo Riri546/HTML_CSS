@@ -19,6 +19,13 @@
   align-items: center;
 }
 
+.products .featured {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .stocks {
   display: grid;
   grid-template-columns: repeat(3, 360px);
@@ -108,7 +115,7 @@ figure {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
-  color: #6F6E6E;
+  color: #5D5D5D;
 }
 .head .header .head__menu {
   transition: 0.4;
@@ -224,12 +231,6 @@ figure {
   /* Заголовок, текст и ссылка */
   /* Выезжающий блок со ссылкой (кнопкой) */
 }
-.products .featured {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
 .products .featured__title {
   font-style: normal;
   font-weight: 400;
@@ -241,7 +242,7 @@ figure {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 16.8px;
   color: #9F9F9F;
 }
 .products .catalog {

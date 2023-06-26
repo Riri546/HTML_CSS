@@ -229,25 +229,22 @@ figure {
     background: #E5E5E5;
 
     .featured {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+        @extend %flex-center-column;
     }
     
     .featured__title {
         font-style: normal;
-        font-weight: 400;
+        font-weight: $weightRegular;
         font-size: 30px;
         line-height: 36px;
-        color: #222222;
+        color: $colorContent;
     }
     
     .featured__text {
         font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
+        font-weight: $weightRegular;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
         color: #9F9F9F;
     }
     
