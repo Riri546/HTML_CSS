@@ -40,6 +40,42 @@ figure {
 
 .header__logo {
     display: flex;
-    gap: 41px;
     align-items: center;
+    gap: 41px;
+}
+
+.head__menu {
+    transition: $transitionSelectSite;
+}
+
+.head__menu:hover {
+    fill: $colorSelectStyle;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.search__img {
+    cursor: pointer;
+    display: block;
+    cursor: pointer;
+}
+
+.search__menu {
+    opacity: 0;
+    display: flex;
+}
+
+.search__img:active~.search__menu {
+    opacity: 1;
+}
+
+.search__input {
+    display: none;
+    transition-duration: 0.5s;
+    transition-property: opacity;
+    appearance: none;
 }
