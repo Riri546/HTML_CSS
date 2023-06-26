@@ -527,9 +527,9 @@ figure {
 }
 
 .icon__messenger {
-    transition: all 0.3s;
+    transition: all $transitionSelectSite;
 }
 
 .icon__messenger:hover {
-    fill: #F16D7F;
+    fill: $colorSelectStyle;
 }

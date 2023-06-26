@@ -494,7 +494,7 @@ figure {
 }
 
 .icon__messenger {
-  transition: all 0.3s;
+  transition: all 0.4;
 }
 
 .icon__messenger:hover {
