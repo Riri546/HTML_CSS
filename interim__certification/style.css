@@ -71,16 +71,16 @@ figure {
   opacity: 0;
   display: flex;
 }
-.head .header__logo .search__menu .search__img:active ~ .search__menu {
-  opacity: 1;
-}
-.head .header__logo .search__menu .search__input {
+.head .header__logo .search__input {
   display: none;
   transition-duration: 0.5s;
   transition-property: opacity;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+.head .header__logo .search__img:active ~ .search__menu {
+  opacity: 1;
 }
 .head .header {
   gap: 33px;
@@ -170,9 +170,6 @@ figure {
   position: relative;
   transition: 1.2s;
 }
-.stocks .item .item:hover {
-  transform: scale(1.1);
-}
 .stocks .item .img__sale {
   width: 100%;
 }
@@ -211,6 +208,9 @@ figure {
   position: absolute;
   top: 65px;
   left: 492px;
+}
+.stocks .item:hover {
+  transform: scale(1.1);
 }
 .stocks .item4 {
   padding-top: 21px;

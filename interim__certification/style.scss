@@ -47,19 +47,18 @@ figure {
         .search__menu {
             opacity: 0;
             display: flex;
-
-            .search__img:active~.search__menu {
-                opacity: 1;
-            }
-
-            .search__input {
-                display: none;
-                transition-duration: 0.5s;
-                transition-property: opacity;
-                appearance: none;
-            }
         }
 
+        .search__input {
+            display: none;
+            transition-duration: 0.5s;
+            transition-property: opacity;
+            appearance: none;
+        }
+
+        .search__img:active~.search__menu {
+            opacity: 1;
+        }
     }
 
     .header {
@@ -169,10 +168,6 @@ figure {
         position: relative;
         transition: 1.2s;
 
-        .item:hover {
-            transform: scale(1.1);
-        }
-
         .img__sale {
             width: 100%;
         }
@@ -218,6 +213,10 @@ figure {
             top: 65px;
             left: 492px;
         }
+    }
+
+    .item:hover {
+        transform: scale(1.1);
     }
 
     .item4 {
