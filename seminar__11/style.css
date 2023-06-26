@@ -305,14 +305,16 @@ figure {
     gap: 11px;
 }
 
-.catalog__button:hover {
-    background: #222222;
-}
-
 .catalog__button {
     font-weight: 400;
-    size: 14px;
+    font-size: 14px;
+    /* resize: 14px; */
+    /* size: 14px; */
     line-height: 16.8px;
+}
+
+.catalog__button:hover {
+    background: #222222;
 }
 
 /* Выезжающий блок со ссылкой (кнопкой) */
