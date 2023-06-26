@@ -463,13 +463,13 @@ figure {
   font-size: 14px;
   line-height: 16.8px;
   text-align: center;
-  color: #E5E5E5;
+  color: #FBFBFB;
   background: #F16D7F;
   transition: 0.4;
 }
 .form__market .button__form:active {
   color: #F16D7F;
-  background: #FFFFFF;
+  background: #FBFBFB;
 }
 
 .contacts {
