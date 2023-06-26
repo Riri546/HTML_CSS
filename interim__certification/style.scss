@@ -125,7 +125,7 @@ figure {
 .top__info {
     @extend %flex-centr;
     gap: 64px;
-    background: $colorTextContent;
+    background: #F1E4E6;
 
     .top__content {
         @extend %flex-centr;
@@ -164,4 +164,47 @@ figure {
     padding-bottom: 105px;
     @extend %grid-stocks;
     background: $colorTextContent;
+
+    .item {
+        position: relative;
+        transition: 1.2s;
+
+        .item:hover {
+            transform: scale(1.1);
+        }
+
+        .img__sale {
+            width: 100%;
+        }
+        
+        .sale__text__women {
+            position: absolute;
+            top: 105px;
+            left: 103px;
+        }
+        
+        .sale__text__men {
+            position: absolute;
+            top: 105px;
+            left: 125px;
+        }
+        
+        .sale__text__kids {
+            position: absolute;
+            top: 105px;
+            left: 123px;
+        }
+        
+        .sale__botom__text {
+            position: absolute;
+            top: 65px;
+            left: 492px;
+        }
+
+        .item4 {
+            padding-top: 21px;
+            grid-column: 1/-1;
+        }
+    }
 }
+

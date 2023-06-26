@@ -133,7 +133,7 @@ figure {
 
 .top__info {
   gap: 64px;
-  background: #FBFBFB;
+  background: #F1E4E6;
 }
 .top__info .top__content {
   gap: 16px;
@@ -165,4 +165,38 @@ figure {
   padding-top: 65px;
   padding-bottom: 105px;
   background: #FBFBFB;
+}
+.stocks .item {
+  position: relative;
+  transition: 1.2s;
+}
+.stocks .item .item:hover {
+  transform: scale(1.1);
+}
+.stocks .item .img__sale {
+  width: 100%;
+}
+.stocks .item .sale__text__women {
+  position: absolute;
+  top: 105px;
+  left: 103px;
+}
+.stocks .item .sale__text__men {
+  position: absolute;
+  top: 105px;
+  left: 125px;
+}
+.stocks .item .sale__text__kids {
+  position: absolute;
+  top: 105px;
+  left: 123px;
+}
+.stocks .item .sale__botom__text {
+  position: absolute;
+  top: 65px;
+  left: 492px;
+}
+.stocks .item .item4 {
+  padding-top: 21px;
+  grid-column: 1/-1;
 }/*# sourceMappingURL=style.css.map */
