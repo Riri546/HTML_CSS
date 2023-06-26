@@ -153,4 +153,33 @@ figure {
 
 .top__content {
   gap: 16px;
+}
+
+.content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+
+.subtitle__pink {
+  color: #F16D7F;
+}
+
+.stocks {
+  padding-top: 65px;
+  padding-bottom: 105px;
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: center;
+  background: #E5E5E5;
 }/*# sourceMappingURL=style.css.map */

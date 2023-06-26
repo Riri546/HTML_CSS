@@ -98,8 +98,8 @@ figure {
     padding-left: 32px;
     font-style: normal;
     font-weight: $weightBold;
-    font-size: 14px;
-    line-height: 16.8px;
+    font-size: $sizeSmall;
+    line-height: $lineHeight;
     color: #000000;
 }
 
@@ -108,7 +108,7 @@ figure {
     font-style: normal;
     font-weight: $weightRegular;
     font-size: $sizeSmall;
-    line-height: $line-height;
+    line-height: $lineHeight;
     color: $colorSelectStyle;
 }
 
@@ -117,7 +117,7 @@ figure {
     font-style: normal;
     font-weight: $weightRegular;
     font-size: $sizeSmall;
-    line-height: $line-height;
+    line-height: $lineHeight;
     color: $colorSubtextContent;
 }
 
@@ -138,4 +138,32 @@ figure {
 .top__content {
     @extend %flex-centr;
     gap: 16px;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: $weightBold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.subtitle__pink {
+    color: #F16D7F;
+}
+
+.stocks {
+    padding-top: 65px;
+    padding-bottom: 105px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    column-gap: 30px;
+    justify-content: center;
+    background: #E5E5E5;
 }
