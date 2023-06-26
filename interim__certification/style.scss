@@ -29,11 +29,7 @@ figure {
 }
 
 .head {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    @extend %flex-centr;
     padding: 18px 240px 19px 231px;
     background: $colorContent;
 }
