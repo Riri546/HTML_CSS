@@ -534,9 +534,9 @@ figure {
     }
 }
 
- /* Стили для планшета */
+/* Стили для планшета */
 @media (max-width: 1024px) {
-   
+
     .head {
         padding: 18px 32px;
     }
@@ -550,11 +550,11 @@ figure {
     }
 
     .search__menu {
-        display: none;
+        display: $displayNone;
     }
 
     .top__info {
-        justify-content: center;
+        justify-content: $justifyContentCenter;
     }
 
     .top__info__img {
@@ -651,15 +651,15 @@ figure {
     }
 
     .account {
-        display: none;
+        display: $displayNone;
     }
 
     .basket {
-        display: none;
+        display: $displayNone;
     }
 
     .top__info {
-        justify-content: center;
+        justify-content: $justifyContentCenter;
     }
 
     .top__content {
@@ -669,7 +669,7 @@ figure {
     }
 
     .top__info__img {
-        display: none;
+        display: $displayNone;
     }
 
     .rectangle {
@@ -710,7 +710,7 @@ figure {
     }
 
     .item4 {
-        display: none;
+        display: $displayNone;
     }
 
     .catalog {
@@ -748,6 +748,7 @@ figure {
     }
 }
 
+/* Стили для маленького телефона */
 @media (max-width: 321px) {
     .stocks {
         grid-template-columns: 320px;

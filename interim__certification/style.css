@@ -671,6 +671,7 @@ figure {
     flex-wrap: wrap;
   }
 }
+/* Стили для маленького телефона */
 @media (max-width: 321px) {
   .stocks {
     grid-template-columns: 320px;
