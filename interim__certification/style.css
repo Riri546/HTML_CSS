@@ -45,6 +45,13 @@
   align-items: flex-start;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -473,13 +480,9 @@ figure {
 }
 
 .contacts {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #222224;
+  background: #222222;
 }
 
 .contacts__text {

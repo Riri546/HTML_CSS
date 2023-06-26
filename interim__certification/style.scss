@@ -511,19 +511,11 @@ figure {
     }
 }
 
-
-
-
-
-
 .contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    @extend %flex-messeng;
     padding-top: 30px;
     padding-bottom: 30px;
-    background: #222224;
+    background: $colorContent;
 }
 
 .contacts__text {
