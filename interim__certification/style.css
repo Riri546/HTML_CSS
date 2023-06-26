@@ -18,6 +18,14 @@
   align-items: center;
 }
 
+.stocks {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -176,10 +184,5 @@ figure {
 .stocks {
   padding-top: 65px;
   padding-bottom: 105px;
-  display: grid;
-  grid-template-columns: repeat(3, 360px);
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  justify-content: center;
-  background: #E5E5E5;
+  background: #FBFBFB;
 }/*# sourceMappingURL=style.css.map */

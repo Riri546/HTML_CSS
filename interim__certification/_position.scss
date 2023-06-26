@@ -17,3 +17,10 @@
     flex-direction: row;
     align-items: center;
 }
+
+%grid-stocks{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    column-gap: 30px;
+    justify-content: center;
+}

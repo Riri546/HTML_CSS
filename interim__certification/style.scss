@@ -151,19 +151,16 @@ figure {
     font-weight: $weightBold;
     font-size: 32px;
     line-height: 38px;
-    color: #222222;
+    color: $colorContent;
 }
 
 .subtitle__pink {
-    color: #F16D7F;
+    color: $colorSelectStyle;
 }
 
 .stocks {
     padding-top: 65px;
     padding-bottom: 105px;
-    display: grid;
-    grid-template-columns: repeat(3, 360px);
-    column-gap: 30px;
-    justify-content: center;
-    background: #E5E5E5;
+    @extend %grid-stocks;
+    background: $colorTextContent;
 }
