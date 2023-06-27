@@ -269,9 +269,6 @@ figure {
   /* Заголовок, текст и ссылка */
   /* Выезжающий блок со ссылкой (кнопкой) */
 }
-.products .wite {
-  background: #FBFBFB;
-}
 .products .featured__title {
   font-style: normal;
   font-weight: 400;
@@ -400,6 +397,10 @@ figure {
 .products .button:hover {
   color: #E5E5E5;
   background: #F16D7F;
+}
+
+.white {
+  background: #FBFBFB;
 }
 
 .foot {

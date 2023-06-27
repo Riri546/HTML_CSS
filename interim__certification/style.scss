@@ -229,10 +229,6 @@ figure {
 .products {
     background: $colorCatalog;
 
-    .wite{
-        background: $colorTextContent;
-    }
-
     .featured {
         @extend %flex-center-column;
     }
@@ -391,6 +387,10 @@ figure {
         color: $colorCatalog;
         background: $colorSelectStyle;
     }
+}
+
+.white{
+    background: $colorTextContent;
 }
 
 .foot {
