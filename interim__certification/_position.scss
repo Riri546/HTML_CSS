@@ -3,6 +3,12 @@
     padding-right: calc(50% - $widthSite/2);
 }
 
+%flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 %flex-centr-head {
     display: flex;
     flex-direction: row;
@@ -16,7 +22,7 @@
     align-items: center;
 }
 
-%flex-justify-content {
+%flex-justify-center {
     display: flex;
     justify-content: center;
 }
@@ -60,3 +66,4 @@
     justify-content: space-around;
     align-items: center;
 }
+

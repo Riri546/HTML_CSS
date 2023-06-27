@@ -565,8 +565,18 @@ figure {
 
 .content{
     @extend %center;
-    @extend %flex-align-items;
+    @extend %flex-justify-between;
     background: #F7F7F7;
+
+    .arrows:hover~ .arrows__color{
+        fill: $colorSelectStyle;
+    }
+
+    .arrows__color:hover{
+        fill: $colorSelectStyle;
+    }
+
+
 }
 
 /* Стили для планшета */

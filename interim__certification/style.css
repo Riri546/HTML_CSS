@@ -4,6 +4,12 @@
   padding-right: calc(50% - 570px);
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .subhead, .head {
   display: flex;
   flex-direction: row;
@@ -12,7 +18,7 @@
   justify-content: space-between;
 }
 
-.content, .form__market .button__form, .head .header {
+.form__market .button__form, .head .header {
   display: flex;
   align-items: center;
 }
@@ -529,6 +535,12 @@ figure {
 
 .content {
   background: #F7F7F7;
+}
+.content .arrows:hover ~ .arrows__color {
+  fill: #F16D7F;
+}
+.content .arrows__color:hover {
+  fill: #F16D7F;
 }
 
 /* Стили для планшета */
