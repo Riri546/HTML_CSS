@@ -610,15 +610,24 @@ figure {
 
     .price__description{
         padding-top: 33px;
+        padding-bottom: 65px;
         font-weight: $weightLight;
         font-size: 24px;
         line-height: 28.8px;
         color: $colorSelectStyle;
     }
-
-    .gray__stripe{
+    
+    .product__link{
         padding-top: 65px;
-        padding-bottom: 65px;
+    }
+
+    .link__description{
+        display: flex;
+        gap: 9px;
+        font-weight: $weightRegular;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSubtextContent;
     }
 
 

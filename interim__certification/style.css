@@ -571,14 +571,22 @@ figure {
 }
 .product__description .price__description {
   padding-top: 33px;
+  padding-bottom: 65px;
   font-weight: 300;
   font-size: 24px;
   line-height: 28.8px;
   color: #F16D7F;
 }
-.product__description .gray__stripe {
+.product__description .product__link {
   padding-top: 65px;
-  padding-bottom: 65px;
+}
+.product__description .link__description {
+  display: flex;
+  gap: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
 }
 
 /* Стили для планшета */
