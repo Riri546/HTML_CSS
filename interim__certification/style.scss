@@ -331,7 +331,7 @@ figure {
         background: $colorTextContent;
     }
 
-    .gray{
+    .gray {
         background: #F8F8F8;
     }
 
@@ -389,7 +389,7 @@ figure {
     }
 }
 
-.white{
+.white {
     background: $colorTextContent;
 }
 
@@ -595,12 +595,8 @@ figure {
 }
 
 .product__description {
-    @extend %center;
-    @extend %flex-justify-center-column;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    @extend %flex-justify-center;
     background: #F7F7F7;
-    // background: $colorTextContent;
 
     .subtitle__description {
         padding-bottom: 12px;
@@ -680,13 +676,16 @@ figure {
     }
 }
 
-
-.decoration{
+.decoration {
+    @extend %center;
+    @extend %flex-justify-center-column;
+    padding-top: 65px;
+    padding-bottom: 65px;
     width: 1140px;
     border: 1px solid $colorTextContent;
     background: $colorTextContent;
-     
-    
+
+
 }
 
 
