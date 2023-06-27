@@ -159,7 +159,7 @@ figure {
   color: #5D5D5D;
 }
 .head .header .head__menu {
-  transition: 0.4;
+  transition: 0.4s;
 }
 .head .header .head__menu:hover {
   fill: #F16D7F;
@@ -314,7 +314,7 @@ figure {
   color: #FBFBFB;
   border: 1px solid #FBFBFB;
   margin: 0 auto;
-  transition: all 0.4 ease-in-out;
+  transition: all 0.4s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +344,7 @@ figure {
   opacity: 0;
   background-color: rgba(58, 56, 56, 0.8);
   /* Фон блока при наведении */
-  transition: all 0.4 ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .products .hover-effect-scale li:hover div {
   opacity: 1;
@@ -502,7 +502,7 @@ figure {
   text-align: center;
   color: #FBFBFB;
   background: #F16D7F;
-  transition: 0.4;
+  transition: 0.4s;
 }
 .form__market .button__form:active {
   color: #F16D7F;
@@ -522,7 +522,7 @@ figure {
   color: #FBFBFB;
 }
 .contacts .icon__messenger {
-  transition: all 0.4;
+  transition: all 0.4s;
 }
 .contacts .icon__messenger:hover {
   fill: #F16D7F;
@@ -555,7 +555,6 @@ figure {
 
 .content {
   background: #F7F7F7;
-  transition: all 1s;
 }
 .content .arrows {
   transition: all 0.4s;
@@ -563,12 +562,10 @@ figure {
 .content .arrows__color {
   transition: all 0.4s;
 }
-
-.arrows:hover ~ .arrows__color {
+.content .arrows:hover ~ .arrows__color {
   fill: #F16D7F;
 }
-
-.arrows:active {
+.content .arrows:active {
   fill: #898989;
 }
 
@@ -630,7 +627,7 @@ figure {
   line-height: 19px;
   color: #F16D7F;
   background: #FBFBFB;
-  transition: all 0.4;
+  transition: all 0.4s;
 }
 .product__description .product__button .button:hover {
   border: 1px solid #FBFBFB;
