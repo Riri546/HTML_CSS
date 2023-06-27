@@ -566,7 +566,7 @@ figure {
 .product__description {
   padding-top: 65px;
   padding-bottom: 65px;
-  background: #FBFBFB;
+  background: #F7F7F7;
 }
 .product__description .subtitle__description {
   padding-bottom: 12px;
@@ -632,6 +632,12 @@ figure {
 }
 .product__description .product__button .button:hover .img__button {
   fill: #FBFBFB;
+}
+
+.decoration {
+  width: 1140px;
+  border: 1px solid #FBFBFB;
+  background: #FBFBFB;
 }
 
 /* Стили для планшета */

@@ -574,8 +574,7 @@ figure {
 .content {
     @extend %center;
     @extend %flex-justify-between;
-    background: #F7F7F7
-    ;
+    background: #F7F7F7;
 
     .arrows {
         transition: all $transitionSelectSite;
@@ -600,7 +599,8 @@ figure {
     @extend %flex-justify-center-column;
     padding-top: 65px;
     padding-bottom: 65px;
-    background: $colorTextContent;
+    background: #F7F7F7;
+    // background: $colorTextContent;
 
     .subtitle__description {
         padding-bottom: 12px;
@@ -680,6 +680,14 @@ figure {
     }
 }
 
+
+.decoration{
+    width: 1140px;
+    border: 1px solid $colorTextContent;
+    background: $colorTextContent;
+     
+    
+}
 
 
 
