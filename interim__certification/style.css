@@ -498,6 +498,30 @@ figure {
   fill: #F16D7F;
 }
 
+.subhead {
+  background: #FBFBFB;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.subhead .title__subhead {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F16D7F;
+}
+.subhead .breadcrumbs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+}
+.subhead .breadcrumbs__pink {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #F16D7F;
+}
+
 /* Стили для планшета */
 @media (max-width: 1024px) {
   .head {

@@ -534,6 +534,33 @@ figure {
     }
 }
 
+.subhead {
+    background: $colorTextContent;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .title__subhead {
+        font-weight: $weightRegular;
+        font-size: 24px;
+        line-height: 28.8px;
+        color: $colorSelectStyle;
+    }
+
+    .breadcrumbs {
+        font-weight: $weightRegular;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSubtextContent;
+    }
+
+    .breadcrumbs__pink {
+        font-weight: $weightBold;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSelectStyle;
+    }
+}
+
 /* Стили для планшета */
 @media (max-width: 1024px) {
 
