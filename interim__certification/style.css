@@ -588,6 +588,15 @@ figure {
   line-height: 16.8px;
   color: #5D5D5D;
 }
+.product__description .product__button {
+  padding-top: 49px;
+}
+.product__description .product__button .button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+}
 
 /* Стили для планшета */
 @media (max-width: 1024px) {

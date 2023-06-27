@@ -563,42 +563,42 @@ figure {
     }
 }
 
-.content{
+.content {
     @extend %center;
     @extend %flex-justify-between;
     background: #F7F7F7;
 
-    .arrows:hover ~ .arrows__color {
+    .arrows:hover~.arrows__color {
         fill: $colorSelectStyle;
     }
 
-    .arrows:active  {
+    .arrows:active {
         fill: #898989;
     }
 }
 
-.product__description{
+.product__description {
     @extend %center;
     padding-top: 65px;
     padding-bottom: 65px;
-    
+
     background: $colorTextContent;
 
-    .subtitle__description{
+    .subtitle__description {
         font-weight: $weightLight;
         font-size: $sizeSmall;
         line-height: $lineHeight;
         color: $colorSelectStyle;
     }
 
-    .title__description{
+    .title__description {
         font-weight: $weightLight;
         font-size: 18px;
         line-height: 21.6px;
         color: $colorSubtextContent;
     }
 
-    .text__description{
+    .text__description {
         padding-top: 49px;
         max-width: 555px;
         font-weight: $weightLight;
@@ -608,7 +608,7 @@ figure {
         text-align: center;
     }
 
-    .price__description{
+    .price__description {
         padding-top: 33px;
         padding-bottom: 65px;
         font-weight: $weightLight;
@@ -616,18 +616,29 @@ figure {
         line-height: 28.8px;
         color: $colorSelectStyle;
     }
-    
-    .product__link{
+
+    .product__link {
         padding-top: 65px;
     }
 
-    .link__description{
+    .link__description {
         display: flex;
         gap: 9px;
         font-weight: $weightRegular;
         font-size: $sizeSmall;
         line-height: $lineHeight;
         color: $colorSubtextContent;
+    }
+
+    .product__button {
+        padding-top: 49px;
+
+        .button {
+            font-weight: $weightRegular;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorSubtextContent;
+        }
     }
 
 
