@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.content, .subhead {
+.product__description, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -539,8 +539,42 @@ figure {
 .content .arrows:hover ~ .arrows__color {
   fill: #F16D7F;
 }
-.content .arrows__color:hover {
-  fill: #F16D7F;
+.content .arrows:active {
+  fill: #898989;
+}
+
+.product__description {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background: #FBFBFB;
+}
+.product__description .subtitle__description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #F16D7F;
+}
+.product__description .title__description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #5D5D5D;
+}
+.product__description .text__description {
+  padding-top: 49px;
+  max-width: 555px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+  text-align: center;
+}
+.product__description .price__description {
+  padding-top: 33px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F16D7F;
 }
 
 /* Стили для планшета */
