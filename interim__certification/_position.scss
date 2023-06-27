@@ -1,3 +1,8 @@
+%center{
+    padding-left: calc(50% - $widthSite/2);
+    padding-right: calc(50% - $widthSite/2);
+}
+
 %flex-centr-head {
     display: flex;
     flex-direction: row;

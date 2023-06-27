@@ -1,5 +1,10 @@
 @charset "UTF-8";
-.head {
+.subhead {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.subhead, .head {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -499,9 +504,9 @@ figure {
 }
 
 .subhead {
-  background: #FBFBFB;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #F8F3F4;
 }
 .subhead .title__subhead {
   font-weight: 400;
