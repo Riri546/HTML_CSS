@@ -229,6 +229,10 @@ figure {
 .products {
     background: $colorCatalog;
 
+    .wite{
+        background: $colorTextContent;
+    }
+
     .featured {
         @extend %flex-center-column;
     }
@@ -329,6 +333,10 @@ figure {
         padding: 24px 16px;
         gap: 16px;
         background: $colorTextContent;
+    }
+
+    .gray{
+        background: #F8F8F8;
     }
 
     .name {
@@ -566,14 +574,15 @@ figure {
 .content {
     @extend %center;
     @extend %flex-justify-between;
-    background: #F7F7F7;
+    background: #F7F7F7
+    ;
 
     .arrows {
-        transition: $transitionSelectSite;
+        transition: all $transitionSelectSite;
     }
 
     .arrows__color {
-        transition: $transitionSelectSite;
+        transition: all $transitionSelectSite;
 
     }
 
@@ -643,7 +652,6 @@ figure {
         }
     }
 
-
     .product__button {
         padding-top: 49px;
 
@@ -657,8 +665,7 @@ figure {
             line-height: $lineHeightAverage;
             color: $colorSelectStyle;
             background: $colorTextContent;
-            transition: $transitionSelectSite;
-
+            transition: all $transitionSelectSite;
         }
 
         .button:hover {
@@ -671,9 +678,11 @@ figure {
             }
         }
     }
-
-
 }
+
+
+
+
 
 /* Стили для планшета */
 @media (max-width: 1024px) {
