@@ -1,4 +1,4 @@
-%center{
+%center {
     padding-left: calc(50% - $widthSite/2);
     padding-right: calc(50% - $widthSite/2);
 }
@@ -14,6 +14,11 @@
 %flex-align-items {
     display: flex;
     align-items: center;
+}
+
+%flex-justify-content {
+    display: flex;
+    justify-content: center;
 }
 
 %flex-centr {

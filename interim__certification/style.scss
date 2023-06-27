@@ -563,6 +563,12 @@ figure {
     }
 }
 
+.content{
+    @extend %center;
+    @extend %flex-align-items;
+    background: #F7F7F7;
+}
+
 /* Стили для планшета */
 @media (max-width: 1024px) {
 

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.subhead {
+.content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.form__market .button__form, .head .header {
+.content, .form__market .button__form, .head .header {
   display: flex;
   align-items: center;
 }
@@ -525,6 +525,10 @@ figure {
   font-size: 14px;
   line-height: 16.8px;
   color: #F16D7F;
+}
+
+.content {
+  background: #F7F7F7;
 }
 
 /* Стили для планшета */
