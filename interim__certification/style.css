@@ -576,6 +576,10 @@ figure {
   line-height: 28.8px;
   color: #F16D7F;
 }
+.product__description .gray__stripe {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
 
 /* Стили для планшета */
 @media (max-width: 1024px) {
