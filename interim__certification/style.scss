@@ -569,29 +569,32 @@ figure {
         line-height: $lineHeight;
         color: $colorSelectStyle;
     }
+
+    transition: all 1s;
 }
 
 .content {
     @extend %center;
     @extend %flex-justify-between;
     background: #F7F7F7;
+    transition: all 1s;
 
     .arrows {
-        transition: all $transitionSelectSite;
+        transition: all .4s;
     }
 
     .arrows__color {
-        transition: all $transitionSelectSite;
-
+        transition: all 0.4s;
     }
 
-    .arrows:hover~.arrows__color {
-        fill: $colorSelectStyle;
-    }
+}
 
-    .arrows:active {
-        fill: #898989;
-    }
+.arrows:hover~.arrows__color {
+    fill: $colorSelectStyle;
+}
+
+.arrows:active {
+    fill: #898989;
 }
 
 .product__description {

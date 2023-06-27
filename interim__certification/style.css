@@ -532,6 +532,7 @@ figure {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #F8F3F4;
+  transition: all 1s;
 }
 .subhead .title__subhead {
   font-weight: 400;
@@ -554,17 +555,20 @@ figure {
 
 .content {
   background: #F7F7F7;
+  transition: all 1s;
 }
 .content .arrows {
-  transition: all 0.4;
+  transition: all 0.4s;
 }
 .content .arrows__color {
-  transition: all 0.4;
+  transition: all 0.4s;
 }
-.content .arrows:hover ~ .arrows__color {
+
+.arrows:hover ~ .arrows__color {
   fill: #F16D7F;
 }
-.content .arrows:active {
+
+.arrows:active {
   fill: #898989;
 }
 
