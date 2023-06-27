@@ -578,13 +578,15 @@ figure {
 }
 
 .product__description {
+    max-width: 1140px;
     @extend %center;
+    @extend %flex-justify-center-column;
     padding-top: 65px;
     padding-bottom: 65px;
-
     background: $colorTextContent;
 
     .subtitle__description {
+        padding-bottom: 12px;
         font-weight: $weightLight;
         font-size: $sizeSmall;
         line-height: $lineHeight;
@@ -592,6 +594,7 @@ figure {
     }
 
     .title__description {
+        padding-top: 12px;
         font-weight: $weightLight;
         font-size: 18px;
         line-height: 21.6px;
