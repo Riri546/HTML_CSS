@@ -619,25 +619,25 @@ figure {
 
     .product__link {
         padding-top: 65px;
+        display: flex;
+        gap: 23px;
+
+        .link__description {
+            @extend %flex-align-items;
+            gap: 9px;
+            font-weight: $weightRegular;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorSubtextContent;
+        }
     }
 
-    .link__description {
-        display: flex;
-        gap: 9px;
-        font-weight: $weightRegular;
-        font-size: $sizeSmall;
-        line-height: $lineHeight;
-        color: $colorSubtextContent;
-    }
 
     .product__button {
         padding-top: 49px;
 
         .button {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            flex-wrap: wrap;
+            @extend %flex-centr;
             gap: 23px;
             border: 1px solid $colorSelectStyle;
             padding: 15px 57px 9px 24px;
