@@ -568,6 +568,15 @@ figure {
     @extend %flex-justify-between;
     background: #F7F7F7;
 
+    .arrows {
+        transition: $transitionSelectSite;
+    }
+
+    .arrows__color {
+        transition: $transitionSelectSite;
+
+    }
+
     .arrows:hover~.arrows__color {
         fill: $colorSelectStyle;
     }
@@ -578,7 +587,6 @@ figure {
 }
 
 .product__description {
-    max-width: 1140px;
     @extend %center;
     @extend %flex-justify-center-column;
     padding-top: 65px;
@@ -649,6 +657,18 @@ figure {
             line-height: $lineHeightAverage;
             color: $colorSelectStyle;
             background: $colorTextContent;
+            transition: $transitionSelectSite;
+
+        }
+
+        .button:hover {
+            border: 1px solid $colorTextContent;
+            color: $colorTextContent;
+            background: $colorSelectStyle;
+
+            .img__button {
+                fill: $colorTextContent;
+            }
         }
     }
 

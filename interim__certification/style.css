@@ -543,6 +543,12 @@ figure {
 .content {
   background: #F7F7F7;
 }
+.content .arrows {
+  transition: 0.4;
+}
+.content .arrows__color {
+  transition: 0.4;
+}
 .content .arrows:hover ~ .arrows__color {
   fill: #F16D7F;
 }
@@ -551,7 +557,6 @@ figure {
 }
 
 .product__description {
-  max-width: 1140px;
   padding-top: 65px;
   padding-bottom: 65px;
   background: #FBFBFB;
@@ -611,6 +616,15 @@ figure {
   line-height: 19px;
   color: #F16D7F;
   background: #FBFBFB;
+  transition: 0.4;
+}
+.product__description .product__button .button:hover {
+  border: 1px solid #FBFBFB;
+  color: #FBFBFB;
+  background: #F16D7F;
+}
+.product__description .product__button .button:hover .img__button {
+  fill: #FBFBFB;
 }
 
 /* Стили для планшета */
