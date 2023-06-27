@@ -592,10 +592,18 @@ figure {
   padding-top: 49px;
 }
 .product__description .product__button .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 23px;
+  border: 1px solid #F16D7F;
+  padding: 15px 57px 9px 24px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #5D5D5D;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+  background: #FBFBFB;
 }
 
 /* Стили для планшета */

@@ -634,10 +634,18 @@ figure {
         padding-top: 49px;
 
         .button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 23px;
+            border: 1px solid $colorSelectStyle;
+            padding: 15px 57px 9px 24px;
             font-weight: $weightRegular;
-            font-size: $sizeSmall;
-            line-height: $lineHeight;
-            color: $colorSubtextContent;
+            font-size: $sizeAverage;
+            line-height: $lineHeightAverage;
+            color: $colorSelectStyle;
+            background: $colorTextContent;
         }
     }
 
