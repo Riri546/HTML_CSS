@@ -10,6 +10,16 @@
     }
 
     .breadcrumbs{
+        // font-weight: $weightRegular;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSelectStyle;
+    }
 
+    .breadcrumbs__pink{
+        font-weight: $weightBold;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSelectStyle;
     }
 }
