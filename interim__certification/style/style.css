@@ -193,22 +193,26 @@
 }
 
 .catalog__navigation {
+  padding-bottom: 96px;
   background: #FBFBFB;
 }
 .catalog__navigation .navigation {
+  padding: 13px 15px;
   max-width: 283px;
   border: 1px solid #E5E5E5;
+  border-radius: 5px;
 }
 .catalog__navigation .navigation .navigation__number {
-  font-size: #E5E5E5;
+  text-decoration: none;
   font-style: normal;
-  font-weight: 300;
   line-height: normal;
-  color: #F16D7F;
+  font-size: 16px;
+  font-weight: 300;
+  color: #E5E5E5;
   transition: 0.4s;
 }
 .catalog__navigation .navigation .navigation__number:hover {
-  font-size: 16px;
+  color: #F16D7F;
 }
 
 * {

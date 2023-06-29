@@ -1,22 +1,30 @@
 .catalog__navigation {
     @extend %center;
+    padding-bottom: 96px;
     background: $colorTextContent;
 
     .navigation {
+        padding: 13px 15px;
         max-width: 283px;
         border: 1px solid $colorCatalog;
+        border-radius: 5px;
 
         .navigation__number {
-            font-size: $colorCatalog;
+            text-decoration: none;
             font-style: normal;
-            font-weight: $weightLight;
             line-height: normal;
-            color: $colorSelectStyle;
+            font-size: $sizeAverage;
+            font-weight: $weightLight;
+            color: $colorCatalog;
             transition: $transitionSelectSite;
         }
 
         .navigation__number:hover {
-            font-size: $sizeAverage;
+            color: $colorSelectStyle;
         }
+
+        // .navigation__button{
+        //     padding-left: 17px;
+        // }
     }
 }
