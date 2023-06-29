@@ -15,7 +15,7 @@
         border: 1px solid $colorCatalog;
         border-radius: 5px;
 
-        .navigation__number {
+        &__number {
             padding-left: 8px;
             padding-right: 8px;
             text-decoration: none;
@@ -27,11 +27,11 @@
             transition: $transitionSelectSite;
         }
 
-        .navigation__number:hover {
+        &__number:hover {
             color: $colorSelectStyle;
         }
 
-        .navigation__button:active {
+        &__button:active {
             fill: $colorSubtextContent;
         }
     }
