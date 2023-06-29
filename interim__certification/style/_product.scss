@@ -53,7 +53,7 @@
     }
 }
 
-.product__description {
+.description {
     @extend %flex-justify-center;
     background: #F7F7F7;
 
@@ -67,7 +67,7 @@
         background: $colorTextContent;
     }
 
-    .subtitle__description {
+    &__subtitle {
         padding-bottom: 12px;
         font-weight: $weightLight;
         font-size: $sizeSmall;
