@@ -192,6 +192,11 @@
   fill: #FBFBFB;
 }
 
+.catalog__navigation {
+  max-width: 283px;
+  border: 1px solid #E5E5E5;
+}
+
 * {
   margin: 0;
   padding: 0;
