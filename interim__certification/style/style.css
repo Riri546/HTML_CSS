@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.catalog__navigation, .product__description .decoration, .content, .subhead {
+.catalog__navigation, .filter, .product__description .decoration, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -88,12 +88,14 @@
   color: #F16D7F;
 }
 .subhead .breadcrumbs {
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
   color: #5D5D5D;
 }
 .subhead .breadcrumbs__pink {
+  text-decoration: none;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.8px;
@@ -190,6 +192,10 @@
 }
 .product__description .product__button .button:hover .img__button {
   fill: #FBFBFB;
+}
+
+.filter {
+  background: #FBFBFB;
 }
 
 .catalog__navigation {

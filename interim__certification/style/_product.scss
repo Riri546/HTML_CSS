@@ -13,6 +13,7 @@
     }
 
     .breadcrumbs {
+        text-decoration: none;
         font-weight: $weightRegular;
         font-size: $sizeSmall;
         line-height: $lineHeight;
@@ -20,6 +21,7 @@
     }
 
     .breadcrumbs__pink {
+        text-decoration: none;
         font-weight: $weightBold;
         font-size: $sizeSmall;
         line-height: $lineHeight;
