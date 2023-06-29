@@ -83,7 +83,7 @@
         color: $colorSubtextContent;
     }
 
-    .text__description {
+    &__text {
         padding-top: 49px;
         max-width: 555px;
         font-weight: $weightLight;
@@ -93,7 +93,7 @@
         text-align: center;
     }
 
-    .price__description {
+    &__price {
         padding-top: 33px;
         padding-bottom: 65px;
         font-weight: $weightLight;
