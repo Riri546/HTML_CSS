@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.decoration, .content, .subhead {
+.product__description .decoration, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.subhead, .head {
+.head, .subhead {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 
-.product__description .product__link .link__description, .form__market .button__form, .head .header {
+.form__market .button__form, .head .header, .product__description .product__link .link__description {
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.product__description .product__button .button, .form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .product__description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -42,7 +42,7 @@
   align-items: center;
 }
 
-.decoration {
+.product__description .decoration {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,6 +73,123 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.subhead {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #F8F3F4;
+  transition: all 1s;
+}
+.subhead .title__subhead {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F16D7F;
+}
+.subhead .breadcrumbs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+}
+.subhead .breadcrumbs__pink {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #F16D7F;
+}
+
+.content {
+  background: #F7F7F7;
+}
+.content .arrows {
+  transition: all 0.4s;
+}
+.content .arrows__color {
+  transition: all 0.4s;
+}
+.content .arrows:hover ~ .arrows__color {
+  fill: #F16D7F;
+}
+.content .arrows:active {
+  fill: #898989;
+}
+
+.product__description {
+  background: #F7F7F7;
+}
+.product__description .decoration {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  width: 1140px;
+  border: 1px solid #FBFBFB;
+  background: #FBFBFB;
+}
+.product__description .subtitle__description {
+  padding-bottom: 12px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #F16D7F;
+}
+.product__description .title__description {
+  padding-top: 12px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #5D5D5D;
+}
+.product__description .text__description {
+  padding-top: 49px;
+  max-width: 555px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+  text-align: center;
+}
+.product__description .price__description {
+  padding-top: 33px;
+  padding-bottom: 65px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #F16D7F;
+}
+.product__description .product__link {
+  padding-top: 65px;
+  display: flex;
+  gap: 23px;
+}
+.product__description .product__link .link__description {
+  gap: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #5D5D5D;
+}
+.product__description .product__button {
+  padding-top: 49px;
+}
+.product__description .product__button .button {
+  gap: 23px;
+  border: 1px solid #F16D7F;
+  padding: 15px 57px 9px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+  background: #FBFBFB;
+  transition: all 0.4s;
+}
+.product__description .product__button .button:hover {
+  border: 1px solid #FBFBFB;
+  color: #FBFBFB;
+  background: #F16D7F;
+}
+.product__description .product__button .button:hover .img__button {
+  fill: #FBFBFB;
 }
 
 * {
@@ -526,124 +643,6 @@ figure {
 }
 .contacts .icon__messenger:hover {
   fill: #F16D7F;
-}
-
-.subhead {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #F8F3F4;
-  transition: all 1s;
-}
-.subhead .title__subhead {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #F16D7F;
-}
-.subhead .breadcrumbs {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #5D5D5D;
-}
-.subhead .breadcrumbs__pink {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #F16D7F;
-}
-
-.content {
-  background: #F7F7F7;
-}
-.content .arrows {
-  transition: all 0.4s;
-}
-.content .arrows__color {
-  transition: all 0.4s;
-}
-.content .arrows:hover ~ .arrows__color {
-  fill: #F16D7F;
-}
-.content .arrows:active {
-  fill: #898989;
-}
-
-.product__description {
-  background: #F7F7F7;
-}
-.product__description .subtitle__description {
-  padding-bottom: 12px;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #F16D7F;
-}
-.product__description .title__description {
-  padding-top: 12px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21.6px;
-  color: #5D5D5D;
-}
-.product__description .text__description {
-  padding-top: 49px;
-  max-width: 555px;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #5D5D5D;
-  text-align: center;
-}
-.product__description .price__description {
-  padding-top: 33px;
-  padding-bottom: 65px;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #F16D7F;
-}
-.product__description .product__link {
-  padding-top: 65px;
-  display: flex;
-  gap: 23px;
-}
-.product__description .product__link .link__description {
-  gap: 9px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.8px;
-  color: #5D5D5D;
-}
-.product__description .product__button {
-  padding-top: 49px;
-}
-.product__description .product__button .button {
-  gap: 23px;
-  border: 1px solid #F16D7F;
-  padding: 15px 57px 9px 24px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #F16D7F;
-  background: #FBFBFB;
-  transition: all 0.4s;
-}
-.product__description .product__button .button:hover {
-  border: 1px solid #FBFBFB;
-  color: #FBFBFB;
-  background: #F16D7F;
-}
-.product__description .product__button .button:hover .img__button {
-  fill: #FBFBFB;
-}
-
-.decoration {
-  padding-top: 65px;
-  padding-bottom: 65px;
-  width: 1140px;
-  border: 1px solid #FBFBFB;
-  background: #FBFBFB;
 }
 
 /* Стили для планшета */
