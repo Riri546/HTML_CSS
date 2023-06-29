@@ -1,15 +1,18 @@
 .catalog__navigation {
     @extend %center;
+    @extend %flex-centr-head;
+    justify-content: center;
     padding-bottom: 96px;
     background: $colorTextContent;
 
     .navigation {
         padding: 13px 15px;
-        max-width: 283px;
         border: 1px solid $colorCatalog;
         border-radius: 5px;
 
         .navigation__number {
+            padding-left: 8px;
+            padding-right: 8px;
             text-decoration: none;
             font-style: normal;
             line-height: normal;
@@ -23,8 +26,8 @@
             color: $colorSelectStyle;
         }
 
-        // .navigation__button{
-        //     padding-left: 17px;
-        // }
+        .navigation__button:active {
+            fill: $colorSubtextContent;
+        }
     }
 }
