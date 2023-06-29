@@ -1,6 +1,8 @@
-.catalog__navigation{
+.catalog__navigation {
+    @extend %center;
+    background: $colorTextContent;
 
-
-    
-    
+    .navigation{
+        border: 1px solid $colorCatalog;
+    }
 }
