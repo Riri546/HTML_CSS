@@ -81,7 +81,7 @@
   background: #F8F3F4;
   transition: all 1s;
 }
-.subhead .title__subhead {
+.subhead__title {
   font-weight: 400;
   font-size: 24px;
   line-height: 28.8px;
