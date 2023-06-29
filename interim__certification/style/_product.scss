@@ -1,0 +1,144 @@
+.subhead {
+    @extend %flex-centr-head;
+    @extend %center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F8F3F4;
+
+    .title__subhead {
+        font-weight: $weightRegular;
+        font-size: 24px;
+        line-height: 28.8px;
+        color: $colorSelectStyle;
+    }
+
+    .breadcrumbs {
+        font-weight: $weightRegular;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSubtextContent;
+    }
+
+    .breadcrumbs__pink {
+        font-weight: $weightBold;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSelectStyle;
+    }
+
+    transition: all 1s;
+}
+
+.content {
+    @extend %center;
+    @extend %flex-justify-between;
+    background: #F7F7F7;
+
+    .arrows {
+        transition: all $transitionSelectSite;
+    }
+
+    .arrows__color {
+        transition: all $transitionSelectSite;
+    }
+
+    .arrows:hover~.arrows__color {
+        fill: $colorSelectStyle;
+    }
+    
+    .arrows:active {
+        fill: #898989;
+    }
+}
+
+.product__description {
+    @extend %flex-justify-center;
+    background: #F7F7F7;
+
+    .decoration {
+        @extend %center;
+        @extend %flex-justify-center-column;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        width: 1140px;
+        border: 1px solid $colorTextContent;
+        background: $colorTextContent;
+    }
+
+    .subtitle__description {
+        padding-bottom: 12px;
+        font-weight: $weightLight;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSelectStyle;
+    }
+
+    .title__description {
+        padding-top: 12px;
+        font-weight: $weightLight;
+        font-size: 18px;
+        line-height: 21.6px;
+        color: $colorSubtextContent;
+    }
+
+    .text__description {
+        padding-top: 49px;
+        max-width: 555px;
+        font-weight: $weightLight;
+        font-size: $sizeSmall;
+        line-height: $lineHeight;
+        color: $colorSubtextContent;
+        text-align: center;
+    }
+
+    .price__description {
+        padding-top: 33px;
+        padding-bottom: 65px;
+        font-weight: $weightLight;
+        font-size: 24px;
+        line-height: 28.8px;
+        color: $colorSelectStyle;
+    }
+
+    .product__link {
+        padding-top: 65px;
+        display: flex;
+        gap: 23px;
+
+        .link__description {
+            @extend %flex-align-items;
+            gap: 9px;
+            font-weight: $weightRegular;
+            font-size: $sizeSmall;
+            line-height: $lineHeight;
+            color: $colorSubtextContent;
+        }
+    }
+
+    .product__button {
+        padding-top: 49px;
+
+        .button {
+            @extend %flex-centr;
+            gap: 23px;
+            border: 1px solid $colorSelectStyle;
+            padding: 15px 57px 9px 24px;
+            font-weight: $weightRegular;
+            font-size: $sizeAverage;
+            line-height: $lineHeightAverage;
+            color: $colorSelectStyle;
+            background: $colorTextContent;
+            transition: all $transitionSelectSite;
+        }
+
+        .button:hover {
+            border: 1px solid $colorTextContent;
+            color: $colorTextContent;
+            background: $colorSelectStyle;
+
+            .img__button {
+                fill: $colorTextContent;
+            }
+        }
+    }
+}
