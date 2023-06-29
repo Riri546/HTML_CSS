@@ -1,0 +1,76 @@
+%center {
+    padding-left: calc(50% - $widthSite/2);
+    padding-right: calc(50% - $widthSite/2);
+}
+
+%flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%flex-centr-head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex-align-items {
+    display: flex;
+    align-items: center;
+}
+
+%flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+%flex-centr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+%flex-center-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+%flex-justify-center-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%grid {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+}
+
+%flex-catalog-hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+%flex-about-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+%flex-messeng {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
