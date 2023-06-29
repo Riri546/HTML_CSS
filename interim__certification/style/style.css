@@ -196,7 +196,19 @@
   background: #FBFBFB;
 }
 .catalog__navigation .navigation {
+  max-width: 283px;
   border: 1px solid #E5E5E5;
+}
+.catalog__navigation .navigation .navigation__number {
+  font-size: #E5E5E5;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #F16D7F;
+  transition: 0.4s;
+}
+.catalog__navigation .navigation .navigation__number:hover {
+  font-size: 16px;
 }
 
 * {

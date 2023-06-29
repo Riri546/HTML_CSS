@@ -2,7 +2,21 @@
     @extend %center;
     background: $colorTextContent;
 
-    .navigation{
+    .navigation {
+        max-width: 283px;
         border: 1px solid $colorCatalog;
+
+        .navigation__number {
+            font-size: $colorCatalog;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+            color: $colorSelectStyle;
+            transition: $transitionSelectSite;
+        }
+
+        .navigation__number:hover {
+            font-size: $sizeAverage;
+        }
     }
 }
