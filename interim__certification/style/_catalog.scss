@@ -1,11 +1,31 @@
-.filter__sort{
+.filter__sort {
     @extend %center;
+    height: 132px;
+    position: relative;
     background: $colorTextContent;
 
-    .filter{
-        &__summary{
+    .filter {
+        padding: 13px 16px 16px;
+        width: 360px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 39px;
+
+        &__summary {
             @extend %flex-align-items;
             gap: 11px;
+        }
+
+        &__heading {
+            color: $colorContent;
+            font-size: $sizeSmall;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        &[open] .filter__heading{
+            color: $colorSelectStyle;
         }
     }
 

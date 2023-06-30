@@ -195,10 +195,29 @@
 }
 
 .filter__sort {
+  height: 132px;
+  position: relative;
   background: #FBFBFB;
+}
+.filter__sort .filter {
+  padding: 13px 16px 16px;
+  width: 360px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 39px;
 }
 .filter__sort .filter__summary {
   gap: 11px;
+}
+.filter__sort .filter__heading {
+  color: #222222;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.filter__sort .filter[open] .filter__heading {
+  color: #F16D7F;
 }
 
 .catalog__navigation {
