@@ -49,12 +49,16 @@
             line-height: normal;
         }
 
-        &[open] .filter__head{
+        &[open] .filter__head {
             color: $colorSelectStyle;
         }
 
-        &__link{
-            
+        &__link {
+            color: $colorSubtextContent;
+            font-size: $sizeSmall;
+            font-weight: $weightRegular;
+            font-style: normal;
+            line-height: normal;
         }
     }
 }

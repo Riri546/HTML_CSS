@@ -239,6 +239,14 @@
 .filter__sort .filter[open] .filter__head {
   color: #F16D7F;
 }
+.filter__sort .filter__link {
+  color: #5D5D5D;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
 .catalog__navigation {
   justify-content: center;
   padding-bottom: 96px;
