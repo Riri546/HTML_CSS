@@ -230,11 +230,14 @@
   margin-top: 16px;
 }
 .filter__sort .filter__head {
-  color: #F16D7F;
+  color: #5D5D5D;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
+}
+.filter__sort .filter[open] .filter__head {
+  color: #F16D7F;
 }
 
 .catalog__navigation {
