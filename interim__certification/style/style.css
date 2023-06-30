@@ -503,6 +503,9 @@ figure {
        column-gap: 29px;
   row-gap: 25px;
 }
+.products .padingNone {
+  padding-top: 0px;
+}
 .products .hover-effect-scale {
   list-style: none;
   margin: 0 auto;
