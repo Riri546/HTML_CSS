@@ -1,6 +1,14 @@
-.filter{
+.filter__sort{
     @extend %center;
     background: $colorTextContent;
+
+    .filter{
+        &__summary{
+            @extend %flex-align-items;
+            gap: 11px;
+        }
+    }
+
 }
 
 .catalog__navigation {
