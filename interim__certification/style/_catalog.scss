@@ -11,7 +11,10 @@
         position: absolute;
         top: 39px;
 
-        &[open] {}
+        &[open] {
+            background: $colorTextContent;
+            box-shadow: 6px 4px 35px rgb(0, 0, 0, 0.21);
+        }
 
         &__summary {
             @extend %flex-align-items;
@@ -33,8 +36,19 @@
         &[open] .filter__button {
             fill: $colorSelectStyle;
         }
-    }
 
+        &__item {
+            margin-top: 16px;
+        }
+
+        &__head {
+            color: $colorSelectStyle;
+            font-size: $sizeSmall;
+            font-weight: $weightRegular;
+            font-style: normal;
+            line-height: normal;
+        }
+    }
 }
 
 .catalog__navigation {

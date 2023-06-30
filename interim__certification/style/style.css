@@ -206,6 +206,10 @@
   position: absolute;
   top: 39px;
 }
+.filter__sort .filter[open] {
+  background: #FBFBFB;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
 .filter__sort .filter__summary {
   gap: 11px;
 }
@@ -221,6 +225,16 @@
 }
 .filter__sort .filter[open] .filter__button {
   fill: #F16D7F;
+}
+.filter__sort .filter__item {
+  margin-top: 16px;
+}
+.filter__sort .filter__head {
+  color: #F16D7F;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
 }
 
 .catalog__navigation {
