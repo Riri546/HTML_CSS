@@ -27,6 +27,7 @@
         line-height: $lineHeight;
         color: $colorSelectStyle;
     }
+
     transition: all 1s;
 }
 
@@ -37,20 +38,21 @@
 
     .arrows {
         transition: all $transitionSelectSite;
+    }
 
-        &__color {
-            transition: all $transitionSelectSite;
-        }
+    .arrows__color {
+        transition: all $transitionSelectSite;
+    }
 
-        &:hover~&__color {
-            fill: $colorSelectStyle;
-        }
+    .arrows:hover~.arrows__color {
+        fill: $colorSelectStyle;
+    }
 
-        &:active {
-            fill: #898989;
-        }
+    .arrows:active {
+        fill: #898989;
     }
 }
+
 
 .description {
     @extend %flex-justify-center;
