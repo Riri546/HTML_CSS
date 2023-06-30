@@ -200,10 +200,10 @@
   background: #FBFBFB;
 }
 .filter__sort .filter {
+  position: absolute;
   padding: 13px 16px 16px;
   width: 360px;
   box-sizing: border-box;
-  position: absolute;
   top: 39px;
 }
 .filter__sort .filter[open] {
