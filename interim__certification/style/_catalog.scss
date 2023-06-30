@@ -11,6 +11,8 @@
         position: absolute;
         top: 39px;
 
+        &[open] {}
+
         &__summary {
             @extend %flex-align-items;
             gap: 11px;
@@ -24,8 +26,12 @@
             line-height: normal;
         }
 
-        &[open] .filter__heading{
+        &[open] .filter__heading {
             color: $colorSelectStyle;
+        }
+
+        &[open] .filter__button {
+            fill: $colorSelectStyle;
         }
     }
 

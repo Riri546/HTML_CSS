@@ -219,6 +219,9 @@
 .filter__sort .filter[open] .filter__heading {
   color: #F16D7F;
 }
+.filter__sort .filter[open] .filter__button {
+  fill: #F16D7F;
+}
 
 .catalog__navigation {
   justify-content: center;
