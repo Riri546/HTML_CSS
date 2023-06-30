@@ -8,6 +8,14 @@
     padding: $paddingNone;
 }
 
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
