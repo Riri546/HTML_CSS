@@ -111,7 +111,7 @@
 .content .arrows__color {
   transition: all 0.4s;
 }
-.content .arrows:hover ~ .content .arrows__color {
+.content .arrows:hover ~ .arrows__color {
   fill: #F16D7F;
 }
 .content .arrows:active {
