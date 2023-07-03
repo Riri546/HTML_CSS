@@ -198,17 +198,22 @@
   height: 132px;
   position: relative;
   background: #FBFBFB;
+  display: flex;
+  gap: 30px;
 }
 .filter__sort .filter {
-  position: absolute;
-  padding: 13px 16px 16px;
+  padding-top: 13px;
   width: 360px;
   box-sizing: border-box;
-  top: 39px;
+  position: relative;
+  z-index: 10;
 }
 .filter__sort .filter[open] {
   background: #FBFBFB;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.filter__sort .filter__content {
+  position: absolute;
 }
 .filter__sort .filter__summary {
   gap: 11px;
@@ -257,6 +262,11 @@
 }
 .filter__sort .filter__link:hover {
   color: #F16D7F;
+}
+.filter__sort .sort {
+  position: absolute;
+  left: 490px;
+  top: 51px;
 }
 
 .catalog__navigation {

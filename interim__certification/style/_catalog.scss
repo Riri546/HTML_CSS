@@ -3,17 +3,25 @@
     height: 132px;
     position: relative;
     background: $colorTextContent;
+    display: flex;
+    gap: $gapGrid;
+
 
     .filter {
-        position: absolute;
-        padding: 13px 16px 16px;
+        padding-top: 13px;
         width: 360px;
         box-sizing: border-box;
-        top: 39px;
+        position: relative;
+        z-index: 10;
 
         &[open] {
             background: $colorTextContent;
             box-shadow: 6px 4px 35px rgb(0, 0, 0, 0.21);
+        }
+
+        &__content{
+            position: absolute;
+
         }
 
         &__summary {
@@ -74,6 +82,12 @@
                 color: $colorSelectStyle;
             }
         }
+    }
+
+    .sort{
+        position: absolute;
+        left: 490px;
+        top: 51px;
     }
 }
 
