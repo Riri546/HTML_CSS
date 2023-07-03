@@ -1,7 +1,12 @@
 .goods {
-    // &__item {
-
-    // }
+    @extend %center;
+    padding-top: 69px;
+    
+    &__item {
+        display: flex;
+        gap: $gapGrid;
+        padding-bottom: 40px;
+    }
 
     &__img {
         width: 262px;
