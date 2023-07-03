@@ -17,10 +17,18 @@
     }
 
     &__text {
-        color: $colorSubtextContent;
+        color: #575757;
         font-size: 22px;
         font-style: normal;
         font-weight: $weightRegular;
         line-height: normal;
+    }
+
+    &__price{
+        color: $colorSelectStyle;
+    }
+
+    &__color{
+        color: #6F6E6E;
     }
 }

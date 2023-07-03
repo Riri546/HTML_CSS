@@ -353,11 +353,17 @@
   line-height: normal;
 }
 .goods__text {
-  color: #5D5D5D;
+  color: #575757;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.goods__price {
+  color: #F16D7F;
+}
+.goods__color {
+  color: #6F6E6E;
 }
 
 * {
