@@ -1,16 +1,18 @@
 .goods {
-    &__item {}
+    // &__item {
+
+    // }
 
     &__img {
         width: 262px;
     }
 
     &__title {
-        color: #222;
+        width: 262px;
+        color: $colorContent;
         font-size: 24px;
-        font-family: Lato;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $weightRegular;
         line-height: normal;
     }
 }

@@ -345,9 +345,9 @@
   width: 262px;
 }
 .goods__title {
-  color: #222;
+  width: 262px;
+  color: #222222;
   font-size: 24px;
-  font-family: Lato;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
