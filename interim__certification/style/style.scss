@@ -657,7 +657,8 @@ figure {
         padding-bottom: 140px;
         flex-direction: column;
         gap: 48px;
-        background-image: url(img/img__background__notepad.svg);
+        background-image: url(../img/img__background.svg);
+        background-size: cover;
 
     }
 
@@ -754,7 +755,8 @@ figure {
         gap: 59px;
         padding-top: 64px;
         padding-bottom: 80px;
-        background-image: url(img/img__background__modile.svg);
+        background-image: url(../img/img__background.svg);
+        background-size: cover;
         flex-direction: column;
         align-items: center;
     }
