@@ -268,7 +268,7 @@ figure {
         row-gap: 25px;
     }
 
-    .padingNone{
+    .padingNone {
         padding-top: 0px;
     }
 
@@ -454,8 +454,7 @@ figure {
     gap: 230px;
     padding-top: 97px;
     padding-bottom: 146px;
-    background-image: url(img/img__background.svg);
-
+  
     .item__form {
         @extend %flex-center-column;
     }
