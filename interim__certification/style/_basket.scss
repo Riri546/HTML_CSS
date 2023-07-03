@@ -16,6 +16,13 @@
         padding-top: 22px;
     }
 
+    &__about__title{
+        padding-bottom: 42px;
+        @extend %flex-centr ;
+        align-items: normal;
+        gap: 57px;
+    }
+
     &__title {
         width: 262px;
         color: $colorContent;

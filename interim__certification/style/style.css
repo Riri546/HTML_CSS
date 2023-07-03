@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .description .product__button .button {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .goods__about__title, .description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -354,6 +354,11 @@
 }
 .goods__about {
   padding-top: 22px;
+}
+.goods__about__title {
+  padding-bottom: 42px;
+  align-items: normal;
+  gap: 57px;
 }
 .goods__title {
   width: 262px;
