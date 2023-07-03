@@ -1,7 +1,16 @@
-.goods{
-    .goods__item{
-        .goods__img{
-           width: 262px;
-        }
+.goods {
+    &__item {}
+
+    &__img {
+        width: 262px;
+    }
+
+    &__title {
+        color: #222;
+        font-size: 24px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
