@@ -455,6 +455,7 @@ figure {
 }
 
 .top__info {
+  justify-content: center;
   gap: 64px;
   background: #F1E4E6;
 }

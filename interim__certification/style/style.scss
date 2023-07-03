@@ -133,6 +133,7 @@ figure {
 
 .top__info {
     @extend %flex-centr;
+    justify-content: center;
     gap: 64px;
     background: #F1E4E6;
 
