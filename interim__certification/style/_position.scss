@@ -54,6 +54,11 @@
     justify-content: center;
 }
 
+
+%gridTablet{
+    grid-template-columns: repeat(2, 360px);
+}
+
 %flex-catalog-hover {
     display: flex;
     justify-content: center;
