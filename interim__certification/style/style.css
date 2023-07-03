@@ -352,6 +352,9 @@
 .goods__img {
   width: 262px;
 }
+.goods__about {
+  padding-top: 22px;
+}
 .goods__title {
   width: 262px;
   color: #222222;

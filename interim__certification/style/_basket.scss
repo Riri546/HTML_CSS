@@ -1,7 +1,7 @@
 .goods {
     @extend %center;
     padding-top: 69px;
-    
+
     &__item {
         display: flex;
         gap: $gapGrid;
@@ -10,6 +10,10 @@
 
     &__img {
         width: 262px;
+    }
+
+    &__about{
+        padding-top: 22px;
     }
 
     &__title {
