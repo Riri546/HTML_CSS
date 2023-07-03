@@ -15,4 +15,12 @@
         font-weight: $weightRegular;
         line-height: normal;
     }
+
+    &__text {
+        color: $colorSubtextContent;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: $weightRegular;
+        line-height: normal;
+    }
 }
