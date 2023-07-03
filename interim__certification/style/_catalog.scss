@@ -1,6 +1,8 @@
 .filter__sort {
     @extend %center;
     height: 132px;
+    padding-top: 39px;
+    box-sizing: border-box;
     position: relative;
     background: $colorTextContent;
     display: flex;
@@ -19,14 +21,18 @@
             box-shadow: 6px 4px 35px rgb(0, 0, 0, 0.21);
         }
 
-        &__content{
+        &__content {
             position: absolute;
-
+            background-color: #fff;
+            padding: 0px 16px 16px 16px;
+            width: 360px;
+            box-sizing: border-box;
         }
 
         &__summary {
             @extend %flex-align-items;
             gap: 11px;
+            padding-left: 16px;
         }
 
         &__heading {
@@ -64,7 +70,7 @@
             color: $colorSelectStyle;
         }
 
-        &__link__box{
+        &__link__box {
             display: flex;
             flex-direction: column;
             gap: 11px;
@@ -78,13 +84,14 @@
             font-style: normal;
             line-height: normal;
 
-            &:hover{
+            &:hover {
                 color: $colorSelectStyle;
+                text-decoration: none;
             }
         }
     }
 
-    .sort{
+    .sort {
         position: absolute;
         left: 490px;
         top: 51px;

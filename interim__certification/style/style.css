@@ -196,6 +196,8 @@
 
 .filter__sort {
   height: 132px;
+  padding-top: 39px;
+  box-sizing: border-box;
   position: relative;
   background: #FBFBFB;
   display: flex;
@@ -214,9 +216,14 @@
 }
 .filter__sort .filter__content {
   position: absolute;
+  background-color: #fff;
+  padding: 0px 16px 16px 16px;
+  width: 360px;
+  box-sizing: border-box;
 }
 .filter__sort .filter__summary {
   gap: 11px;
+  padding-left: 16px;
 }
 .filter__sort .filter__heading {
   color: #222222;
@@ -262,6 +269,7 @@
 }
 .filter__sort .filter__link:hover {
   color: #F16D7F;
+  text-decoration: none;
 }
 .filter__sort .sort {
   position: absolute;
