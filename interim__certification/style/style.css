@@ -272,9 +272,7 @@
   text-decoration: none;
 }
 .filter__sort .sort {
-  position: absolute;
-  left: 490px;
-  top: 51px;
+  padding-top: 12px;
 }
 
 .catalog__navigation {
