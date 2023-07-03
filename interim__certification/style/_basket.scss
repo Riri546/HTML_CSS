@@ -47,4 +47,16 @@
     &__color{
         color: #6F6E6E;
     }
+
+    &__number{
+        padding: 1px 17px;
+        width: 44px;
+        border: 1px solid #EAEAEA;
+        color: $colorSubtextContent;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: $weightRegular;
+        line-height: normal;
+    }
+
 }

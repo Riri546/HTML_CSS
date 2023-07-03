@@ -381,6 +381,16 @@
 .goods__color {
   color: #6F6E6E;
 }
+.goods__number {
+  padding: 1px 17px;
+  width: 44px;
+  border: 1px solid #EAEAEA;
+  color: #5D5D5D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 * {
   margin: 0;
