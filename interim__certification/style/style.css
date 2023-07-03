@@ -239,7 +239,13 @@
 .filter__sort .filter .filter__item[open] .filter__head {
   color: #F16D7F;
 }
-.filter__sort .filter__link {
+.filter__sort .filter__link__box {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 24px 16px;
+}
+.filter__sort .filter__link__box__link {
   color: #5D5D5D;
   font-size: 14px;
   font-weight: 400;
