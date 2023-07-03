@@ -638,7 +638,7 @@ figure {
     .catalog {
         padding-top: 73px;
         padding-bottom: 33px;
-        @extend %gridTable;
+        grid-template-columns: repeat(2, 360px);
         column-gap: 16px;
         row-gap: 16px;
     }

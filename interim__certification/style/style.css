@@ -341,6 +341,10 @@
   fill: #5D5D5D;
 }
 
+.goods .goods__item .goods__img {
+  width: 262px;
+}
+
 * {
   margin: 0;
   padding: 0;
