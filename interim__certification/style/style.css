@@ -304,6 +304,7 @@
   top: 22px;
 }
 .filter__sort .sort__check {
+  font-family: "Roboto", sans-serif;
   color: #5D5D5D;
   font-size: 14px;
   font-family: Roboto;
@@ -355,7 +356,6 @@ summary::-webkit-details-marker {
 
 body {
   font-family: "Lato", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 
 a {
