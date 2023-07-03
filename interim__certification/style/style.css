@@ -274,10 +274,18 @@
 .filter__sort .sort {
   padding-top: 12px;
   display: flex;
-  gap: 30px;
+  gap: 18px;
+}
+.filter__sort .sort__deteils {
+  position: relative;
 }
 .filter__sort .sort__summary {
   gap: 10px;
+}
+.filter__sort .sort__check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .filter__sort .sort__heading {
   color: #5D5D5D;
@@ -287,8 +295,20 @@
   line-height: normal;
 }
 .filter__sort .sort__box {
+  position: absolute;
   background: #FFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 7px 30px 11px 9px;
+  left: -9px;
+  top: 22px;
+}
+.filter__sort .sort__check {
+  color: #5D5D5D;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .catalog__navigation {

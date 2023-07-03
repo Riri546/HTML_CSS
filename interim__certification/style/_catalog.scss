@@ -94,11 +94,21 @@
     .sort {
         padding-top: 12px;
         display: flex;
-        gap: 30px;
+        gap: 18px;
 
-        &__summary{
+        &__deteils {
+            position: relative;
+        }
+
+        &__summary {
             @extend %flex-align-items;
             gap: 10px;
+        }
+
+        &__check {
+            display: flex;
+            gap: 10px;
+            align-items: center;
         }
 
         &__heading {
@@ -109,9 +119,22 @@
             line-height: normal;
         }
 
-        &__box{
+        &__box {
+            position: absolute;
             background: $colorBackgroundWite;
             box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            padding: 7px 30px 11px 9px;
+            left: -9px;
+            top: 22px
+        }
+
+        &__check {
+            color: $colorSubtextContent;
+            font-size: $sizeSmall;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
         }
     }
 }
