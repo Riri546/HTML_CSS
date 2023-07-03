@@ -94,6 +94,11 @@
     .sort {
         padding-top: 12px;
 
+        &__summary{
+            @extend %flex-align-items;
+            gap: 10px;
+        }
+
         &__heading {
             color: $colorSubtextContent;
             font-size: $sizeSmall;
