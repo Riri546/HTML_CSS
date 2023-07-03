@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 
-.form__market .button__form, .head .header, .filter__sort .sort__summary, .filter__sort .filter__summary, .description .product__link .link__description {
+.form__market .button__form, .head .header, .filter__sort .sort__check, .filter__sort .sort__summary, .filter__sort .filter__summary, .description .product__link .link__description {
   display: flex;
   align-items: center;
 }
@@ -283,9 +283,7 @@
   gap: 10px;
 }
 .filter__sort .sort__check {
-  display: flex;
   gap: 10px;
-  align-items: center;
 }
 .filter__sort .sort__heading {
   color: #5D5D5D;
@@ -295,6 +293,9 @@
   line-height: normal;
 }
 .filter__sort .sort__box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   position: absolute;
   background: #FFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
