@@ -230,11 +230,14 @@
   margin-top: 16px;
 }
 .filter__sort .filter__head {
-  color: #5D5D5D;
+  color: #222222;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
+  padding: 8px 11px 11px 11px;
+  border-bottom: 1px solid #EBEBEB;
+  border-left: 5px solid #F16D7F;
 }
 .filter__sort .filter .filter__item[open] .filter__head {
   color: #F16D7F;
@@ -245,12 +248,15 @@
   gap: 11px;
   padding: 24px 16px;
 }
-.filter__sort .filter__link__box__link {
+.filter__sort .filter__link {
   color: #5D5D5D;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
+}
+.filter__sort .filter__link:hover {
+  color: #F16D7F;
 }
 
 .catalog__navigation {

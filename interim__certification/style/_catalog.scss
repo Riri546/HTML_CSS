@@ -42,11 +42,14 @@
         }
 
         &__head {
-            color: $colorSubtextContent;
+            color: $colorContent;
             font-size: $sizeSmall;
             font-weight: $weightRegular;
             font-style: normal;
             line-height: normal;
+            padding: 8px 11px 11px 11px;
+            border-bottom: 1px solid #EBEBEB;
+            border-left: 5px solid $colorSelectStyle;
         }
 
         .filter__item[open] .filter__head {
@@ -58,17 +61,19 @@
             flex-direction: column;
             gap: 11px;
             padding: 24px 16px;
-
-            &__link {
-                color: $colorSubtextContent;
-                font-size: $sizeSmall;
-                font-weight: $weightRegular;
-                font-style: normal;
-                line-height: normal;
-            }
         }
 
-        
+        &__link {
+            color: $colorSubtextContent;
+            font-size: $sizeSmall;
+            font-weight: $weightRegular;
+            font-style: normal;
+            line-height: normal;
+
+            &:hover{
+                color: $colorSelectStyle;
+            }
+        }
     }
 }
 
