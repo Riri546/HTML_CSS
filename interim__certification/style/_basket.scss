@@ -3,22 +3,26 @@
     padding-top: 69px;
 
     &__item {
+        width: 652px;
+        -webkit-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
+        -moz-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
+        box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
         display: flex;
         gap: $gapGrid;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     &__img {
         width: 262px;
     }
 
-    &__about{
+    &__about {
         padding-top: 22px;
     }
 
-    &__about__title{
+    &__about__title {
         padding-bottom: 42px;
-        @extend %flex-centr ;
+        @extend %flex-centr;
         align-items: normal;
         gap: 57px;
     }
@@ -32,6 +36,10 @@
         line-height: normal;
     }
 
+    &__delete:hover {
+        fill: $colorSelectStyle;
+    }
+
     &__text {
         color: #575757;
         font-size: 22px;
@@ -40,15 +48,16 @@
         line-height: normal;
     }
 
-    &__price{
+    &__price {
         color: $colorSelectStyle;
     }
 
-    &__color{
+    &__color {
         color: #6F6E6E;
     }
 
-    &__number{
+    &__number {
+        margin-left: 24px;
         padding: 1px 17px;
         width: 44px;
         border: 1px solid #EAEAEA;
