@@ -81,21 +81,44 @@
         margin-bottom: 144px;
         border: 1px solid $colorCatalog;
         padding: 17px 40px;
+        transition: all $transitionSelectSite;
+    }
+
+    .button__clear:hover{
+        background-color: $colorSelectStyle;
+        border-color: $colorSelectStyle;
+    }
+
+    .button__clear:active{
+        background-color: $colorBackgroundWite;
+        border-color: $colorCatalog;
     }
 
     .button__continue {
         margin-bottom: 144px;
         border: 1px solid $colorCatalog;
         padding: 17px 40px;
+        transition: all $transitionSelectSite;
     }
 
+    .button__continue:hover{
+        background-color: $colorSelectStyle;
+        border-color: $colorSelectStyle;
+    } 
+
+    .button__continue:active{
+        background-color: $colorBackgroundWite;
+        border-color: $colorCatalog;
+    } 
+
     &__link {
+        text-decoration: none;
         color: $colorContent;
         font-size: $sizeSmall;
         font-style: normal;
         font-weight: $weightLight;
         line-height: normal;
         margin-bottom: 144px;
+        transition: all $transitionSelectSite;
     }
-
 }

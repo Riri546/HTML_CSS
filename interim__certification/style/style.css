@@ -404,19 +404,39 @@
   margin-bottom: 144px;
   border: 1px solid #E5E5E5;
   padding: 17px 40px;
+  transition: all 0.4s;
+}
+.goods .button__clear:hover {
+  background-color: #F16D7F;
+  border-color: #F16D7F;
+}
+.goods .button__clear:active {
+  background-color: #FFF;
+  border-color: #E5E5E5;
 }
 .goods .button__continue {
   margin-bottom: 144px;
   border: 1px solid #E5E5E5;
   padding: 17px 40px;
+  transition: all 0.4s;
+}
+.goods .button__continue:hover {
+  background-color: #F16D7F;
+  border-color: #F16D7F;
+}
+.goods .button__continue:active {
+  background-color: #FFF;
+  border-color: #E5E5E5;
 }
 .goods__link {
+  text-decoration: none;
   color: #222222;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   margin-bottom: 144px;
+  transition: all 0.4s;
 }
 
 * {
