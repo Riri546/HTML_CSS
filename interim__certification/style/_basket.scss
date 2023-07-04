@@ -165,11 +165,36 @@
             width: 102px;
             padding: 11px 15px;
             border: 1px solid $colorSubtextContent;
-            color:$colorSubtextContent;
             font-size: 11px;
             font-style: normal;
             font-weight: $weightLight;
             line-height: normal;
+            transition: all $transitionSelectSite;
+        }
+
+        &__button:hover{
+            background: $colorSelectStyle;
+            border-color: $colorSelectStyle;
+        }
+
+        &__button:active{
+            background: $colorBackgroundWite;
+            border-color: $colorSubtextContent;
+        }
+
+        &__link{
+            color: $colorSubtextContent;
+            transition: all $transitionSelectSite;
+        }
+
+        &__link:hover{
+            text-decoration: none;
+            color: $colorBackgroundWite;
+        }
+
+        
+        &__link:active{
+            color: $colorSubtextContent;
         }
     }
 }

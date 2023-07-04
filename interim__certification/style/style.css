@@ -479,11 +479,30 @@
   width: 102px;
   padding: 11px 15px;
   border: 1px solid #5D5D5D;
-  color: #5D5D5D;
   font-size: 11px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  transition: all 0.4s;
+}
+.content__basket .form__button:hover {
+  background: #F16D7F;
+  border-color: #F16D7F;
+}
+.content__basket .form__button:active {
+  background: #FFF;
+  border-color: #5D5D5D;
+}
+.content__basket .form__link {
+  color: #5D5D5D;
+  transition: all 0.4s;
+}
+.content__basket .form__link:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+.content__basket .form__link:active {
+  color: #5D5D5D;
 }
 
 * {
