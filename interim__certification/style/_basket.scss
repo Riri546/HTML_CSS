@@ -80,12 +80,12 @@
         transition: all $transitionSelectSite;
     }
 
-    .button__clear:hover{
+    .button__clear:hover {
         background-color: $colorSelectStyle;
         border-color: $colorSelectStyle;
     }
 
-    .button__clear:active{
+    .button__clear:active {
         background-color: $colorBackgroundWite;
         border-color: $colorCatalog;
     }
@@ -97,15 +97,15 @@
         transition: all $transitionSelectSite;
     }
 
-    .button__continue:hover{
+    .button__continue:hover {
         background-color: $colorSelectStyle;
         border-color: $colorSelectStyle;
-    } 
+    }
 
-    .button__continue:active{
+    .button__continue:active {
         background-color: $colorBackgroundWite;
         border-color: $colorCatalog;
-    } 
+    }
 
     &__link {
         color: $colorContent;
@@ -117,13 +117,25 @@
         transition: all $transitionSelectSite;
     }
 
-    &__link:hover{
+    &__link:hover {
         color: $colorBackgroundWite;
         text-decoration: none;
     }
 
-    &__link:active{
+    &__link:active {
         color: $colorContent;
         text-decoration: none;
+    }
+}
+
+.form {
+
+    &__title {
+        color: #222;
+        font-size: 16px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
     }
 }
