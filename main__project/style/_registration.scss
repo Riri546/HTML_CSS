@@ -179,7 +179,7 @@
         }
 
         .list {
-            list-style-image: url();
+            list-style-image: square url(example.png) inside;
             padding-left: 44px;
         }
 
