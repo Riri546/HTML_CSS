@@ -16,6 +16,11 @@
             display: flex;
             gap: $gapGrid;
             margin-bottom: 40px;
+            transition: 1.2s;
+        }
+
+        &__item:hover{
+            transform: scale(1.1);
         }
 
         &__img {
@@ -47,6 +52,7 @@
         }
 
         &__text {
+            padding-bottom: 6px;
             color: #575757;
             font-size: 22px;
             font-style: normal;
