@@ -504,6 +504,21 @@
 .content__basket .form__link:active {
   color: #5D5D5D;
 }
+.content__basket .form__text {
+  color: #5D5D5D;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__basket .form .title__price {
+  color: #222;
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
 * {
   margin: 0;

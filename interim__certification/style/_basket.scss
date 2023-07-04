@@ -172,29 +172,48 @@
             transition: all $transitionSelectSite;
         }
 
-        &__button:hover{
+        &__button:hover {
             background: $colorSelectStyle;
             border-color: $colorSelectStyle;
         }
 
-        &__button:active{
+        &__button:active {
             background: $colorBackgroundWite;
             border-color: $colorSubtextContent;
         }
 
-        &__link{
+        &__link {
             color: $colorSubtextContent;
             transition: all $transitionSelectSite;
         }
 
-        &__link:hover{
+        &__link:hover {
             text-decoration: none;
             color: $colorBackgroundWite;
         }
 
-        
-        &__link:active{
+        &__link:active {
             color: $colorSubtextContent;
         }
+
+
+        &__text {
+            color: $colorSubtextContent;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
+        }
+
+        .title__price {
+            color: #222;
+            font-size: 16px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+
     }
 }
