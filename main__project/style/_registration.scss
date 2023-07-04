@@ -2,6 +2,11 @@
     @extend %center;
     padding-top: 64px;
     padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 128px;
+
 
     .form {
         &__title {
@@ -170,6 +175,10 @@
             font-style: normal;
             font-weight: $weightLight;
             line-height: normal;
+        }
+
+        .position {
+            padding-left: 44px;
         }
 
     }

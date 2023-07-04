@@ -580,6 +580,10 @@
 .registration {
   padding-top: 64px;
   padding-bottom: 96px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 128px;
 }
 .registration .form__title {
   padding-bottom: 20px;
@@ -660,6 +664,9 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.registration .information .position {
+  padding-left: 44px;
 }
 
 * {
