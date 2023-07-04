@@ -161,4 +161,16 @@
             }
         }
     }
+
+    .information {
+        &__text {
+            width: 652px;
+            color: $colorContent;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+        }
+
+    }
 }
