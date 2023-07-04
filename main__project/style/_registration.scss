@@ -1,0 +1,11 @@
+.registration {
+    .form {
+        &__title {
+            color: $colorContent;
+            font-size: $sizeAverage;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+        }
+    }
+}

@@ -577,6 +577,14 @@
   color: #FFF;
 }
 
+.registration .form__title {
+  color: #222222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
