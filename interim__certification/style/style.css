@@ -455,6 +455,7 @@
   padding-top: 113px;
 }
 .content__basket .form__title {
+  padding-bottom: 20px;
   color: #222222;
   font-size: 16px;
   font-style: normal;
@@ -462,7 +463,27 @@
   line-height: normal;
 }
 .content__basket .form__input {
+  margin-bottom: 20px;
+  padding: 14px 0px 14px 17px;
   width: 360px;
+  color: #222222;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.content__basket .form__input1 {
+  color: #B1B1B1;
+}
+.content__basket .form__button {
+  width: 102px;
+  padding: 11px 15px;
+  border: 1px solid #5D5D5D;
+  color: #5D5D5D;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 * {
