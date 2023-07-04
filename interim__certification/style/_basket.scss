@@ -1,141 +1,148 @@
-.goods {
-    @extend %center;
-    padding-top: 69px;
+.content__basket{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 130px;
 
-    &__item {
-        width: 652px;
-        -webkit-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
-        -moz-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
-        box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
-        display: flex;
-        gap: $gapGrid;
-        margin-bottom: 40px;
+    .goods {
+        @extend %center;
+        padding-top: 69px;
+    
+        &__item {
+            width: 652px;
+            -webkit-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
+            -moz-box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
+            box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
+            display: flex;
+            gap: $gapGrid;
+            margin-bottom: 40px;
+        }
+    
+        &__img {
+            width: 262px;
+        }
+    
+        &__about {
+            padding-top: 22px;
+        }
+    
+        &__about__title {
+            padding-bottom: 42px;
+            @extend %flex-centr;
+            align-items: normal;
+            gap: 57px;
+        }
+    
+        &__title {
+            width: 262px;
+            color: $colorContent;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
+        }
+    
+        &__delete:hover {
+            fill: $colorSelectStyle;
+        }
+    
+        &__text {
+            color: #575757;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
+        }
+    
+        &__price {
+            color: $colorSelectStyle;
+        }
+    
+        &__color {
+            color: #6F6E6E;
+        }
+    
+        &__number {
+            margin-left: 24px;
+            padding: 1px 17px;
+            width: 44px;
+            border: 1px solid #EAEAEA;
+            color: $colorSubtextContent;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
+        }
+    
+        &__button {
+            @extend %flex-centr;
+            gap: 192px;
+        }
+    
+        .button__clear {
+            margin-bottom: 144px;
+            border: 1px solid $colorCatalog;
+            padding: 17px 40px;
+            transition: all $transitionSelectSite;
+        }
+    
+        .button__clear:hover {
+            background-color: $colorSelectStyle;
+            border-color: $colorSelectStyle;
+        }
+    
+        .button__clear:active {
+            background-color: $colorBackgroundWite;
+            border-color: $colorCatalog;
+        }
+    
+        .button__continue {
+            margin-bottom: 144px;
+            border: 1px solid $colorCatalog;
+            padding: 17px 40px;
+            transition: all $transitionSelectSite;
+        }
+    
+        .button__continue:hover {
+            background-color: $colorSelectStyle;
+            border-color: $colorSelectStyle;
+        }
+    
+        .button__continue:active {
+            background-color: $colorBackgroundWite;
+            border-color: $colorCatalog;
+        }
+    
+        &__link {
+            color: $colorContent;
+            font-size: $sizeSmall;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+            margin-bottom: 144px;
+            transition: all $transitionSelectSite;
+        }
+    
+        &__link:hover {
+            color: $colorBackgroundWite;
+            text-decoration: none;
+        }
+    
+        &__link:active {
+            color: $colorContent;
+            text-decoration: none;
+        }
     }
-
-    &__img {
-        width: 262px;
-    }
-
-    &__about {
-        padding-top: 22px;
-    }
-
-    &__about__title {
-        padding-bottom: 42px;
-        @extend %flex-centr;
-        align-items: normal;
-        gap: 57px;
-    }
-
-    &__title {
-        width: 262px;
-        color: $colorContent;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: $weightRegular;
-        line-height: normal;
-    }
-
-    &__delete:hover {
-        fill: $colorSelectStyle;
-    }
-
-    &__text {
-        color: #575757;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: $weightRegular;
-        line-height: normal;
-    }
-
-    &__price {
-        color: $colorSelectStyle;
-    }
-
-    &__color {
-        color: #6F6E6E;
-    }
-
-    &__number {
-        margin-left: 24px;
-        padding: 1px 17px;
-        width: 44px;
-        border: 1px solid #EAEAEA;
-        color: $colorSubtextContent;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: $weightRegular;
-        line-height: normal;
-    }
-
-    &__button {
-        @extend %flex-centr;
-        gap: 192px;
-    }
-
-    .button__clear {
-        margin-bottom: 144px;
-        border: 1px solid $colorCatalog;
-        padding: 17px 40px;
-        transition: all $transitionSelectSite;
-    }
-
-    .button__clear:hover {
-        background-color: $colorSelectStyle;
-        border-color: $colorSelectStyle;
-    }
-
-    .button__clear:active {
-        background-color: $colorBackgroundWite;
-        border-color: $colorCatalog;
-    }
-
-    .button__continue {
-        margin-bottom: 144px;
-        border: 1px solid $colorCatalog;
-        padding: 17px 40px;
-        transition: all $transitionSelectSite;
-    }
-
-    .button__continue:hover {
-        background-color: $colorSelectStyle;
-        border-color: $colorSelectStyle;
-    }
-
-    .button__continue:active {
-        background-color: $colorBackgroundWite;
-        border-color: $colorCatalog;
-    }
-
-    &__link {
-        color: $colorContent;
-        font-size: $sizeSmall;
-        font-style: normal;
-        font-weight: $weightLight;
-        line-height: normal;
-        margin-bottom: 144px;
-        transition: all $transitionSelectSite;
-    }
-
-    &__link:hover {
-        color: $colorBackgroundWite;
-        text-decoration: none;
-    }
-
-    &__link:active {
-        color: $colorContent;
-        text-decoration: none;
+    
+    .form {
+    
+        &__title {
+            color: $colorContent;
+            font-size: $sizeAverage;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+        }
     }
 }
 
-.form {
-
-    &__title {
-        color: #222;
-        font-size: 16px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-    }
-}

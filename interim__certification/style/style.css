@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.goods, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
+.content__basket .goods, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .goods__button, .goods__about__title, .description .product__button .button {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -341,28 +341,34 @@
   fill: #5D5D5D;
 }
 
-.goods {
+.content__basket {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 130px;
+}
+.content__basket .goods {
   padding-top: 69px;
 }
-.goods__item {
+.content__basket .goods__item {
   width: 652px;
   box-shadow: 0px 5px 10px 2px rgba(93, 93, 93, 0.2);
   display: flex;
   gap: 30px;
   margin-bottom: 40px;
 }
-.goods__img {
+.content__basket .goods__img {
   width: 262px;
 }
-.goods__about {
+.content__basket .goods__about {
   padding-top: 22px;
 }
-.goods__about__title {
+.content__basket .goods__about__title {
   padding-bottom: 42px;
   align-items: normal;
   gap: 57px;
 }
-.goods__title {
+.content__basket .goods__title {
   width: 262px;
   color: #222222;
   font-size: 24px;
@@ -370,23 +376,23 @@
   font-weight: 400;
   line-height: normal;
 }
-.goods__delete:hover {
+.content__basket .goods__delete:hover {
   fill: #F16D7F;
 }
-.goods__text {
+.content__basket .goods__text {
   color: #575757;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.goods__price {
+.content__basket .goods__price {
   color: #F16D7F;
 }
-.goods__color {
+.content__basket .goods__color {
   color: #6F6E6E;
 }
-.goods__number {
+.content__basket .goods__number {
   margin-left: 24px;
   padding: 1px 17px;
   width: 44px;
@@ -397,38 +403,38 @@
   font-weight: 400;
   line-height: normal;
 }
-.goods__button {
+.content__basket .goods__button {
   gap: 192px;
 }
-.goods .button__clear {
+.content__basket .goods .button__clear {
   margin-bottom: 144px;
   border: 1px solid #E5E5E5;
   padding: 17px 40px;
   transition: all 0.4s;
 }
-.goods .button__clear:hover {
+.content__basket .goods .button__clear:hover {
   background-color: #F16D7F;
   border-color: #F16D7F;
 }
-.goods .button__clear:active {
+.content__basket .goods .button__clear:active {
   background-color: #FFF;
   border-color: #E5E5E5;
 }
-.goods .button__continue {
+.content__basket .goods .button__continue {
   margin-bottom: 144px;
   border: 1px solid #E5E5E5;
   padding: 17px 40px;
   transition: all 0.4s;
 }
-.goods .button__continue:hover {
+.content__basket .goods .button__continue:hover {
   background-color: #F16D7F;
   border-color: #F16D7F;
 }
-.goods .button__continue:active {
+.content__basket .goods .button__continue:active {
   background-color: #FFF;
   border-color: #E5E5E5;
 }
-.goods__link {
+.content__basket .goods__link {
   color: #222222;
   font-size: 14px;
   font-style: normal;
@@ -437,19 +443,17 @@
   margin-bottom: 144px;
   transition: all 0.4s;
 }
-.goods__link:hover {
+.content__basket .goods__link:hover {
   color: #FFF;
   text-decoration: none;
 }
-.goods__link:active {
+.content__basket .goods__link:active {
   color: #222222;
   text-decoration: none;
 }
-
-.form__title {
-  color: #222;
+.content__basket .form__title {
+  color: #222222;
   font-size: 16px;
-  font-family: Lato;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
