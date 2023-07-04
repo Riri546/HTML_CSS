@@ -169,6 +169,7 @@
 
     .information {
         &__text {
+            padding-bottom: 21px;
             width: 652px;
             color: $colorContent;
             font-size: 24px;
@@ -178,8 +179,11 @@
         }
 
         .position {
+            padding-bottom: 16px;
             padding-left: 44px;
         }
+
+        &__list {}
 
     }
 }

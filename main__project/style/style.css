@@ -658,6 +658,7 @@
   fill: #FFF;
 }
 .registration .information__text {
+  padding-bottom: 21px;
   width: 652px;
   color: #222222;
   font-size: 24px;
@@ -666,9 +667,9 @@
   line-height: normal;
 }
 .registration .information .position {
+  padding-bottom: 16px;
   padding-left: 44px;
 }
-
 * {
   margin: 0;
   padding: 0;
