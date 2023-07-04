@@ -624,6 +624,31 @@
   font-weight: 300;
   line-height: normal;
 }
+.registration .form__button {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 39px;
+  padding: 16px 66px 16px 29px;
+  background: #F16D7F;
+  border-color: #F16D7F;
+  transition: all 0.4s;
+}
+.registration .form__button:hover {
+  background: #FFF;
+  color: #F16D7F;
+}
+.registration .form__img {
+  padding-right: 20px;
+}
+.registration .form__img .form__button__img__color {
+  fill: #F16D7F;
+}
+.registration .form__button:active {
+  border-color: #F16D7F;
+}
 
 * {
   margin: 0;

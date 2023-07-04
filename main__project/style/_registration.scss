@@ -109,7 +109,7 @@
             // }
         }
 
-        .title__details{
+        .title__details {
             padding-top: 34px;
         }
 
@@ -123,6 +123,35 @@
             line-height: normal;
         }
 
+        &__button {
+            color: $colorBackgroundWite;
+            font-size: $sizeSmall;
+            font-style: normal;
+            font-weight: $weightRegular;
+            line-height: normal;
+            margin-top: 39px;
+            padding: 16px 66px 16px 29px;
+            background: $colorSelectStyle;
+            border-color: $colorSelectStyle;
+            transition: all $transitionSelectSite;
+        }
 
+        &__button:hover {
+            background: $colorBackgroundWite;
+            color: $colorSelectStyle;
+        }
+
+
+        &__img {
+            padding-right: 20px;
+
+            .form__button__img__color {
+                fill: $colorSelectStyle;
+            }
+        }
+
+        &__button:active {
+            border-color: $colorSelectStyle;
+        }
     }
 }
