@@ -1,11 +1,50 @@
 .registration {
+    @extend %center;
+    padding-top: 64px;
+    padding-bottom: 96px;
+
     .form {
         &__title {
+            padding-bottom: 20px;
             color: $colorContent;
             font-size: $sizeAverage;
             font-style: normal;
             font-weight: $weightLight;
             line-height: normal;
         }
+
+        &__item {
+            margin-bottom: 20px;
+            padding: 14px 0px 14px 17px;
+            width: 360px;
+            color: $colorCatalog;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+        }
+
+        &__chekbox {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding-top: 14px;
+
+            .custom-radio+label {
+                display: inline-flex;
+                align-items: center;
+                user-select: none;
+              }
+
+            .checkbox {
+                position: absolute;
+                z-index: -1;
+                opacity: 0;
+
+
+            }
+        }
+
     }
 }

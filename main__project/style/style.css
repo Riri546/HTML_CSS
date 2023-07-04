@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.content__basket, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
+.registration, .content__basket, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -577,12 +577,46 @@
   color: #FFF;
 }
 
+.registration {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
 .registration .form__title {
+  padding-bottom: 20px;
   color: #222222;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.registration .form__item {
+  margin-bottom: 20px;
+  padding: 14px 0px 14px 17px;
+  width: 360px;
+  color: #E5E5E5;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration .form__chekbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 14px;
+}
+.registration .form__chekbox .custom-radio + label {
+  display: inline-flex;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.registration .form__chekbox .checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
 }
 
 * {
