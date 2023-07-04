@@ -25,40 +25,91 @@
         }
 
         &__chekbox {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 20px;
+            @extend %flex-centr;
+            // display: flex;
+            // flex-direction: row;
+            // flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 10px;
             padding-top: 14px;
+            color: $colorContent;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
 
-            .checkbox {
-                position: absolute;
-                z-index: -1;
-                opacity: 0;
 
 
+            .checkbox__label{
+                padding-right: 10px;
             }
 
-            &__chekbox+label {
-                display: inline-flex;
-                align-items: center;
-                user-select: none;
-            }
+            // .checkbox__male{
+            //     padding-right: 20px;
+            // }
 
-            &__chekbox+label::before {
-                content: '';
-                display: inline-block;
-                width: 1em;
-                height: 1em;
-                flex-shrink: 0;
-                flex-grow: 0;
-                border: 1px solid #adb5bd;
-                border-radius: 50%;
-                margin-right: 0.5em;
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: 50% 50%;
-            }
+            // .checkbox {
+            //     position: absolute;
+            //     z-index: -1;
+            //     opacity: 0;
+            // }
+
+            // .chekbox+label {
+            //     display: inline-flex;
+            //     align-items: center;
+            //     user-select: none;
+            // }
+
+            // /* создание в label псевдоэлемента  before со следующими стилями */
+            // .chekbox+label::before {
+            //     .chekbox+label::before {
+            //         content: '';
+            //         display: inline-block;
+            //         width: 1em;
+            //         height: 1em;
+            //         flex-shrink: 0;
+            //         flex-grow: 0;
+            //         border: 1px solid #adb5bd;
+            //         border-radius: 50%;
+            //         margin-right: 0.5em;
+            //         background-repeat: no-repeat;
+            //         background-position: center center;
+            //         background-size: 50% 50%;
+            //     }
+
+            //     /* стили при наведении курсора на радио */
+            //     .chekbox:not(:disabled):not(:checked)+label:hover::before {
+            //         border-color: #b3d7ff;
+            //     }
+
+            //     /* стили для активной радиокнопки (при нажатии на неё) */
+            //     .chekbox:not(:disabled):active+label::before {
+            //         background-color: #b3d7ff;
+            //         border-color: #b3d7ff;
+            //     }
+
+            //     /* стили для радиокнопки, находящейся в фокусе */
+            //     .chekbox:focus+label::before {
+            //         box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            //     }
+
+            //     /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+            //     .chekbox:focus:not(:checked)+label::before {
+            //         border-color: #80bdff;
+            //     }
+
+            //     /* стили для радиокнопки, находящейся в состоянии checked */
+            //     .chekbox:checked+label::before {
+            //         border-color: #0b76ef;
+            //         background-color: #0b76ef;
+            //         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+            //     }
+
+            //     /* стили для радиокнопки, находящейся в состоянии disabled */
+            //     .chekbox:disabled+label::before {
+            //         background-color: #e9ecef;
+            //     }
+            // }
         }
 
     }

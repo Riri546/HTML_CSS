@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .registration .form__chekbox, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -600,37 +600,17 @@
   line-height: normal;
 }
 .registration .form__chekbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 10px;
   padding-top: 14px;
+  color: #222222;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-.registration .form__chekbox .checkbox {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
-}
-.registration .form__chekbox__chekbox + label {
-  display: inline-flex;
-  align-items: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.registration .form__chekbox__chekbox + label::before {
-  content: "";
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  flex-shrink: 0;
-  flex-grow: 0;
-  border: 1px solid #adb5bd;
-  border-radius: 50%;
-  margin-right: 0.5em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
+.registration .form__chekbox .checkbox__label {
+  padding-right: 10px;
 }
 
 * {
