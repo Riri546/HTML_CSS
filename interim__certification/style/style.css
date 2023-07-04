@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.content__basket .goods, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
+.content__basket, .catalog__navigation, .filter__sort, .description .decoration, .content, .subhead {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
@@ -345,7 +345,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 130px;
+  justify-content: space-between;
 }
 .content__basket .goods {
   padding-top: 69px;
@@ -451,12 +451,18 @@
   color: #222222;
   text-decoration: none;
 }
+.content__basket .form {
+  padding-top: 113px;
+}
 .content__basket .form__title {
   color: #222222;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.content__basket .form__input {
+  width: 360px;
 }
 
 * {

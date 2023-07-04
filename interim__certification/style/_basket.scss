@@ -1,11 +1,11 @@
 .content__basket{
+    @extend %center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 130px;
+    justify-content: space-between;
 
     .goods {
-        @extend %center;
         padding-top: 69px;
     
         &__item {
@@ -135,7 +135,8 @@
     }
     
     .form {
-    
+        padding-top: 113px;
+
         &__title {
             color: $colorContent;
             font-size: $sizeAverage;
@@ -143,6 +144,12 @@
             font-weight: $weightLight;
             line-height: normal;
         }
+
+        &__input{
+            width: 360px;
+        }
     }
 }
+
+    
 
