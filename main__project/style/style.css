@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .registration .form__chekbox, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .registration .form__button, .registration .form__chekbox, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -625,13 +625,14 @@
   line-height: normal;
 }
 .registration .form__button {
+  gap: 20px;
   color: #FFF;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-top: 39px;
-  padding: 16px 66px 16px 29px;
+  padding: 16px 46px 16px 29px;
   background: #F16D7F;
   border-color: #F16D7F;
   transition: all 0.4s;
@@ -639,15 +640,18 @@
 .registration .form__button:hover {
   background: #FFF;
   color: #F16D7F;
+  border-color: #F16D7F;
 }
-.registration .form__img {
-  padding-right: 20px;
-}
-.registration .form__img .form__button__img__color {
+.registration .form__button:hover .form__button__img__color {
   fill: #F16D7F;
 }
 .registration .form__button:active {
+  background: #F16D7F;
+  color: #FFF;
   border-color: #F16D7F;
+}
+.registration .form__button:active .form__button__img__color {
+  fill: #FFF;
 }
 
 * {
