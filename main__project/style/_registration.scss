@@ -178,12 +178,14 @@
             line-height: normal;
         }
 
-        .position {
-            padding-bottom: 16px;
+        .list {
+            list-style-image: url();
             padding-left: 44px;
         }
 
-        &__list {}
+        &__list {
+            padding-bottom: 16px;
+        }
 
     }
 }

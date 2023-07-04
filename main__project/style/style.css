@@ -666,10 +666,14 @@
   font-weight: 300;
   line-height: normal;
 }
-.registration .information .position {
-  padding-bottom: 16px;
+.registration .information .list {
+  list-style-image: url();
   padding-left: 44px;
 }
+.registration .information__list {
+  padding-bottom: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
