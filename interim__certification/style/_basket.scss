@@ -218,6 +218,7 @@
         }
 
         &__title__price {
+            margin: 0;
             @extend %flex-messeng;
             justify-content: flex-end;
             width: 257px;
@@ -231,6 +232,7 @@
         }
 
         .title__price {
+            padding-left: 20px;
             color: $colorSelectStyle;
             font-weight: $weightBold;
         }

@@ -523,6 +523,7 @@
   line-height: normal;
 }
 .content__basket .form__title__price {
+  margin: 0;
   justify-content: flex-end;
   width: 257px;
   border-bottom: 1px solid #E2E2E2;
@@ -534,6 +535,7 @@
   line-height: normal;
 }
 .content__basket .form .title__price {
+  padding-left: 20px;
   color: #F16D7F;
   font-weight: 700;
 }
