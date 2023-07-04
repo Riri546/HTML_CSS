@@ -612,6 +612,14 @@
 .registration .form__chekbox .checkbox__label {
   padding-right: 10px;
 }
+.registration .form__text {
+  max-width: 360px;
+  color: #E5E5E5;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
 * {
   margin: 0;

@@ -26,9 +26,6 @@
 
         &__chekbox {
             @extend %flex-centr;
-            // display: flex;
-            // flex-direction: row;
-            // flex-wrap: wrap;
             align-items: flex-start;
             gap: 10px;
             padding-top: 14px;
@@ -40,7 +37,7 @@
 
 
 
-            .checkbox__label{
+            .checkbox__label {
                 padding-right: 10px;
             }
 
@@ -110,6 +107,15 @@
             //         background-color: #e9ecef;
             //     }
             // }
+        }
+
+        &__text {
+            max-width: 360px;
+            color: $colorCatalog;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
         }
 
     }
