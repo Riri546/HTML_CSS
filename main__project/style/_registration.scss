@@ -109,14 +109,20 @@
             // }
         }
 
+        .title__details{
+            padding-top: 34px;
+        }
+
         &__text {
+            padding-top: -5px;
             max-width: 360px;
-            color: $colorCatalog;
+            color: #B1B1B1;
             font-size: 13px;
             font-style: normal;
             font-weight: $weightLight;
             line-height: normal;
         }
+
 
     }
 }
