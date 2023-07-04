@@ -70,11 +70,7 @@
 
     &__button {
         @extend %flex-centr;
-        // display: flex;
-        // flex-direction: row;
-        // align-items: center;
         gap: 192px;
-
     }
 
     .button__clear {
@@ -112,7 +108,6 @@
     } 
 
     &__link {
-        text-decoration: none;
         color: $colorContent;
         font-size: $sizeSmall;
         font-style: normal;
@@ -120,5 +115,15 @@
         line-height: normal;
         margin-bottom: 144px;
         transition: all $transitionSelectSite;
+    }
+
+    &__link:hover{
+        color: $colorBackgroundWite;
+        text-decoration: none;
+    }
+
+    &__link:active{
+        color: $colorContent;
+        text-decoration: none;
     }
 }

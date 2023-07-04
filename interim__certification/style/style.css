@@ -429,7 +429,6 @@
   border-color: #E5E5E5;
 }
 .goods__link {
-  text-decoration: none;
   color: #222222;
   font-size: 14px;
   font-style: normal;
@@ -437,6 +436,14 @@
   line-height: normal;
   margin-bottom: 144px;
   transition: all 0.4s;
+}
+.goods__link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+.goods__link:active {
+  color: #222222;
+  text-decoration: none;
 }
 
 * {
