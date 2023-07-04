@@ -68,7 +68,7 @@
   align-items: flex-start;
 }
 
-.contacts {
+.contacts, .content__basket .form__title__price, .content__basket .form__text {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -504,20 +504,67 @@
 .content__basket .form__link:active {
   color: #5D5D5D;
 }
+.content__basket .form__item2 {
+  padding-top: 39px;
+  padding-bottom: 42px;
+  padding-right: 34px;
+  padding-left: 72px;
+  margin-top: 57px;
+  background: #F5F3F3;
+}
 .content__basket .form__text {
+  padding-bottom: 12px;
+  justify-content: flex-end;
+  gap: 20px;
   color: #5D5D5D;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.content__basket .form .title__price {
-  color: #222;
+.content__basket .form__title__price {
+  justify-content: flex-end;
+  width: 257px;
+  border-bottom: 1px solid #E2E2E2;
+  padding-bottom: 21px;
+  color: #222222;
   font-size: 16px;
-  font-family: Lato;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.content__basket .form .title__price {
+  color: #F16D7F;
+  font-weight: 700;
+}
+.content__basket .form__button__item {
+  margin-top: 17px;
+  padding: 15px 40px;
+  border: 1px solid #F16D7F;
+  background: #F16D7F;
+  width: 273px;
+  transition: all 0.4s;
+}
+.content__basket .form__button__item:hover {
+  background: #FFF;
+}
+.content__basket .form__button__item:active {
+  background: #F16D7F;
+}
+.content__basket .form .button__text {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: all 0.4s;
+}
+.content__basket .form .button__text:hover {
+  text-decoration: none;
+  color: #F16D7F;
+}
+.content__basket .form .button__text:active {
+  color: #FFF;
 }
 
 * {

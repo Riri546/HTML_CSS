@@ -196,8 +196,20 @@
             color: $colorSubtextContent;
         }
 
+        &__item2 {
+            padding-top: 39px;
+            padding-bottom: 42px;
+            padding-right: 34px;
+            padding-left: 72px;
+            margin-top: 57px;
+            background: #F5F3F3;
+        }
 
         &__text {
+            padding-bottom: 12px;
+            @extend %flex-messeng;
+            justify-content: flex-end;
+            gap: 20px;
             color: $colorSubtextContent;
             font-size: 11px;
             font-style: normal;
@@ -205,13 +217,57 @@
             line-height: normal;
         }
 
-        .title__price {
-            color: #222;
-            font-size: 16px;
-            font-family: Lato;
+        &__title__price {
+            @extend %flex-messeng;
+            justify-content: flex-end;
+            width: 257px;
+            border-bottom: 1px solid #E2E2E2;
+            padding-bottom: 21px;
+            color: $colorContent;
+            font-size: $sizeAverage;
             font-style: normal;
-            font-weight: 300;
+            font-weight: $weightLight;
             line-height: normal;
+        }
+
+        .title__price {
+            color: $colorSelectStyle;
+            font-weight: $weightBold;
+        }
+
+        &__button__item {
+            margin-top: 17px;
+            padding: 15px 40px;
+            border: 1px solid $colorSelectStyle;
+            background: $colorSelectStyle;
+            width: 273px;
+            transition: all $transitionSelectSite;
+        }
+
+        &__button__item:hover {
+            background: $colorBackgroundWite;
+        }
+
+        &__button__item:active {
+            background: $colorSelectStyle;
+        }
+
+        .button__text {
+            color: $colorBackgroundWite;
+            font-size: $sizeAverage;
+            font-style: normal;
+            font-weight: $weightLight;
+            line-height: normal;
+            transition: all $transitionSelectSite;
+        }
+
+        .button__text:hover {
+            text-decoration: none;
+            color: $colorSelectStyle;
+        }
+
+        .button__text:active {
+            color: $colorBackgroundWite;
         }
 
 
