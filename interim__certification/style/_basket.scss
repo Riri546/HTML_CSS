@@ -68,4 +68,34 @@
         line-height: normal;
     }
 
+    &__button {
+        @extend %flex-centr;
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        gap: 192px;
+
+    }
+
+    .button__clear {
+        margin-bottom: 144px;
+        border: 1px solid $colorCatalog;
+        padding: 17px 40px;
+    }
+
+    .button__continue {
+        margin-bottom: 144px;
+        border: 1px solid $colorCatalog;
+        padding: 17px 40px;
+    }
+
+    &__link {
+        color: $colorContent;
+        font-size: $sizeSmall;
+        font-style: normal;
+        font-weight: $weightLight;
+        line-height: normal;
+        margin-bottom: 144px;
+    }
+
 }
