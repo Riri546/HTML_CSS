@@ -132,6 +132,11 @@
         .button__continue:active {
             background-color: $colorBackgroundWite;
             border-color: $colorCatalog;
+
+            .goods__link {
+                color: $colorContent;
+                text-decoration: none;
+            }
         }
 
         &__link {
@@ -186,6 +191,11 @@
         &__button:hover {
             background: $colorSelectStyle;
             border-color: $colorSelectStyle;
+
+            .form__link {
+                text-decoration: none;
+                color: $colorBackgroundWite;
+            }
         }
 
         &__button:active {
@@ -196,11 +206,6 @@
         &__link {
             color: $colorSubtextContent;
             transition: all $transitionSelectSite;
-        }
-
-        &__link:hover {
-            text-decoration: none;
-            color: $colorBackgroundWite;
         }
 
         &__link:active {

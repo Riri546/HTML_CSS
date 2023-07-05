@@ -451,6 +451,10 @@
   background-color: #FFF;
   border-color: #E5E5E5;
 }
+.content__basket .goods .button__continue:active .goods__link {
+  color: #222222;
+  text-decoration: none;
+}
 .content__basket .goods__link {
   color: #222222;
   font-size: 14px;
@@ -498,6 +502,10 @@
   background: #F16D7F;
   border-color: #F16D7F;
 }
+.content__basket .form__button:hover .form__link {
+  text-decoration: none;
+  color: #FFF;
+}
 .content__basket .form__button:active {
   background: #FFF;
   border-color: #5D5D5D;
@@ -505,10 +513,6 @@
 .content__basket .form__link {
   color: #5D5D5D;
   transition: all 0.4s;
-}
-.content__basket .form__link:hover {
-  text-decoration: none;
-  color: #FFF;
 }
 .content__basket .form__link:active {
   color: #5D5D5D;
