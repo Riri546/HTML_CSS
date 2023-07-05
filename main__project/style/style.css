@@ -667,10 +667,10 @@
   line-height: normal;
 }
 .registration .information .list {
-  list-style-image: square url(main__projectimgregistrationlist.svg) inside;
   padding-left: 44px;
 }
 .registration .information__list {
+  list-style-type: none;
   padding-bottom: 16px;
 }
 

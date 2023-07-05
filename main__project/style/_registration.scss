@@ -179,11 +179,13 @@
         }
 
         .list {
-            list-style-image: square url(main__project\img\registration\list.svg) inside;
+            
+            // list-style-image: square url(main__project\img\registration\list.svg) inside;
             padding-left: 44px;
         }
 
         &__list {
+            list-style-type: none;
             padding-bottom: 16px;
         }
 
