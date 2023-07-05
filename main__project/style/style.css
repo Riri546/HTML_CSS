@@ -613,6 +613,24 @@
   font-weight: 300;
   line-height: normal;
 }
+.registration .form__radio input[type=radio]:after {
+  position: relative;
+  background-color: #d1d3d1;
+  border: 1px solid #A4A4A4;
+}
+.registration .form__radio input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #F16D7F;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #A4A4A4;
+}
 .registration .form__radio .radio__label {
   padding-right: 10px;
 }
