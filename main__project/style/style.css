@@ -510,12 +510,12 @@
   background: #FFF;
   border-color: #5D5D5D;
 }
+.content__basket .form__button:active .form__link {
+  color: #5D5D5D;
+}
 .content__basket .form__link {
   color: #5D5D5D;
   transition: all 0.4s;
-}
-.content__basket .form__link:active {
-  color: #5D5D5D;
 }
 .content__basket .form__item2 {
   display: flex;
@@ -566,8 +566,15 @@
 .content__basket .form__button__item:hover {
   background: #FFF;
 }
+.content__basket .form__button__item:hover .button__text {
+  text-decoration: none;
+  color: #F16D7F;
+}
 .content__basket .form__button__item:active {
   background: #F16D7F;
+}
+.content__basket .form__button__item:active .button__text {
+  color: #FFF;
 }
 .content__basket .form .button__text {
   color: #FFF;
@@ -576,13 +583,6 @@
   font-weight: 300;
   line-height: normal;
   transition: all 0.4s;
-}
-.content__basket .form .button__text:hover {
-  text-decoration: none;
-  color: #F16D7F;
-}
-.content__basket .form .button__text:active {
-  color: #FFF;
 }
 
 .registration {

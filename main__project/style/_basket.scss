@@ -201,15 +201,15 @@
         &__button:active {
             background: $colorBackgroundWite;
             border-color: $colorSubtextContent;
+
+            .form__link {
+                color: $colorSubtextContent;
+            }
         }
 
         &__link {
             color: $colorSubtextContent;
             transition: all $transitionSelectSite;
-        }
-
-        &__link:active {
-            color: $colorSubtextContent;
         }
 
         &__item2 {
@@ -267,10 +267,19 @@
 
         &__button__item:hover {
             background: $colorBackgroundWite;
+
+            .button__text {
+                text-decoration: none;
+                color: $colorSelectStyle;
+            }
         }
 
         &__button__item:active {
             background: $colorSelectStyle;
+
+            .button__text {
+                color: $colorBackgroundWite;
+            }
         }
 
         .button__text {
@@ -281,16 +290,5 @@
             line-height: normal;
             transition: all $transitionSelectSite;
         }
-
-        .button__text:hover {
-            text-decoration: none;
-            color: $colorSelectStyle;
-        }
-
-        .button__text:active {
-            color: $colorBackgroundWite;
-        }
-
-
     }
 }
