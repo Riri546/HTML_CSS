@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .registration .form__button, .registration .form__chekbox, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
+.form__market .form, .products .rowse__all_product, .top__info .top__content, .top__info, .registration .form__button, .registration .form__radio, .content__basket .goods__button, .content__basket .goods__about__title, .description .product__button .button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -603,7 +603,7 @@
   font-weight: 300;
   line-height: normal;
 }
-.registration .form__chekbox {
+.registration .form__radio {
   align-items: flex-start;
   gap: 10px;
   padding-top: 14px;
@@ -613,7 +613,7 @@
   font-weight: 300;
   line-height: normal;
 }
-.registration .form__chekbox .checkbox__label {
+.registration .form__radio .radio__label {
   padding-right: 10px;
 }
 .registration .form .title__details {
