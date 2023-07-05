@@ -95,11 +95,21 @@
         .button__clear:hover {
             background-color: $colorSelectStyle;
             border-color: $colorSelectStyle;
+
+            .goods__link {
+                color: $colorBackgroundWite;
+                text-decoration: none;
+            }
         }
 
         .button__clear:active {
             background-color: $colorBackgroundWite;
             border-color: $colorCatalog;
+
+            .goods__link {
+                color: $colorContent;
+                text-decoration: none;
+            }
         }
 
         .button__continue {
@@ -112,6 +122,11 @@
         .button__continue:hover {
             background-color: $colorSelectStyle;
             border-color: $colorSelectStyle;
+
+            .goods__link {
+                color: $colorBackgroundWite;
+                text-decoration: none;
+            }
         }
 
         .button__continue:active {
@@ -127,16 +142,6 @@
             line-height: normal;
             margin-bottom: 144px;
             transition: all $transitionSelectSite;
-        }
-
-        &__link:hover {
-            color: $colorBackgroundWite;
-            text-decoration: none;
-        }
-
-        &__link:active {
-            color: $colorContent;
-            text-decoration: none;
         }
     }
 

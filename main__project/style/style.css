@@ -421,9 +421,17 @@
   background-color: #F16D7F;
   border-color: #F16D7F;
 }
+.content__basket .goods .button__clear:hover .goods__link {
+  color: #FFF;
+  text-decoration: none;
+}
 .content__basket .goods .button__clear:active {
   background-color: #FFF;
   border-color: #E5E5E5;
+}
+.content__basket .goods .button__clear:active .goods__link {
+  color: #222222;
+  text-decoration: none;
 }
 .content__basket .goods .button__continue {
   margin-bottom: 144px;
@@ -434,6 +442,10 @@
 .content__basket .goods .button__continue:hover {
   background-color: #F16D7F;
   border-color: #F16D7F;
+}
+.content__basket .goods .button__continue:hover .goods__link {
+  color: #FFF;
+  text-decoration: none;
 }
 .content__basket .goods .button__continue:active {
   background-color: #FFF;
@@ -447,14 +459,6 @@
   line-height: normal;
   margin-bottom: 144px;
   transition: all 0.4s;
-}
-.content__basket .goods__link:hover {
-  color: #FFF;
-  text-decoration: none;
-}
-.content__basket .goods__link:active {
-  color: #222222;
-  text-decoration: none;
 }
 .content__basket .form {
   padding-top: 113px;
