@@ -62,8 +62,6 @@
             .radio__label {
                 padding-right: 10px;
             }
-
-
         }
 
         .title__details {
@@ -82,9 +80,6 @@
 
         &__button {
             @extend %flex-centr;
-            // display: flex;
-            // flex-direction: row;
-            // flex-wrap: wrap;
             gap: 20px;
             color: $colorBackgroundWite;
             font-size: $sizeSmall;
