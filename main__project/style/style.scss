@@ -563,6 +563,10 @@ figure {
 /* Стили для планшета */
 @media (max-width: 1024px) {
 
+    body{
+        @extend %centerTablet;
+    }
+
     .head {
         padding: 18px 32px;
     }
