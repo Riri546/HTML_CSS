@@ -193,6 +193,35 @@
   fill: #FBFBFB;
 }
 
+/* Стили для планшета */
+@media (max-width: 1024px) {
+  .registration {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+    flex-wrap: nowrap;
+    gap: 23px;
+  }
+  .registration .information__text {
+    width: 354px;
+    font-size: 16px;
+  }
+  .registration .information .list {
+    padding-left: 0px;
+  }
+  .registration .information .list__from {
+    padding-left: 45px;
+  }
+}
+/* Стили для среднего телефона */
+@media (max-width: 767px) {
+  .registration {
+    padding-left: calc(50% - 179.5px);
+    padding-right: calc(50% - 179.5px);
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 100px;
+  }
+}
 .filter__sort {
   height: 132px;
   padding-top: 39px;
