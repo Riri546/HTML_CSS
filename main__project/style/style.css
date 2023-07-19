@@ -193,6 +193,17 @@
   fill: #FBFBFB;
 }
 
+@media (max-width: 1280px) {
+  .products {
+    width: 100vw;
+  }
+  .products .catalog {
+    grid-template-columns: repeat(3, 300px);
+  }
+  .products .catalog .about__product .description {
+    width: 280px;
+  }
+}
 /* Стили для планшета */
 @media (max-width: 1024px) {
   .el3 {

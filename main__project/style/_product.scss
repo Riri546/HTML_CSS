@@ -145,49 +145,63 @@
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1280px) {
+    .products{
+        width: 100vw;
 
-    // .catalog {
-    //     grid-template-columns: repeat(3, 300px);
-    // }
+        .catalog{
+            grid-template-columns: repeat(3, 300px);
+
+            .about__product{
+                // max-width: 300px;
+
+                .description {
+                    width: 280px;
+                }
+            }
+
+        }
+    }
+
 }
 
 /* Стили для планшета */
 //  Для страницы registration
 @media (max-width: 1024px) {
 
-    .el3 {
-        display: none;
-    }
-}
 
-/* Стили для среднего телефона */
-//  Для страницы registration
-@media (max-width: 767px) {
-
-    .content {
-        .main__photo {
-            width: 374px;
+        .el3 {
+            display: none;
         }
     }
 
-    .el2 {
-        display: none;
-    }
+    /* Стили для среднего телефона */
+    //  Для страницы registration
+    @media (max-width: 767px) {
 
-    .el3 {
-        display: block;
-    }
-
-    .decoration {
-        width: 375px;
-
-        .description__text {
-            width: 326px;
+        .content {
+            .main__photo {
+                width: 374px;
+            }
         }
 
-        .description__line {
-            width: 175px;
+        .el2 {
+            display: none;
+        }
+
+        .el3 {
+            display: block;
+        }
+
+        .decoration {
+            width: 375px;
+
+            .description__text {
+                width: 326px;
+            }
+
+            .description__line {
+                width: 175px;
+            }
         }
     }
-}
