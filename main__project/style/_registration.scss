@@ -139,6 +139,26 @@
     }
 }
 
+// Nest Hub Max
+//  Для страницы product
+@media (max-width: 1280px) {
+    .products {
+        width: 100vw;
+
+        .catalog {
+            grid-template-columns: repeat(3, 300px);
+
+            .about__product {
+                // max-width: 300px;
+
+                .description {
+                    width: 280px;
+                }
+            }
+        }
+    }
+}
+
 /* Стили для планшета */
 //  Для страницы registration
 @media (max-width: 1024px) {
@@ -158,7 +178,7 @@
             .list {
                 padding-left: 0px;
 
-                &__from{
+                &__from {
                     padding-left: 45px;
                 }
             }
@@ -177,4 +197,3 @@
         padding-bottom: 100px;
     }
 }
-

@@ -154,14 +154,9 @@
         .catalog {
             grid-template-columns: repeat(3, 300px);
 
-            .about__product {
-                // max-width: 300px;
-
-                .description {
-                    width: 280px;
-                }
+            .description {
+                width: 280px;
             }
-
         }
     }
 
