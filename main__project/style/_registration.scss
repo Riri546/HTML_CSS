@@ -142,20 +142,29 @@
 // Nest Hub Max
 //  Для страницы product
 @media (max-width: 1280px) {
-    .products {
-        width: 100vw;
+    .registration {
+        padding-left: calc(50% - $widthSiteNest/2);
+        padding-right: calc(50% - $widthSiteNest/2);
+        flex-wrap: nowrap;
+        gap: 55px;
+    }
 
-        .catalog {
-            grid-template-columns: repeat(3, 300px);
+    .information {
 
-            .about__product {
-                // max-width: 300px;
+        .information__text {
+            width: 600px;
+            font-size: 20px;
+        }
 
-                .description {
-                    width: 280px;
-                }
+        .list {
+            padding-left: 0px;
+
+            &__from {
+                padding-left: 45px;
             }
         }
+
+
     }
 }
 
@@ -170,17 +179,17 @@
 
         .information {
 
-            &__text {
-                width: 354px;
-                font-size: 16px;
-            }
-
             .list {
                 padding-left: 0px;
 
                 &__from {
                     padding-left: 45px;
                 }
+            }
+
+            &__text {
+                width: 354px;
+                font-size: 16px;
             }
         }
     }

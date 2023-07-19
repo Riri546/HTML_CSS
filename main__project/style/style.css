@@ -878,14 +878,21 @@
 }
 
 @media (max-width: 1280px) {
-  .products {
-    width: 100vw;
+  .registration {
+    padding-left: calc(50% - 495px);
+    padding-right: calc(50% - 495px);
+    flex-wrap: nowrap;
+    gap: 55px;
   }
-  .products .catalog {
-    grid-template-columns: repeat(3, 300px);
+  .information .information__text {
+    width: 600px;
+    font-size: 20px;
   }
-  .products .catalog .about__product .description {
-    width: 280px;
+  .information .list {
+    padding-left: 0px;
+  }
+  .information .list__from {
+    padding-left: 45px;
   }
 }
 /* Стили для планшета */
@@ -896,15 +903,15 @@
     flex-wrap: nowrap;
     gap: 23px;
   }
-  .registration .information__text {
-    width: 354px;
-    font-size: 16px;
-  }
   .registration .information .list {
     padding-left: 0px;
   }
   .registration .information .list__from {
     padding-left: 45px;
+  }
+  .registration .information__text {
+    width: 354px;
+    font-size: 16px;
   }
 }
 /* Стили для среднего телефона */
@@ -1033,7 +1040,6 @@ figure {
 }
 
 .top__info {
-  justify-content: center;
   gap: 64px;
   background: #F1E4E6;
 }
@@ -1430,11 +1436,11 @@ figure {
     max-width: 386px;
     max-height: 368px;
   }
-  .title {
+  .top__info .top__content .title {
     font-size: 44px;
     line-height: 53px;
   }
-  .subtitle {
+  .top__info .top__content .subtitle {
     font-size: 24px;
     line-height: 29px;
   }

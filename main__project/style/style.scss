@@ -138,7 +138,7 @@ figure {
 
 .top__info {
     @extend %flex-centr;
-    justify-content: center;
+    // justify-content: center;
     gap: 64px;
     background: #F1E4E6;
 
@@ -573,7 +573,7 @@ figure {
         padding-bottom: 32px;
     }
 
-    .contacts{
+    .contacts {
         padding-left: calc(50% - $widthSiteNest/2);
         padding-right: calc(50% - $widthSiteNest/2);
     }
@@ -620,16 +620,18 @@ figure {
             max-width: 386px;
             max-height: 368px;
         }
-    }
 
-    .title {
-        font-size: 44px;
-        line-height: 53px;
-    }
-
-    .subtitle {
-        font-size: 24px;
-        line-height: 29px;
+        .top__content{
+            .title {
+                font-size: 44px;
+                line-height: 53px;
+            }
+    
+            .subtitle {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
     }
 
     .stocks {
