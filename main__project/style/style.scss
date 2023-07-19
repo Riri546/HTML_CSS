@@ -699,6 +699,8 @@ figure {
 @media (max-width: 767px) {
 
     .head {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         padding-top: 18px;
         padding-bottom: 16px;
 
@@ -712,6 +714,8 @@ figure {
     }
 
     .top__info {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         justify-content: $justifyContentCenter;
 
         .top__content {
@@ -728,19 +732,21 @@ figure {
             max-width: 12px;
             max-height: 61px;
         }
-    }
 
-    .title {
-        font-size: 38px;
-        line-height: 46px;
-    }
+        .title {
+            font-size: 38px;
+            line-height: 46px;
+        }
 
-    .subtitle {
-        font-size: 20px;
-        line-height: 24px;
+        .subtitle {
+            font-size: 20px;
+            line-height: 24px;
+        }
     }
 
     .stocks {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         padding-top: 64px;
         padding-bottom: 64px;
         grid-template-columns: 343px;
@@ -766,14 +772,20 @@ figure {
         }
     }
 
+    .products {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
 
-    .catalog {
-        padding-top: 65px;
-        padding-bottom: 41px;
-        grid-template-columns: 359px;
+        .catalog {
+            padding-top: 65px;
+            padding-bottom: 41px;
+            grid-template-columns: 359px;
+        }
     }
 
     .foot {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         padding-top: 48px;
         padding-bottom: 47px;
         grid-template-columns: 348px;
@@ -781,6 +793,8 @@ figure {
     }
 
     .form__market {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         gap: 59px;
         padding-top: 64px;
         padding-bottom: 80px;
@@ -788,13 +802,15 @@ figure {
         background-size: cover;
         flex-direction: column;
         align-items: center;
-    }
 
-    .form__input {
-        max-width: 246px;
+        .form__input {
+            max-width: 246px;
+        }
     }
 
     .contacts {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
         padding-top: 43px;
         padding-bottom: 9px;
         gap: 40px;
@@ -805,27 +821,49 @@ figure {
 
 /* Стили для маленького телефона */
 @media (max-width: 321px) {
+
+    .head {
+        padding-left: calc(50% - $widthSitetSmallPhone/2);
+        padding-right: calc(50% - $widthSitetSmallPhone/2);
+    }
+
     .stocks {
+        padding-left: calc(50% - $widthSitetSmallPhone/2);
+        padding-right: calc(50% - $widthSitetSmallPhone/2);
         grid-template-columns: 320px;
     }
 
-    .catalog {
-        grid-template-columns: 320px;
-    }
+    .products {
+        padding-left: calc(50% - $widthSitetSmallPhone/2);
+        padding-right: calc(50% - $widthSitetSmallPhone/2);
 
-    .description {
-        font-size: 12px;
+        .catalog {
+            grid-template-columns: 319px;
+
+            .description {
+                font-size: 12px;
+                width: 300px;
+            }
+        }
+
     }
 
     .text__about {
-        max-width: 320px;
+        max-width: 300px;
     }
 
-    .form__content {
-        max-width: 320px;
+    .form {
+
+        &__content {
+            max-width: 320px;
+        }
+
+        &__input {
+            width: 120px;
+        }
     }
 
-    .form__input {
-        max-width: 190px;
+    .button__form {
+        width: 100px;
     }
 }
