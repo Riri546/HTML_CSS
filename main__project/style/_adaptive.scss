@@ -2,13 +2,10 @@
 @media (max-width: 1024px) {
 
     //  Для страницы index
-    body {
-        @extend %centerTablet;
-    }
-
     .head {
         @extend %centerTablet;
-        padding: 18px 32px;
+        padding-top: 18px;
+        padding-bottom: 32px;
     }
 
     .collapse:not(.show) {
@@ -115,14 +112,14 @@
     // Для сраницы basket
 
     // Для сраницы product
-    .subhead {
-        @extend %centerTablet;
-    }
+    // .subhead {
+    //     @extend %centerTablet;
+    // }
 
     // Для страницы registratian
-    .registration {
-        @extend %centerTablet;
-    }
+    // .registration {
+    //     @extend %centerTablet;
+    // }
 
     .information__text {
         width: 354px;
@@ -136,7 +133,9 @@
 @media (max-width: 767px) {
 
     .head {
-        padding: 18px 16px;
+        @extend %centerTablet;
+        padding-top: 18px;
+        padding-bottom: 16px;
     }
 
     .account {

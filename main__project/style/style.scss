@@ -44,7 +44,8 @@ figure {
 .head {
     @extend %center;
     @extend %flex-centr-head;
-    padding: 18px 19px;
+    padding-top: 18px;
+    padding-bottom: 19px;
     background: $colorContent;
 
     .header__logo {
