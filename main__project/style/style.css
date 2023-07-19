@@ -1051,22 +1051,22 @@ figure {
   flex-direction: column;
   gap: 10px;
 }
-.top__info .top__content .content__text .title {
+.top__info .top__content .content__text .subtitle__pink {
+  color: #F16D7F;
+}
+.top__info .top__content__title {
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
   color: #222222;
 }
-.top__info .top__content .content__text .subtitle {
+.top__info .top__content__subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
   color: #222222;
-}
-.top__info .top__content .content__text .subtitle__pink {
-  color: #F16D7F;
 }
 
 .stocks {
@@ -1436,11 +1436,11 @@ figure {
     max-width: 386px;
     max-height: 368px;
   }
-  .top__info .top__content .title {
+  .top__info .top__content__title {
     font-size: 44px;
     line-height: 53px;
   }
-  .top__info .top__content .subtitle {
+  .top__info .top__content__subtitle {
     font-size: 24px;
     line-height: 29px;
   }

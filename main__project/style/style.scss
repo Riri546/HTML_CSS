@@ -151,25 +151,25 @@ figure {
             flex-direction: column;
             gap: 10px;
 
-            .title {
-                font-style: normal;
-                font-weight: $weightBlack;
-                font-size: 48px;
-                line-height: 58px;
-                color: $colorContent;
-            }
-
-            .subtitle {
-                font-style: normal;
-                font-weight: $weightBold;
-                font-size: 32px;
-                line-height: 38px;
-                color: $colorContent;
-            }
-
             .subtitle__pink {
                 color: $colorSelectStyle;
             }
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: $weightBlack;
+            font-size: 48px;
+            line-height: 58px;
+            color: $colorContent;
+        }
+
+        &__subtitle {
+            font-style: normal;
+            font-weight: $weightBold;
+            font-size: 32px;
+            line-height: 38px;
+            color: $colorContent;
         }
     }
 }
@@ -622,12 +622,13 @@ figure {
         }
 
         .top__content{
-            .title {
+
+            &__title {
                 font-size: 44px;
                 line-height: 53px;
             }
     
-            .subtitle {
+            &__subtitle {
                 font-size: 24px;
                 line-height: 29px;
             }
