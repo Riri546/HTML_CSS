@@ -593,7 +593,7 @@ figure {
         gap: 39px;
     }
 
-    .top__content{
+    .top__content {
         flex-wrap: nowrap;
     }
 
@@ -617,33 +617,37 @@ figure {
     }
 
     .stocks {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
         padding-bottom: 109px;
         grid-template-columns: repeat(3, 233px);
         column-gap: 20px;
+
+        .sale__text__women {
+            top: 59px;
+            left: 39px;
+        }
+
+        .sale__text__men {
+            top: 57px;
+            left: 60px;
+        }
+
+        .sale__text__kids {
+            top: 58px;
+            left: 59px;
+        }
+
+        .img__sale__accesories {
+            max-width: 740px;
+        }
+
+        .sale__botom__text {
+            left: 288px;
+        }
+
     }
 
-    .sale__text__women {
-        top: 59px;
-        left: 39px;
-    }
-
-    .sale__text__men {
-        top: 57px;
-        left: 60px;
-    }
-
-    .sale__text__kids {
-        top: 58px;
-        left: 59px;
-    }
-
-    .img__sale__accesories {
-        max-width: 740px;
-    }
-
-    .sale__botom__text {
-        left: 288px;
-    }
 
     .catalog {
         padding-top: 73px;
