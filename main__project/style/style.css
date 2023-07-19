@@ -621,6 +621,14 @@
   transition: all 0.4s;
 }
 
+@media (max-width: 1280px) {
+  .subhead {
+    padding-left: calc(50% - 495px);
+    padding-right: calc(50% - 495px);
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+}
 /* Стили для планшета */
 @media (max-width: 1024px) {
   .subhead {
@@ -1366,6 +1374,18 @@ figure {
   fill: #F16D7F;
 }
 
+@media (max-width: 1280px) {
+  .head {
+    padding-left: calc(50% - 495px);
+    padding-right: calc(50% - 495px);
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+  .contacts {
+    padding-left: calc(50% - 495px);
+    padding-right: calc(50% - 495px);
+  }
+}
 /* Стили для планшета */
 @media (max-width: 1024px) {
   .head {
