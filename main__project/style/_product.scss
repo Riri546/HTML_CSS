@@ -146,14 +146,15 @@
 }
 
 // Nest Hub Max
+//  Для страницы product
 @media (max-width: 1280px) {
-    .products{
+    .products {
         width: 100vw;
 
-        .catalog{
+        .catalog {
             grid-template-columns: repeat(3, 300px);
 
-            .about__product{
+            .about__product {
                 // max-width: 300px;
 
                 .description {
@@ -167,42 +168,42 @@
 }
 
 /* Стили для планшета */
-//  Для страницы registration
+//  Для страницы product
 @media (max-width: 1024px) {
 
 
-        .el3 {
-            display: none;
+    .el3 {
+        display: none;
+    }
+}
+
+/* Стили для среднего телефона */
+//  Для страницы product
+@media (max-width: 767px) {
+
+    .content {
+        .main__photo {
+            width: 374px;
         }
     }
 
-    /* Стили для среднего телефона */
-    //  Для страницы registration
-    @media (max-width: 767px) {
+    .el2 {
+        display: none;
+    }
 
-        .content {
-            .main__photo {
-                width: 374px;
-            }
+    .el3 {
+        display: block;
+    }
+
+    .decoration {
+        width: 375px;
+
+        .description__text {
+            width: 326px;
         }
 
-        .el2 {
-            display: none;
-        }
-
-        .el3 {
-            display: block;
-        }
-
-        .decoration {
-            width: 375px;
-
-            .description__text {
-                width: 326px;
-            }
-
-            .description__line {
-                width: 175px;
-            }
+        .description__line {
+            width: 175px;
         }
     }
+}
