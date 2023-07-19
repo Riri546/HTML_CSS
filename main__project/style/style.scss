@@ -564,9 +564,9 @@ figure {
 }
 
 /* Стили для планшета */
+//  Для страницы index
 @media (max-width: 1024px) {
 
-    //  Для страницы index
     .head {
         padding-left: calc(50% - $widthSitetTablet/2);
         padding-right: calc(50% - $widthSitetTablet/2);
@@ -696,6 +696,7 @@ figure {
 }
 
 /* Стили для среднего телефона */
+//  Для страницы index
 @media (max-width: 767px) {
 
     .head {
@@ -820,6 +821,7 @@ figure {
 }
 
 /* Стили для маленького телефона */
+//  Для страницы index
 @media (max-width: 321px) {
 
     .head {
