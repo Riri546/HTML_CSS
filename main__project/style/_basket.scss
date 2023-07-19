@@ -315,23 +315,21 @@
             gap: 48px;
         }
 
-
         .form {
             padding-left: calc(50% - $widthSitetTablet/2);
             padding-right: calc(50% - $widthSitetTablet/2);
             padding-top: 64px;
+            padding-bottom: 128px;
             display: flex;
             flex-direction: row;
             gap: 16px;
 
             &__item2 {
-                margin-top: 0;
+                margin-top: 30px;
                 max-width: 360px;
                 max-height: 214px;
             }
         }
-
-
     }
 }
 
@@ -342,6 +340,67 @@
     .subhead {
         padding-left: calc(50% - $widthSitetAveragePhone/2);
         padding-right: calc(50% - $widthSitetAveragePhone/2);
+        justify-content: center;
+    }
+
+    .content__basket {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
+
+        .goods {
+
+            &__item {
+                width: 359px;
+            }
+
+            &__img {
+                width: 144px;
+            }
+
+            &__about {
+                padding-bottom: 38px;
+
+                &__title {
+                    padding-bottom: 25px;
+                    gap: 20px;
+                }
+            }
+
+            &__title {
+                width: 143px;
+                font-size: 16px;
+            }
+
+            &__close {
+                width: 10px;
+            }
+
+            &__text {
+                font-size: 14px;
+            }
+
+            &__button {
+                gap: 9px;
+            }
+
+            &__link {
+                font-size: 12px;
+            }
+
+            .button__continue{
+                padding: 9px 18px;
+            }
+
+            .button__clear{
+                padding: 9px 18px;
+            }
+        }
+
+        .form{
+            padding-top: 48px;
+            padding-bottom: 96px;
+            flex-wrap: wrap;
+        }
     }
 }
 
@@ -349,8 +408,51 @@
 //  Для страницы basket
 @media (max-width: 321px) {
 
-    .subhead {
-        padding-left: calc(50% - $widthSitetSmallPhone/2);
-        padding-right: calc(50% - $widthSitetSmallPhone/2);
+    .goods {
+        &__item {
+            width: 100px;
+        }
+
+        // &__img {
+        //     width: 1px;
+        // }
+
+        // &__about {
+        //     padding-bottom: 38px;
+
+        //     &__title {
+        //         padding-bottom: 25px;
+        //         gap: 20px;
+        //     }
+        // }
+
+        // &__title {
+        //     width: 143px;
+        //     font-size: 16px;
+        // }
+
+        // &__close {
+        //     width: 10px;
+        // }
+
+        // &__text {
+        //     font-size: 14px;
+        // }
+
+        // &__button {
+        //     gap: 9px;
+        // }
+
+        // &__link {
+        //     font-size: 12px;
+        // }
+
+        // .button__continue{
+        //     padding: 9px 18px;
+        // }
+
+        // .button__clear{
+        //     padding: 9px 18px;
+        // }
     }
 }

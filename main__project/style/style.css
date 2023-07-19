@@ -605,12 +605,13 @@
     padding-left: calc(50% - 367px);
     padding-right: calc(50% - 367px);
     padding-top: 64px;
+    padding-bottom: 128px;
     display: flex;
     flex-direction: row;
     gap: 16px;
   }
   .content__basket .form__item2 {
-    margin-top: 0;
+    margin-top: 30px;
     max-width: 360px;
     max-height: 214px;
   }
@@ -620,13 +621,57 @@
   .subhead {
     padding-left: calc(50% - 179.5px);
     padding-right: calc(50% - 179.5px);
+    justify-content: center;
+  }
+  .content__basket {
+    padding-left: calc(50% - 179.5px);
+    padding-right: calc(50% - 179.5px);
+  }
+  .content__basket .goods__item {
+    width: 359px;
+  }
+  .content__basket .goods__img {
+    width: 144px;
+  }
+  .content__basket .goods__about {
+    padding-bottom: 38px;
+  }
+  .content__basket .goods__about__title {
+    padding-bottom: 25px;
+    gap: 20px;
+  }
+  .content__basket .goods__title {
+    width: 143px;
+    font-size: 16px;
+  }
+  .content__basket .goods__close {
+    width: 10px;
+  }
+  .content__basket .goods__text {
+    font-size: 14px;
+  }
+  .content__basket .goods__button {
+    gap: 9px;
+  }
+  .content__basket .goods__link {
+    font-size: 12px;
+  }
+  .content__basket .goods .button__continue {
+    padding: 9px 18px;
+  }
+  .content__basket .goods .button__clear {
+    padding: 9px 18px;
+  }
+  .content__basket .form {
+    padding-top: 48px;
+    padding-bottom: 96px;
+    flex-wrap: wrap;
   }
 }
 /* Стили для маленького телефона */
 @media (max-width: 321px) {
-  .subhead {
-    padding-left: calc(50% - 155px);
-    padding-right: calc(50% - 155px);
+  .goods__item {
+    width: 100px;
   }
 }
 .registration {
