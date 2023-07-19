@@ -112,9 +112,9 @@
     // Для сраницы basket
 
     // Для сраницы product
-    .subhead {
-        @extend %centerTablet;
-    }
+    // .subhead {
+    //     @extend %centerTablet;
+    // }
 
     // Для страницы registratian
     // .registration {
@@ -133,7 +133,7 @@
 @media (max-width: 767px) {
 
     .head {
-        @extend %centerTablet;
+        // @extend %centerTablet;
         padding-top: 18px;
         padding-bottom: 16px;
     }
