@@ -572,18 +572,22 @@ figure {
         padding-right: calc(50% - $widthSitetTablet/2);
         padding-top: 18px;
         padding-bottom: 32px;
-    }
 
-    .collapse:not(.show) {
-        display: block;
-    }
+        .header {
+            gap: 25px;
+        }
 
-    .dropdown-menu {
-        min-width: 175px;
-    }
+        .collapse:not(.show) {
+            display: block;
+        }
 
-    .search__menu {
-        display: $displayNone;
+        .dropdown-menu {
+            min-width: 175px;
+        }
+
+        .search__menu {
+            display: $displayNone;
+        }
     }
 
     .top__info {
@@ -591,19 +595,15 @@ figure {
         padding-right: calc(50% - $widthSitetTablet/2);
         flex-wrap: nowrap;
         gap: 39px;
-    }
 
-    .top__content {
-        flex-wrap: nowrap;
-    }
+        .top__content {
+            flex-wrap: nowrap;
+        }
 
-    .top__info__img {
-        max-width: 386px;
-        max-height: 368px;
-    }
-
-    .header {
-        gap: 25px;
+        .top__info__img {
+            max-width: 386px;
+            max-height: 368px;
+        }
     }
 
     .title {
@@ -622,6 +622,7 @@ figure {
         padding-bottom: 109px;
         grid-template-columns: repeat(3, 233px);
         column-gap: 20px;
+
 
         .sale__text__women {
             top: 59px;
@@ -648,20 +649,27 @@ figure {
 
     }
 
+    .products {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
 
-    .catalog {
-        padding-top: 73px;
-        padding-bottom: 33px;
-        grid-template-columns: repeat(2, 360px);
-        column-gap: 16px;
-        row-gap: 16px;
-    }
+        .catalog {
+            padding-top: 73px;
+            padding-bottom: 33px;
+            grid-template-columns: repeat(2, 360px);
+            column-gap: 16px;
+            row-gap: 16px;
+        }
 
-    .button {
-        margin-bottom: 85px;
+        .button {
+            margin-bottom: 85px;
+        }
+
     }
 
     .foot {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
         padding-top: 49px;
         padding-bottom: 64px;
         grid-template-columns: 360px;
@@ -669,6 +677,8 @@ figure {
     }
 
     .form__market {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
         padding-top: 64px;
         padding-bottom: 140px;
         flex-direction: column;
@@ -678,25 +688,10 @@ figure {
     }
 
     .contacts {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
         justify-content: space-between;
         padding: 24px 33px 23px 32px;
-    }
-
-    // Для сраницы basket
-
-    // Для сраницы product
-    // .subhead {
-    //     @extend %centerTablet;
-    // }
-
-    // Для страницы registratian
-    // .registration {
-    //     @extend %centerTablet;
-    // }
-
-    .information__text {
-        width: 354px;
-        font-size: 16px;
     }
 }
 
@@ -706,33 +701,33 @@ figure {
     .head {
         padding-top: 18px;
         padding-bottom: 16px;
-    }
 
-    .account {
-        display: $displayNone;
-    }
+        .account {
+            display: $displayNone;
+        }
 
-    .basket {
-        display: $displayNone;
+        .basket {
+            display: $displayNone;
+        }
     }
 
     .top__info {
         justify-content: $justifyContentCenter;
-    }
 
-    .top__content {
-        padding-top: 148px;
-        padding-bottom: 149px;
-        gap: 15px;
-    }
+        .top__content {
+            padding-top: 148px;
+            padding-bottom: 149px;
+            gap: 15px;
+        }
 
-    .top__info__img {
-        display: $displayNone;
-    }
+        &__img {
+            display: $displayNone;
+        }
 
-    .rectangle {
-        max-width: 12px;
-        max-height: 61px;
+        .rectangle {
+            max-width: 12px;
+            max-height: 61px;
+        }
     }
 
     .title {
@@ -750,26 +745,27 @@ figure {
         padding-bottom: 64px;
         grid-template-columns: 343px;
         row-gap: 32px;
+
+        .sale__text__women {
+            top: 98px;
+            left: 94px;
+        }
+
+        .sale__text__men {
+            top: 102px;
+            left: 113px;
+        }
+
+        .sale__text__kids {
+            top: 108px;
+            left: 114px;
+        }
+
+        .item4 {
+            display: $displayNone;
+        }
     }
 
-    .sale__text__women {
-        top: 98px;
-        left: 94px;
-    }
-
-    .sale__text__men {
-        top: 102px;
-        left: 113px;
-    }
-
-    .sale__text__kids {
-        top: 108px;
-        left: 114px;
-    }
-
-    .item4 {
-        display: $displayNone;
-    }
 
     .catalog {
         padding-top: 65px;
