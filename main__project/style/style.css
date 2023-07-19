@@ -1398,13 +1398,23 @@ figure {
     padding-top: 18px;
     padding-bottom: 32px;
   }
-  .contacts {
+  .stocks {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+    padding-bottom: 109px;
+    grid-template-columns: repeat(3, 233px);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .stocks .contacts {
     padding-left: calc(50% - 495px);
     padding-right: calc(50% - 495px);
   }
+  /* Стили для планшета */
+  /* Стили для среднего телефона */
+  /* Стили для маленького телефона */
 }
-/* Стили для планшета */
-@media (max-width: 1024px) {
+@media (max-width: 1280px) and (max-width: 1024px) {
   .head {
     padding-left: calc(50% - 367px);
     padding-right: calc(50% - 367px);
@@ -1453,8 +1463,8 @@ figure {
          column-gap: 20px;
   }
   .stocks .sale__text__women {
-    top: 59px;
-    left: 39px;
+    top: 57px;
+    left: 60px;
   }
   .stocks .sale__text__men {
     top: 57px;
@@ -1510,8 +1520,7 @@ figure {
     padding: 24px 33px 23px 32px;
   }
 }
-/* Стили для среднего телефона */
-@media (max-width: 767px) {
+@media (max-width: 1280px) and (max-width: 767px) {
   .head {
     padding-left: calc(50% - 179.5px);
     padding-right: calc(50% - 179.5px);
@@ -1613,8 +1622,7 @@ figure {
     flex-wrap: wrap;
   }
 }
-/* Стили для маленького телефона */
-@media (max-width: 321px) {
+@media (max-width: 1280px) and (max-width: 321px) {
   .head {
     padding-left: calc(50% - 160px);
     padding-right: calc(50% - 160px);

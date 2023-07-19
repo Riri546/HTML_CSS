@@ -573,68 +573,6 @@ figure {
         padding-bottom: 32px;
     }
 
-    .contacts {
-        padding-left: calc(50% - $widthSiteNest/2);
-        padding-right: calc(50% - $widthSiteNest/2);
-    }
-}
-
-/* Стили для планшета */
-//  Для страницы index
-@media (max-width: 1024px) {
-
-    .head {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-        padding-top: 18px;
-        padding-bottom: 32px;
-
-        .header {
-            gap: 25px;
-        }
-
-        .collapse:not(.show) {
-            display: block;
-        }
-
-        .dropdown-menu {
-            min-width: 175px;
-        }
-
-        .search__menu {
-            display: $displayNone;
-        }
-    }
-
-    .top__info {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-        flex-wrap: nowrap;
-        gap: 39px;
-
-        .top__content {
-            flex-wrap: nowrap;
-        }
-
-        .top__info__img {
-            max-width: 386px;
-            max-height: 368px;
-        }
-
-        .top__content{
-
-            &__title {
-                font-size: 44px;
-                line-height: 53px;
-            }
-    
-            &__subtitle {
-                font-size: 24px;
-                line-height: 29px;
-            }
-        }
-    }
-
     .stocks {
         padding-left: calc(50% - $widthSitetTablet/2);
         padding-right: calc(50% - $widthSitetTablet/2);
@@ -642,249 +580,317 @@ figure {
         grid-template-columns: repeat(3, 233px);
         column-gap: 20px;
 
-
-        .sale__text__women {
-            top: 59px;
-            left: 39px;
-        }
-
-        .sale__text__men {
-            top: 57px;
-            left: 60px;
-        }
-
-        .sale__text__kids {
-            top: 58px;
-            left: 59px;
-        }
-
-        .img__sale__accesories {
-            max-width: 740px;
-        }
-
-        .sale__botom__text {
-            left: 288px;
-        }
-
-    }
-
-    .products {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-
-        .catalog {
-            padding-top: 73px;
-            padding-bottom: 33px;
-            grid-template-columns: repeat(2, 360px);
-            column-gap: 16px;
-            row-gap: 16px;
-        }
-
-        .button {
-            margin-bottom: 85px;
-        }
-
-    }
-
-    .foot {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-        padding-top: 49px;
-        padding-bottom: 64px;
-        grid-template-columns: 360px;
-        gap: 49px;
-    }
-
-    .form__market {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-        padding-top: 64px;
-        padding-bottom: 140px;
-        flex-direction: column;
-        gap: 48px;
-        background-image: url(../img/img__background.svg);
-        background-size: cover;
-    }
-
-    .contacts {
-        padding-left: calc(50% - $widthSitetTablet/2);
-        padding-right: calc(50% - $widthSitetTablet/2);
-        justify-content: space-between;
-        padding: 24px 33px 23px 32px;
-    }
-}
-
-/* Стили для среднего телефона */
-//  Для страницы index
-@media (max-width: 767px) {
-
-    .head {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        padding-top: 18px;
-        padding-bottom: 16px;
-
-        .account {
-            display: $displayNone;
-        }
-
-        .basket {
-            display: $displayNone;
+        .contacts {
+            padding-left: calc(50% - $widthSiteNest/2);
+            padding-right: calc(50% - $widthSiteNest/2);
         }
     }
 
-    .top__info {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        justify-content: $justifyContentCenter;
+    /* Стили для планшета */
+    //  Для страницы index
+    @media (max-width: 1024px) {
 
-        .top__content {
-            padding-top: 148px;
-            padding-bottom: 149px;
-            gap: 15px;
-        }
+        .head {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            padding-top: 18px;
+            padding-bottom: 32px;
 
-        &__img {
-            display: $displayNone;
-        }
+            .header {
+                gap: 25px;
+            }
 
-        .rectangle {
-            max-width: 12px;
-            max-height: 61px;
-        }
+            .collapse:not(.show) {
+                display: block;
+            }
 
-        .title {
-            font-size: 38px;
-            line-height: 46px;
-        }
+            .dropdown-menu {
+                min-width: 175px;
+            }
 
-        .subtitle {
-            font-size: 20px;
-            line-height: 24px;
-        }
-    }
-
-    .stocks {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        padding-top: 64px;
-        padding-bottom: 64px;
-        grid-template-columns: 343px;
-        row-gap: 32px;
-
-        .sale__text__women {
-            top: 98px;
-            left: 94px;
-        }
-
-        .sale__text__men {
-            top: 102px;
-            left: 113px;
-        }
-
-        .sale__text__kids {
-            top: 108px;
-            left: 114px;
-        }
-
-        .item4 {
-            display: $displayNone;
-        }
-    }
-
-    .products {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-
-        .catalog {
-            padding-top: 65px;
-            padding-bottom: 41px;
-            grid-template-columns: 359px;
-        }
-    }
-
-    .foot {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        padding-top: 48px;
-        padding-bottom: 47px;
-        grid-template-columns: 348px;
-        gap: 47px;
-    }
-
-    .form__market {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        gap: 59px;
-        padding-top: 64px;
-        padding-bottom: 80px;
-        background-image: url(../img/img__background.svg);
-        background-size: cover;
-        flex-direction: column;
-        align-items: center;
-
-        .form__input {
-            max-width: 246px;
-        }
-    }
-
-    .contacts {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
-        padding-top: 43px;
-        padding-bottom: 9px;
-        gap: 40px;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
-}
-
-/* Стили для маленького телефона */
-//  Для страницы index
-@media (max-width: 321px) {
-
-    .head {
-        padding-left: calc(50% - $widthSitetSmallPhone/2);
-        padding-right: calc(50% - $widthSitetSmallPhone/2);
-    }
-
-    .stocks {
-        padding-left: calc(50% - $widthSitetSmallPhone/2);
-        padding-right: calc(50% - $widthSitetSmallPhone/2);
-        grid-template-columns: 320px;
-    }
-
-    .products {
-        padding-left: calc(50% - $widthSitetSmallPhone/2);
-        padding-right: calc(50% - $widthSitetSmallPhone/2);
-
-        .catalog {
-            grid-template-columns: 319px;
-
-            .description {
-                font-size: 12px;
-                width: 300px;
+            .search__menu {
+                display: $displayNone;
             }
         }
 
-    }
+        .top__info {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            flex-wrap: nowrap;
+            gap: 39px;
 
-    .text__about {
-        max-width: 300px;
-    }
+            .top__content {
+                flex-wrap: nowrap;
+            }
 
-    .form {
+            .top__info__img {
+                max-width: 386px;
+                max-height: 368px;
+            }
 
-        &__content {
-            max-width: 320px;
+            .top__content {
+
+                &__title {
+                    font-size: 44px;
+                    line-height: 53px;
+                }
+
+                &__subtitle {
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+            }
         }
 
-        &__input {
-            width: 120px;
+        .stocks {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            padding-bottom: 109px;
+            grid-template-columns: repeat(3, 233px);
+            column-gap: 20px;
+
+            .sale__text__women {
+                top: 57px;
+                left: 60px;
+            }
+
+            .sale__text__men {
+                top: 57px;
+                left: 60px;
+            }
+
+            .sale__text__kids {
+                top: 58px;
+                left: 59px;
+            }
+
+            .img__sale__accesories {
+                max-width: 740px;
+            }
+
+            .sale__botom__text {
+                left: 288px;
+            }
+        }
+
+        .products {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+
+            .catalog {
+                padding-top: 73px;
+                padding-bottom: 33px;
+                grid-template-columns: repeat(2, 360px);
+                column-gap: 16px;
+                row-gap: 16px;
+            }
+
+            .button {
+                margin-bottom: 85px;
+            }
+
+        }
+
+        .foot {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            padding-top: 49px;
+            padding-bottom: 64px;
+            grid-template-columns: 360px;
+            gap: 49px;
+        }
+
+        .form__market {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            padding-top: 64px;
+            padding-bottom: 140px;
+            flex-direction: column;
+            gap: 48px;
+            background-image: url(../img/img__background.svg);
+            background-size: cover;
+        }
+
+        .contacts {
+            padding-left: calc(50% - $widthSitetTablet/2);
+            padding-right: calc(50% - $widthSitetTablet/2);
+            justify-content: space-between;
+            padding: 24px 33px 23px 32px;
         }
     }
 
-    .button__form {
-        width: 100px;
+    /* Стили для среднего телефона */
+    //  Для страницы index
+    @media (max-width: 767px) {
+
+        .head {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            padding-top: 18px;
+            padding-bottom: 16px;
+
+            .account {
+                display: $displayNone;
+            }
+
+            .basket {
+                display: $displayNone;
+            }
+        }
+
+        .top__info {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            justify-content: $justifyContentCenter;
+
+            .top__content {
+                padding-top: 148px;
+                padding-bottom: 149px;
+                gap: 15px;
+            }
+
+            &__img {
+                display: $displayNone;
+            }
+
+            .rectangle {
+                max-width: 12px;
+                max-height: 61px;
+            }
+
+            .title {
+                font-size: 38px;
+                line-height: 46px;
+            }
+
+            .subtitle {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        .stocks {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            padding-top: 64px;
+            padding-bottom: 64px;
+            grid-template-columns: 343px;
+            row-gap: 32px;
+
+            .sale__text__women {
+                top: 98px;
+                left: 94px;
+            }
+
+            .sale__text__men {
+                top: 102px;
+                left: 113px;
+            }
+
+            .sale__text__kids {
+                top: 108px;
+                left: 114px;
+            }
+
+            .item4 {
+                display: $displayNone;
+            }
+        }
+
+        .products {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+
+            .catalog {
+                padding-top: 65px;
+                padding-bottom: 41px;
+                grid-template-columns: 359px;
+            }
+        }
+
+        .foot {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            padding-top: 48px;
+            padding-bottom: 47px;
+            grid-template-columns: 348px;
+            gap: 47px;
+        }
+
+        .form__market {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            gap: 59px;
+            padding-top: 64px;
+            padding-bottom: 80px;
+            background-image: url(../img/img__background.svg);
+            background-size: cover;
+            flex-direction: column;
+            align-items: center;
+
+            .form__input {
+                max-width: 246px;
+            }
+        }
+
+        .contacts {
+            padding-left: calc(50% - $widthSitetAveragePhone/2);
+            padding-right: calc(50% - $widthSitetAveragePhone/2);
+            padding-top: 43px;
+            padding-bottom: 9px;
+            gap: 40px;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+    }
+
+    /* Стили для маленького телефона */
+    //  Для страницы index
+    @media (max-width: 321px) {
+
+        .head {
+            padding-left: calc(50% - $widthSitetSmallPhone/2);
+            padding-right: calc(50% - $widthSitetSmallPhone/2);
+        }
+
+        .stocks {
+            padding-left: calc(50% - $widthSitetSmallPhone/2);
+            padding-right: calc(50% - $widthSitetSmallPhone/2);
+            grid-template-columns: 320px;
+        }
+
+        .products {
+            padding-left: calc(50% - $widthSitetSmallPhone/2);
+            padding-right: calc(50% - $widthSitetSmallPhone/2);
+
+            .catalog {
+                grid-template-columns: 319px;
+
+                .description {
+                    font-size: 12px;
+                    width: 300px;
+                }
+            }
+
+        }
+
+        .text__about {
+            max-width: 300px;
+        }
+
+        .form {
+
+            &__content {
+                max-width: 320px;
+            }
+
+            &__input {
+                width: 120px;
+            }
+        }
+
+        .button__form {
+            width: 100px;
+        }
     }
 }
