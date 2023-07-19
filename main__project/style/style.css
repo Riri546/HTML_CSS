@@ -650,6 +650,9 @@
   .content__basket .goods__text {
     font-size: 14px;
   }
+  .content__basket .goods__number {
+    font-size: 14px;
+  }
   .content__basket .goods__button {
     gap: 9px;
   }
@@ -663,15 +666,52 @@
     padding: 9px 18px;
   }
   .content__basket .form {
-    padding-top: 48px;
-    padding-bottom: 96px;
     flex-wrap: wrap;
   }
 }
 /* Стили для маленького телефона */
 @media (max-width: 321px) {
-  .goods__item {
-    width: 100px;
+  .content__basket .goods__item {
+    width: 320px;
+    gap: 10px;
+  }
+  .content__basket .goods__about__title {
+    padding-bottom: 15px;
+    gap: 5px;
+  }
+  .content__basket .goods__title {
+    font-size: 14px;
+  }
+  .content__basket .goods__text {
+    font-size: 12px;
+  }
+  .content__basket .goods__number {
+    font-size: 12px;
+  }
+  .content__basket .goods__button {
+    gap: 30px;
+  }
+  .content__basket .goods .button__clear {
+    padding: 2px 1px;
+  }
+  .content__basket .goods .button__continue {
+    padding: 2px 1px;
+  }
+  .content__basket .form {
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+  }
+  .content__basket .form__input {
+    width: 320px;
+    font-size: 12px;
+  }
+  .content__basket .form__button {
+    font-size: 10px;
+  }
+  .content__basket .form__item2 {
+    max-width: 320px;
   }
 }
 .registration {
@@ -1472,17 +1512,17 @@ figure {
 /* Стили для маленького телефона */
 @media (max-width: 321px) {
   .head {
-    padding-left: calc(50% - 155px);
-    padding-right: calc(50% - 155px);
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
   }
   .stocks {
-    padding-left: calc(50% - 155px);
-    padding-right: calc(50% - 155px);
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
     grid-template-columns: 320px;
   }
   .products {
-    padding-left: calc(50% - 155px);
-    padding-right: calc(50% - 155px);
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
   }
   .products .catalog {
     grid-template-columns: 319px;

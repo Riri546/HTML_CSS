@@ -379,6 +379,10 @@
                 font-size: 14px;
             }
 
+            &__number{
+                font-size: 14px;
+            }
+
             &__button {
                 gap: 9px;
             }
@@ -387,18 +391,16 @@
                 font-size: 12px;
             }
 
-            .button__continue{
+            .button__continue {
                 padding: 9px 18px;
             }
 
-            .button__clear{
+            .button__clear {
                 padding: 9px 18px;
             }
         }
 
-        .form{
-            padding-top: 48px;
-            padding-bottom: 96px;
+        .form {
             flex-wrap: wrap;
         }
     }
@@ -408,51 +410,63 @@
 //  Для страницы basket
 @media (max-width: 321px) {
 
-    .goods {
-        &__item {
-            width: 100px;
+    .content__basket {
+
+        .goods {
+
+            &__item {
+                width: 320px;
+                gap: 10px;
+            }
+
+            &__about__title {
+                padding-bottom: 15px;
+                gap: 5px;
+            }
+
+            &__title {
+                font-size: 14px;
+            }
+
+            &__text {
+                font-size: 12px;
+            }
+
+            &__number {
+                font-size: 12px;
+            }
+
+            &__button {
+                gap: 30px;
+            }
+
+            .button__clear {
+                padding: 2px 1px;
+            }
+
+            .button__continue {
+                padding: 2px 1px;
+            }
         }
 
-        // &__img {
-        //     width: 1px;
-        // }
+        .form {
+            padding-left: calc(50% - $widthSitetSmallPhone/2);
+            padding-right: calc(50% - $widthSitetSmallPhone/2);
+            padding-bottom: 100px;
+            flex-wrap: wrap;
 
-        // &__about {
-        //     padding-bottom: 38px;
+            &__input {
+                width: 320px;
+                font-size: 12px;
+            }
 
-        //     &__title {
-        //         padding-bottom: 25px;
-        //         gap: 20px;
-        //     }
-        // }
+            &__button {
+                font-size: 10px;
+            }
 
-        // &__title {
-        //     width: 143px;
-        //     font-size: 16px;
-        // }
-
-        // &__close {
-        //     width: 10px;
-        // }
-
-        // &__text {
-        //     font-size: 14px;
-        // }
-
-        // &__button {
-        //     gap: 9px;
-        // }
-
-        // &__link {
-        //     font-size: 12px;
-        // }
-
-        // .button__continue{
-        //     padding: 9px 18px;
-        // }
-
-        // .button__clear{
-        //     padding: 9px 18px;
-        // }
+            &__item2 {
+                max-width: 320px;
+            }
+        }
     }
 }
