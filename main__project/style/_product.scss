@@ -145,10 +145,20 @@
     }
 }
 
+
+@media (max-width: 1025px) {
+
+    // .catalog {
+    //     grid-template-columns: repeat(3, 300px);
+    // }
+}
+
+
 /* Стили для планшета */
 //  Для страницы registration
 @media (max-width: 1024px) {
-    .el3{
+
+    .el3 {
         display: none;
     }
 }
@@ -157,28 +167,28 @@
 //  Для страницы registration
 @media (max-width: 767px) {
 
-    .content{
-        .main__photo{
+    .content {
+        .main__photo {
             width: 374px;
         }
     }
 
-    .el2{
+    .el2 {
         display: none;
     }
 
-    .el3{
+    .el3 {
         display: block;
     }
 
-    .decoration{
+    .decoration {
         width: 375px;
 
-        .description__text{
+        .description__text {
             width: 326px;
         }
 
-        .description__line{
+        .description__line {
             width: 175px;
         }
     }
