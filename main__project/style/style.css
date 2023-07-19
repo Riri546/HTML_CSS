@@ -703,99 +703,6 @@
 }
 
 /* Стили для планшета */
-@media (max-width: 1024px) {
-  .head {
-    padding-top: 18px;
-    padding-bottom: 32px;
-  }
-  .collapse:not(.show) {
-    display: block;
-  }
-  .dropdown-menu {
-    min-width: 175px;
-  }
-  .search__menu {
-    display: none;
-  }
-  .top__info {
-    justify-content: center;
-  }
-  .top__info__img {
-    max-width: 386px;
-    max-height: 368px;
-  }
-  .header {
-    gap: 25px;
-  }
-  .title {
-    font-size: 44px;
-    line-height: 53px;
-  }
-  .subtitle {
-    font-size: 24px;
-    line-height: 29px;
-  }
-  .top__info {
-    gap: 39px;
-  }
-  .stocks {
-    padding-bottom: 109px;
-    grid-template-columns: repeat(3, 233px);
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-  }
-  .sale__text__women {
-    top: 59px;
-    left: 39px;
-  }
-  .sale__text__men {
-    top: 57px;
-    left: 60px;
-  }
-  .sale__text__kids {
-    top: 58px;
-    left: 59px;
-  }
-  .img__sale__accesories {
-    max-width: 740px;
-  }
-  .sale__botom__text {
-    left: 288px;
-  }
-  .catalog {
-    padding-top: 73px;
-    padding-bottom: 33px;
-    grid-template-columns: repeat(2, 360px);
-    -moz-column-gap: 16px;
-         column-gap: 16px;
-    row-gap: 16px;
-  }
-  .button {
-    margin-bottom: 85px;
-  }
-  .foot {
-    padding-top: 49px;
-    padding-bottom: 64px;
-    grid-template-columns: 360px;
-    gap: 49px;
-  }
-  .form__market {
-    padding-top: 64px;
-    padding-bottom: 140px;
-    flex-direction: column;
-    gap: 48px;
-    background-image: url(../img/img__background.svg);
-    background-size: cover;
-  }
-  .contacts {
-    justify-content: space-between;
-    padding: 24px 33px 23px 32px;
-  }
-  .information__text {
-    width: 354px;
-    font-size: 16px;
-  }
-}
 /* Стили для среднего телефона */
 @media (max-width: 767px) {
   .head {
@@ -1369,4 +1276,100 @@ figure {
 }
 .contacts .icon__messenger:hover {
   fill: #F16D7F;
+}
+
+@media (max-width: 1024px) {
+  .head {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+  .collapse:not(.show) {
+    display: block;
+  }
+  .dropdown-menu {
+    min-width: 175px;
+  }
+  .search__menu {
+    display: none;
+  }
+  .top__info {
+    justify-content: center;
+  }
+  .top__info__img {
+    max-width: 386px;
+    max-height: 368px;
+  }
+  .header {
+    gap: 25px;
+  }
+  .title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .subtitle {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .top__info {
+    gap: 39px;
+  }
+  .stocks {
+    padding-bottom: 109px;
+    grid-template-columns: repeat(3, 233px);
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .sale__text__women {
+    top: 59px;
+    left: 39px;
+  }
+  .sale__text__men {
+    top: 57px;
+    left: 60px;
+  }
+  .sale__text__kids {
+    top: 58px;
+    left: 59px;
+  }
+  .img__sale__accesories {
+    max-width: 740px;
+  }
+  .sale__botom__text {
+    left: 288px;
+  }
+  .catalog {
+    padding-top: 73px;
+    padding-bottom: 33px;
+    grid-template-columns: repeat(2, 360px);
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    row-gap: 16px;
+  }
+  .button {
+    margin-bottom: 85px;
+  }
+  .foot {
+    padding-top: 49px;
+    padding-bottom: 64px;
+    grid-template-columns: 360px;
+    gap: 49px;
+  }
+  .form__market {
+    padding-top: 64px;
+    padding-bottom: 140px;
+    flex-direction: column;
+    gap: 48px;
+    background-image: url(../img/img__background.svg);
+    background-size: cover;
+  }
+  .contacts {
+    justify-content: space-between;
+    padding: 24px 33px 23px 32px;
+  }
+  .information__text {
+    width: 354px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
