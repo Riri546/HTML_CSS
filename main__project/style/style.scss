@@ -138,7 +138,6 @@ figure {
 
 .top__info {
     @extend %flex-centr;
-    // justify-content: center;
     gap: 64px;
     background: #F1E4E6;
 
@@ -209,26 +208,34 @@ figure {
 
         .sale__text__women {
             position: absolute;
-            top: 105px;
-            left: 103px;
+            margin-top: -150px;
+            margin-left: 100px;
+            // padding-top: 30%;
+            // padding-left: 25%;
+            // padding-top: 105px;
+            // left: 103px;
         }
 
         .sale__text__men {
             position: absolute;
-            top: 105px;
-            left: 125px;
+            margin-top: -150px;
+            margin-left: 130px;
+            // top: 105px;
+            // left: 125px;
         }
 
         .sale__text__kids {
             position: absolute;
-            top: 105px;
-            left: 123px;
+            margin-top: -150px;
+            margin-left: 130px;
         }
 
         .sale__botom__text {
             position: absolute;
-            top: 65px;
-            left: 492px;
+            margin-top: -125px;
+            margin-left: 500px;
+            // top: 65px;
+            // left: 492px;
         }
     }
 
@@ -573,16 +580,49 @@ figure {
         padding-bottom: 32px;
     }
 
+    .top__info {
+        &__img {
+            max-width: 500px;
+            max-height: 500px;
+        }
+    }
+
     .stocks {
         padding-left: calc(50% - $widthSitetTablet/2);
         padding-right: calc(50% - $widthSitetTablet/2);
         padding-bottom: 109px;
-        grid-template-columns: repeat(3, 233px);
+        grid-template-columns: repeat(3, 300px);
         column-gap: 20px;
 
         .contacts {
             padding-left: calc(50% - $widthSiteNest/2);
             padding-right: calc(50% - $widthSiteNest/2);
+        }
+
+        .item {
+            .sale__text__women {
+                margin-top: -130px;
+                margin-left: 70px;
+            }
+
+            .sale__text__men {
+                margin-top: -130px;
+                margin-left: 100px;
+            }
+
+            .sale__text__kids {
+                margin-top: -130px;
+                margin-left: 100px;
+            }
+
+            .img__sale__accesories {
+                max-width: 940px;
+            }
+
+            .sale__botom__text {
+                margin-top: -100px;
+                margin-left: 380px;
+            }
         }
     }
 
@@ -654,27 +694,30 @@ figure {
         grid-template-columns: repeat(3, 233px);
         column-gap: 20px;
 
-        .sale__text__women {
-            top: 57px;
-            left: 60px;
-        }
+        .item {
+            .sale__text__women {
+                margin-top: -100px;
+                margin-left: 50px;
+            }
 
-        .sale__text__men {
-            top: 57px;
-            left: 60px;
-        }
+            .sale__text__men {
+                margin-top: -100px;
+                margin-left: 70px;
+            }
 
-        .sale__text__kids {
-            top: 58px;
-            left: 59px;
-        }
+            .sale__text__kids {
+                margin-top: -100px;
+                margin-left: 70px;
+            }
 
-        .img__sale__accesories {
-            max-width: 740px;
-        }
+            .img__sale__accesories {
+                max-width: 740px;
+            }
 
-        .sale__botom__text {
-            left: 288px;
+            .sale__botom__text {
+                margin-top: -80px;
+                margin-left: 280px;
+            }
         }
     }
 
@@ -743,8 +786,6 @@ figure {
     }
 
     .top__info {
-        padding-left: calc(50% - $widthSitetAveragePhone/2);
-        padding-right: calc(50% - $widthSitetAveragePhone/2);
         justify-content: $justifyContentCenter;
 
         .top__content {
@@ -781,24 +822,45 @@ figure {
         grid-template-columns: 343px;
         row-gap: 32px;
 
-        .sale__text__women {
-            top: 98px;
-            left: 94px;
-        }
+        .item {
+            .sale__text__women {
+                margin-top: -150px;
+                margin-left: 90px;
+            }
 
-        .sale__text__men {
-            top: 102px;
-            left: 113px;
-        }
+            .sale__text__men {
+                margin-top: -150px;
+                margin-left: 120px;
+            }
 
-        .sale__text__kids {
-            top: 108px;
-            left: 114px;
+            .sale__text__kids {
+                margin-top: -150px;
+                margin-left: 120px;
+            }
         }
 
         .item4 {
-            display: $displayNone;
+            display: none;
         }
+
+        // .sale__text__women {
+        //     top: 98px;
+        //     left: 94px;
+        // }
+
+        // .sale__text__men {
+        //     top: 102px;
+        //     left: 113px;
+        // }
+
+        // .sale__text__kids {
+        //     top: 108px;
+        //     left: 114px;
+        // }
+
+        // .item4 {
+        //     display: $displayNone;
+        // }
     }
 
     .products {
