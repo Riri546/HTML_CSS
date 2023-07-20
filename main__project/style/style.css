@@ -378,6 +378,9 @@
   fill: #5D5D5D;
 }
 
+/* Стили для планшета */
+/* Стили для среднего телефона */
+/* Стили для маленького телефона */
 .content__basket {
   display: flex;
   flex-direction: row;
@@ -1410,11 +1413,9 @@ figure {
     padding-left: calc(50% - 495px);
     padding-right: calc(50% - 495px);
   }
-  /* Стили для планшета */
-  /* Стили для среднего телефона */
-  /* Стили для маленького телефона */
 }
-@media (max-width: 1280px) and (max-width: 1024px) {
+/* Стили для планшета */
+@media (max-width: 1024px) {
   .head {
     padding-left: calc(50% - 367px);
     padding-right: calc(50% - 367px);
@@ -1520,7 +1521,8 @@ figure {
     padding: 24px 33px 23px 32px;
   }
 }
-@media (max-width: 1280px) and (max-width: 767px) {
+/* Стили для среднего телефона */
+@media (max-width: 767px) {
   .head {
     padding-left: calc(50% - 179.5px);
     padding-right: calc(50% - 179.5px);
@@ -1622,7 +1624,8 @@ figure {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 1280px) and (max-width: 321px) {
+/* Стили для маленького телефона */
+@media (max-width: 321px) {
   .head {
     padding-left: calc(50% - 160px);
     padding-right: calc(50% - 160px);
