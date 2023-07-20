@@ -378,6 +378,16 @@
   fill: #5D5D5D;
 }
 
+@media (max-width: 1280px) {
+  .filter__sort {
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
+    justify-content: space-between;
+  }
+  .filter__sort .filter__summary {
+    padding-left: 0px;
+  }
+}
 /* Стили для планшета */
 @media (max-width: 1024px) {
   .filter__sort {
@@ -659,8 +669,8 @@
 
 @media (max-width: 1280px) {
   .subhead {
-    padding-left: calc(50% - 495px);
-    padding-right: calc(50% - 495px);
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
     padding-top: 18px;
     padding-bottom: 32px;
   }
@@ -915,8 +925,8 @@
 
 @media (max-width: 1280px) {
   .registration {
-    padding-left: calc(50% - 495px);
-    padding-right: calc(50% - 495px);
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
     flex-wrap: nowrap;
     gap: 55px;
   }
@@ -1429,8 +1439,8 @@ figure {
 
 @media (max-width: 1280px) {
   .head {
-    padding-left: calc(50% - 495px);
-    padding-right: calc(50% - 495px);
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
     padding-top: 18px;
     padding-bottom: 32px;
   }
@@ -1447,8 +1457,8 @@ figure {
          column-gap: 20px;
   }
   .stocks .contacts {
-    padding-left: calc(50% - 495px);
-    padding-right: calc(50% - 495px);
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
   }
   .stocks .item .sale__text__women {
     margin-top: -130px;
