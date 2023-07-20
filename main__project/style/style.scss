@@ -585,6 +585,10 @@ figure {
             padding-right: calc(50% - $widthSiteNest/2);
         }
     }
+
+    .foot {
+        grid-template-columns: repeat(3, 300px);
+    }
 }
 
 /* Стили для планшета */

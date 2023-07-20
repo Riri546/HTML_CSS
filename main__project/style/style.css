@@ -379,7 +379,24 @@
 }
 
 /* Стили для планшета */
+@media (max-width: 1024px) {
+  .filter__sort {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+    height: 0px;
+    padding-top: 24px;
+    justify-content: space-between;
+  }
+  .filter__sort .filter__summary {
+    padding-left: 0px;
+  }
+}
 /* Стили для среднего телефона */
+@media (max-width: 767px) {
+  .filter__heading {
+    display: none;
+  }
+}
 /* Стили для маленького телефона */
 .content__basket {
   display: flex;
@@ -1412,6 +1429,9 @@ figure {
   .stocks .contacts {
     padding-left: calc(50% - 495px);
     padding-right: calc(50% - 495px);
+  }
+  .foot {
+    grid-template-columns: repeat(3, 300px);
   }
 }
 /* Стили для планшета */
