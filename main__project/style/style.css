@@ -206,7 +206,7 @@
 }
 /* Стили для планшета */
 @media (max-width: 1024px) {
-  .el3 {
+  .el7 {
     display: none;
   }
 }
