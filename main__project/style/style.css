@@ -393,8 +393,16 @@
 }
 /* Стили для среднего телефона */
 @media (max-width: 767px) {
+  .filter {
+    padding-left: calc(50% - 179.5px);
+    padding-right: calc(50% - 179.5px);
+  }
   .filter__heading {
     display: none;
+  }
+  .filter__svg {
+    width: 37.5px;
+    height: 25px;
   }
 }
 /* Стили для маленького телефона */

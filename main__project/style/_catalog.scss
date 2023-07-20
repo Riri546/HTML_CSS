@@ -177,22 +177,20 @@
 
 // Nest Hub Max
 //  Для страницы catalog
-@media (max-width: 1280px) {
-
-}
+@media (max-width: 1280px) {}
 
 /* Стили для планшета */
 //  Для страницы catalog
 @media (max-width: 1024px) {
-    .filter__sort{
+    .filter__sort {
         padding-left: calc(50% - $widthSitetTablet/2);
         padding-right: calc(50% - $widthSitetTablet/2);
         height: 0px;
         padding-top: 24px;
         justify-content: space-between;
 
-        .filter{
-            &__summary{
+        .filter {
+            &__summary {
                 padding-left: 0px;
             }
         }
@@ -204,10 +202,17 @@
 //  Для страницы catalog
 @media (max-width: 767px) {
 
-    .filter{
+    .filter {
+        padding-left: calc(50% - $widthSitetAveragePhone/2);
+        padding-right: calc(50% - $widthSitetAveragePhone/2);
 
-        &__heading{
+        &__heading {
             display: none;
+        }
+
+        &__svg {
+            width: 37.5px;
+            height: 25px;
         }
     }
 }
