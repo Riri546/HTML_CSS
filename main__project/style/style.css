@@ -194,6 +194,14 @@
 }
 
 @media (max-width: 1280px) {
+  .subhead {
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
+  }
+  .content {
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
+  }
   .products {
     width: 100vw;
   }
@@ -206,6 +214,14 @@
 }
 /* Стили для планшета */
 @media (max-width: 1024px) {
+  .subhead {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+  }
+  .content {
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
+  }
   .el7 {
     display: none;
   }
@@ -229,6 +245,13 @@
   }
   .decoration .description__line {
     width: 175px;
+  }
+}
+/* Стили для маленького телефона */
+@media (max-width: 321px) {
+  .content {
+    padding-left: calc(50% - 160px);
+    padding-right: calc(50% - 160px);
   }
 }
 .filter__sort {

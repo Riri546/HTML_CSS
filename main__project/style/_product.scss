@@ -148,6 +148,16 @@
 // Nest Hub Max
 //  Для страницы product
 @media (max-width: 1280px) {
+    .subhead {
+        padding-left: calc(50% - $widthSiteNest/2);
+        padding-right: calc(50% - $widthSiteNest/2);
+    }
+
+    .content {
+        padding-left: calc(50% - $widthSiteNest/2);
+        padding-right: calc(50% - $widthSiteNest/2);
+    }
+
     .products {
         width: 100vw;
 
@@ -165,6 +175,16 @@
 //  Для страницы product
 @media (max-width: 1024px) {
 
+    .subhead {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
+    }
+
+    .content {
+        padding-left: calc(50% - $widthSitetTablet/2);
+        padding-right: calc(50% - $widthSitetTablet/2);
+    }
+
     .el7 {
         display: none;
     }
@@ -175,6 +195,7 @@
 @media (max-width: 767px) {
 
     .content {
+
         .main__photo {
             width: 374px;
         }
@@ -198,5 +219,15 @@
         .description__line {
             width: 175px;
         }
+    }
+}
+
+/* Стили для маленького телефона */
+//  Для страницы product
+@media (max-width: 321px) {
+    
+    .content {
+        padding-left: calc(50% - $widthSitetSmallPhone/2);
+        padding-right: calc(50% - $widthSitetSmallPhone/2);
     }
 }
