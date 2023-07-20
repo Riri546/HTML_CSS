@@ -697,6 +697,40 @@
     padding-top: 18px;
     padding-bottom: 32px;
   }
+  .content__basket {
+    padding-left: calc(50% - 470px);
+    padding-right: calc(50% - 470px);
+  }
+  .content__basket .goods__item {
+    width: 940px;
+  }
+  .content__basket .goods__about__title {
+    gap: 100px;
+  }
+  .content__basket .goods__about__title .goods__title {
+    max-width: 300px;
+  }
+  .content__basket .goods__button {
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  .content__basket .form {
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 190px;
+  }
+  .content__basket .form__item2 {
+    margin-top: 0px;
+  }
+  .content__basket .form__item2 .form__button__item {
+    min-width: 290px;
+  }
+  .content__basket .form .form__button {
+    min-width: 110px;
+  }
 }
 /* Стили для планшета */
 @media (max-width: 1024px) {
@@ -726,7 +760,7 @@
     gap: 16px;
   }
   .content__basket .form__item2 {
-    margin-top: 30px;
+    margin-top: 0px;
     max-width: 360px;
     max-height: 214px;
   }

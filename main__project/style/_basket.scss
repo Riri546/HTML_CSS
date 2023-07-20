@@ -301,6 +301,57 @@
         padding-top: 18px;
         padding-bottom: 32px;
     }
+
+    .content__basket {
+        padding-left: calc(50% - $widthSiteNest/2);
+        padding-right: calc(50% - $widthSiteNest/2);
+
+        .goods {
+            &__item {
+                width: 940px;
+            }
+
+            &__about {
+                &__title {
+                    gap: 100px;
+
+                    .goods__title {
+                        max-width: 300px;
+                    }
+                }
+            }
+
+            &__button {
+                margin-bottom: 0px;
+                justify-content: center;
+            }
+        }
+
+        .form {
+            padding-top: 64px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 190px;
+
+            &__item2 {
+                margin-top: 0px;
+
+                .form__button__item {
+                    min-width: 290px;
+                }
+            }
+
+            .form__button{
+                min-width: 110px;
+            }
+
+
+        }
+
+
+    }
 }
 
 /* Стили для планшета */
@@ -336,7 +387,7 @@
             gap: 16px;
 
             &__item2 {
-                margin-top: 30px;
+                margin-top: 0px;
                 max-width: 360px;
                 max-height: 214px;
             }
