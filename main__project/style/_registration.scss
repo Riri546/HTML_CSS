@@ -68,7 +68,7 @@
         }
 
         &__text {
-            padding-top: -5px;
+            margin-top: -5px;
             max-width: 360px;
             color: #B1B1B1;
             font-size: 13px;
@@ -122,10 +122,6 @@
             font-style: normal;
             font-weight: $weightLight;
             line-height: normal;
-        }
-
-        .list {
-            padding-left: 44px;
         }
 
         &__list {

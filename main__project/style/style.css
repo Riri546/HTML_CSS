@@ -923,7 +923,7 @@
   padding-top: 34px;
 }
 .registration .form__text {
-  padding-top: -5px;
+  margin-top: -5px;
   max-width: 360px;
   color: #B1B1B1;
   font-size: 13px;
@@ -968,9 +968,6 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
-.registration .information .list {
-  padding-left: 44px;
 }
 .registration .information__list {
   list-style-type: none;
